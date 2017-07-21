@@ -1,2 +1,2 @@
-# zhihuitu_server_member
-智慧图Ｂ端，会员和其它相关接口
+# tuhuizhi_server_member
+Ｂ端，会员和其它相关接口
