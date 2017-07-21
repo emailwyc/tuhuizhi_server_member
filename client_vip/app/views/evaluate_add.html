@@ -1,0 +1,25 @@
+{{>evaluateSideb}}
+<div class="container-fluid" id="container_fluid">
+  <div class="attention-box">
+    <p>用户端展示标签说明：</p>
+    <p>用户选择1-3星：展示3星及以下标签评价内容（不满意）</p>
+    <p>用户选择4-5星：展示4星及以上标签评价内容（满意）</p>
+  </div>
+  <div class="tit">
+    <span>评价分类：</span>
+    <input type="text" class="form-control title" id="class-name" style="width: 80%;display:inline-block;">
+  </div>
+  <div class="tit star-class">
+    <span>4星及以上标签：</span>
+    <span class="checkbox-select checkbox-good"></span>
+  </div>
+  <div class="tit star-class">
+    <span>3星及以下标签：</span>
+    <span class="checkbox-select checkbox-bad"></span>
+  </div>
+  <!-- sidebar -->
+  <div class="subBtn">
+    <button type="button" id="dw_submit" class="btn btn-primary">提交</button>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'};</script>

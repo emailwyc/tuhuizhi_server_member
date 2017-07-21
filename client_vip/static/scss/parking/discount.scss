@@ -1,0 +1,26 @@
+@import "../user/public";
+
+// .a {
+//   width: 100px;
+//   background: red;
+// }
+.write{
+
+}
+.detail{
+  width: 100%;
+  height: 200px;
+  display: none;
+}
+.prompt{
+  display: none;
+  color: red;
+}
+.obtain_p{
+  margin-top: 20px;
+  .obtain{
+    padding: 0 10px;
+    width: 100px;
+    border-radius: 4px;
+    margin: 0 20px 0 200px; }
+}

@@ -1,0 +1,80 @@
+@import './reset';
+
+$bgcolor: #f9f9f9;
+$tcolor: #fff;
+$bordercolor: #e0e0e0;
+$color1: #666;
+$color2: #999;
+$color3: #333;
+$getcolor: #09bb08;
+
+body {background-color: $bgcolor;}
+.records-div {
+  background-color: $bgcolor;
+
+  .no-records {
+    display: none;
+    font-size: rem(28px);
+    left: 50%;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    &.active {
+      display: block;
+    }
+  }
+}
+.records-box {
+  border-collapse: collapse;
+  font-size: rem(28px);
+  text-align: center;
+  width: 100%;
+
+  th {
+    background-color: $tcolor;
+    border: 0;
+    border-bottom: 1px solid $bordercolor;
+    color: $color1;
+    height: rem(90px);
+    text-align: center;
+    &:nth-child(1) {padding-left: rem(20px);}
+    &:nth-child(4) {padding-right: rem(20px);}
+  }
+
+  td {
+    border: 0;
+    border-bottom: 1px solid $bordercolor;
+    color: $color3;
+    height: rem(130px);
+    &:nth-child(1) {padding-left: rem(20px);}
+    &:nth-child(4) {padding-right: rem(20px);}
+    p {line-height: 1;}
+    i {
+      color: $color2;
+      font-size: rem(20px);
+      font-style: normal;
+      line-height: 1;
+    }
+
+    &.getit {
+      color: $getcolor;
+      &.active {color: $color2;}
+    }
+
+
+
+  }
+}
+
+.more-btn {
+  font-size: rem(28px);
+  height: rem(80px);
+  line-height: rem(80px);
+  text-align: center;
+
+  &.no-data {
+    display: none;
+  }
+}

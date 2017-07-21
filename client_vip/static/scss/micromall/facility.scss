@@ -1,0 +1,159 @@
+@import "../user/public";
+$white: #fff;
+
+.effect {
+  width: 426px;
+  height: 428px;
+  float: left;
+  margin-top: 20px;
+
+  .domain {
+    position: relative;
+    background-image: url("https://img.rtmap.com/jinjuebeij.png");
+    background-color: #ccc;
+    background-size: 100%;
+    width: 426px;
+    height: 428px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .facilityname1 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 59px;
+      top: 91px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname2 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 202px;
+      top: 67px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .facilityname3 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 291px;
+      top: 101px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname4 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 292px;
+      top: 214px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname5 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 209px;
+      top: 248px;
+      color: $white;
+      border-radius: 50%;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .facilityname6 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 174px;
+      bottom: 32px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname7 {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 40px;
+      bottom: 120px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname8 {
+      position: absolute;
+      width: 85px;
+      height: 85px;
+      left: 129px;
+      bottom: 197px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    p {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+
+.setconfig {
+  max-width: 800px;
+  margin-left: 440px;
+  padding-top: 20px;
+
+  .table {
+
+    td {
+      vertical-align: middle;
+    }
+  }
+
+  .content {
+    width: 200px;
+    height: 40px;
+    line-height: 20px;
+    max-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.subBtn {
+  margin: 70px 0 0 300px;
+}

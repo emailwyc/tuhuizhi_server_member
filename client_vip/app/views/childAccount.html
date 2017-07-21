@@ -1,0 +1,48 @@
+<!-- 子账号管理 -->
+<div class="container-fluid">
+  {{>childAccountSideb}}
+  <div class="main">
+    <div class="header" style="padding-bottom: 10px;overflow: hidden;">
+      <h3><span>子账号列表</span> <a href="./childAccount/addChildAccount" class="btn btn-secondary" style="float:right;">添加</a></h3>
+      <span style="float:left;line-height: 40px;">用户名：</span>
+      <div class="input-group" style="width: 400px;float: left;">
+        <input type="text" class="form-control searchinput" placeholder="请输入用户名">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary search_btn" type="button">搜索</button>
+        </span>
+      </div>
+    </div>
+
+    <div class="list" style="display:bolck">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>用户名</th>
+            <th>建筑物ID</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+      </table>
+      <nav aria-label="Page navigation">
+        <ul class="pager">
+          <input type="hidden" class="page_data">
+          <input type="hidden" class="pagenum" value="1">
+          <li class="total"></li>
+          <li><a href="javascript:void(0)" class="prev pre_page">上一页</a></li>
+          <li><a href="javascript:void(0)" class="currentpage"></a></li>
+          <li><a href="javascript:void(0)" class="next dow_page">下一页</a></li>
+          <li><a href="javascript:;" class="">10条/页</a></li>
+          <li>跳至第<input type="number" class="gopage" step="1" min="1" value="1">页</li>
+          <li><a href="javascript:void(0)" class="gopage_btn">GO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

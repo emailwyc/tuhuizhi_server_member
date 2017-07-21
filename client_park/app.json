@@ -1,0 +1,31 @@
+{
+  "port": 8001,
+  "version": "396ad04b9b8dc2f06542",
+  "pages": [
+    "index",
+    "records",
+    "standard",
+    "mycar",
+    "search",
+    "lib",
+    "pay",
+    "recordsinfo",
+    "discount",
+    "success",
+    "myticket",
+    "shareticket",
+    "buyticket",
+    "activate",
+    "activateopen",
+    "buysuccess",
+    "buy",
+    "share",
+    "invoice",
+    "invoicedetail",
+    "invoicing",
+    "cashierdesk",
+    "buyerror",
+    "buyterms",
+    "shareold"
+  ]
+}

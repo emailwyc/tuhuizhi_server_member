@@ -1,0 +1,44 @@
+@import '../pages/reset';
+
+$white: #fff;
+$gray3: #333;
+$gray666: #666;
+
+canvas {
+  height: 100%;
+  width: 100%;
+}
+
+.qrcode {
+  background: $white;
+  height: rem(390px);
+  margin: rem(70px) auto 0;
+  padding: rem(50px);
+  text-align: center;
+  width: rem(390px);
+
+  img {
+    // width: 100%;
+    height: rem(290px);
+    width: rem(290px);
+  }
+
+}
+
+.code-txt {
+  color: $gray3;
+  font-size: rem(30px);
+  height: rem(70px);
+  line-height: rem(70px);
+  margin: 0 auto;
+  text-align: center;
+  width: rem(390px);
+}
+
+.xeplain {
+  color: $gray666;
+  font-size: rem(24px);
+  line-height: rem(60px);
+  margin: 0 rem(58px);
+  text-align: center;
+}

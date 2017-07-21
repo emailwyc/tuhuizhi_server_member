@@ -1,0 +1,70 @@
+@import './reset';
+@import url('//at.alicdn.com/t/font_nui24o90xq63l3di.css');
+
+$green0aba07: #0aba07;
+$white: #fff;
+$grayf1f0f0: #f1f0f0;
+$gray333: #333;
+$gray999: #999;
+
+body {background-color: $grayf1f0f0;}
+
+.iconfont {
+  color: $white;
+  font-size: rem(100px);
+  vertical-align: middle;
+}
+
+.success-box {
+  background-color: $white;
+  color: $gray999;
+  font-size: rem(28px);
+
+  .success-hea {
+    background-color: $green0aba07;
+    color: $white;
+    font-size: rem(40px);
+    height: rem(280px);
+    text-align: center;
+
+    .success-icon {line-height: rem(280px);}
+
+    .success-money {
+      display: inline-block;
+      padding-left: rem(32px);
+      text-align: left;
+      vertical-align: middle;
+
+      i {font-style: normal;line-height: rem(56px);}
+      strong {font-size: rem(60px);line-height: rem(64px);}
+
+    }
+  }
+
+  .ticket {
+    border-bottom: 1px dashed $grayf1f0f0;
+    font-size: rem(32px);
+    line-height: rem(178px);
+    text-align: center;
+
+    strong {
+      color: $gray333;
+      padding-left: rem(44px);
+    }
+  }
+
+  .success-info {
+    padding: rem(42px) rem(26px);
+    dl {
+      display: -webkit-box;
+      display: box;
+      line-height: rem(62px);
+      dd{
+        -webkit-box-flex: 1;
+        box-flex: 1;
+        text-align: right;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,69 @@
+<div class="container-fluid">
+    {{>MessageSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <h3>添加消息</h3>
+    <div class="formleft">
+      <div class="form-group">
+        <label for=""><span style="color:red;">*</span>消息标题</label>
+        <input type="text" class="form-control title" placeholder="请输入消息标题">
+      </div>
+      <div class="form-group">
+        <label for=""><span style="color:red;">*</span>点击后的消息URL</label>
+        <input type="text" class="form-control url" placeholder="请输入点击后的消息URL">
+      </div>
+      <div class="form-group">
+        <label for=""><span style="color:red;">*</span>排序</label>
+        <input type="number" class="form-control sort" placeholder="请输入数字">
+      </div>
+      <div class="form-group">
+        <img src="" id="image" border="0" class="picurl"/>
+        <div id="container">
+          <a href="#" class="btn btn-secondary" role="button" id="pickfiles" >
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>选择上传图片</span>
+          </a>
+        </div>
+      </div>
+      <p>消息简介: </p>
+      <div class="">
+        <textarea placeholder="请输入文字" class="textarea"></textarea>
+      </div>
+    </div>
+    <div class="formright">
+      <div class="form-check">
+        <div class="grade">
+          <span style="color:red;">*</span>是否开启本条消息：<select class="isopen">
+            <option value="">不限</option>
+            <option value="1">启用</option>
+            <option value="0">禁用</option>
+          </select>
+        </div>
+      </div>
+      <div class="grade">
+        <span style="color:red;">*</span>消息事件类型：<select class="message_event_type">
+          <option selected="selected" value="">不限</option>
+          <<option value="subscribe">关注事件</option>
+          <option value="location">进入服务号事件</option>
+        </select>
+      </div>
+      <div class="grade">
+        <span style="color:red;">*</span>是否大图：<select class="bigimg">
+          <option selected="selected" value="">不限</option>
+          <option value="1">大图</option>
+          <option value="0">小图</option>
+        </select>
+      </div>
+      <div style="padding-top: 350px; text-align:left;">
+        <div class="msg"></div>
+        <div class="subBtn" >
+          <button type="button" id="dw_submit" class="btn btn-primary saveBtn">提交</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>
+<script>var conf={id:'{{id}}'}</script>

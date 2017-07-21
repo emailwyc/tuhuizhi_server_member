@@ -1,0 +1,55 @@
+@import './reset';
+
+$gray: #e0e0e0;
+$gray2: #999;
+$green: #09bb08;
+
+body {font-family: '宋体';position: relative;}
+.records-info {
+  font-size: rem(28px);
+  line-height: rem(50px);
+  padding: rem(42px) rem(48px) rem(82px);
+
+  .code-box {
+    border: 1px solid $gray;
+    border-radius: rem(10px);
+    margin: 0 rem(42px) rem(42px);
+
+    .qr-code{
+      border-bottom: 1px solid $gray;
+      height: rem(388px);
+      line-height: rem(388px);
+      text-align: center;
+
+      img {
+        vertical-align: middle;
+        width: rem(270px);
+      }
+    }
+
+    .bar-code {
+      padding-top: rem(38px);
+      text-align: center;
+      img {
+        width: rem(376px);
+      }
+
+      figcaption {
+        line-height: rem(78px);
+      }
+
+    }
+
+  }
+
+  .order-info {
+    margin-top: rem(40px);
+
+    .receive-state {
+      color: $green;
+      &.active {
+        color: $gray2;
+      }
+    }
+  }
+}

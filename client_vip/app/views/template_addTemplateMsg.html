@@ -1,0 +1,34 @@
+<div class="container-fluid">
+    {{>MessageSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <h3>添加模版消息</h3>
+    <div class="formleft" style="width: 700px;">
+      <div class="form-group">
+        <label for=""><span style="color:red;">*</span>模版消息ID：</label>
+        <input type="text" class="form-control templateid" placeholder="请输入模版消息ID" style="display: inline-block; width: 625px">
+        <input type="button" value="确认" class="btn btn-secondary confirmed" style="color:#6bbeff"/>
+      </div>
+      <div class="msgsearch"></div>
+      <div class="formkey">
+      </div>
+      <div class="form-group">
+        <label for=""><span style="color:red;">*</span>OPENID：</label>
+        （最多1W人，间隔5mins一次, 英文的逗号隔开）
+        <div class="">
+          <textarea placeholder="请输入文字" class="textarea openid"></textarea>
+        </div>
+      </div>
+
+      <!-- <script type="text/plain" id="myEditor" style="width:1000px;height:240px;"></script> -->
+      <div class="keys_content" style="color:red;"></div>
+      <div class="msg" style="margin-left:0;"></div>
+      <div class="subBtn">
+        <button type="button" id="dw_submit" class="btn btn-primary saveBtn">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>
+<script>var conf={id:'{{id}}'}</script>

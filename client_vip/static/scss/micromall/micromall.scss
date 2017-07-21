@@ -1,0 +1,179 @@
+@import "../user/public";
+$white: #fff;
+$violet: #9991ca;
+$pink: #e96a89;
+$yelloweec64d: #eec64d;
+$blue3fb5c2: #3fb5c2;
+$brownfa9d7d: #fa9d7d;
+$yelloweec64d: #eec64d;
+$greenc0db72: #c0db72;
+
+.main {
+  position: relative;
+}
+
+.effect {
+  width: 426px;
+  // height: 350px;
+  overflow: hidden;
+  float: left;
+  margin-top: 20px;
+  padding-bottom: 30px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .topad {
+    width: 426px;
+    height: 100px;
+    display: none;
+  }
+
+  .bottomad {
+    width: 426px;
+    height: 90px;
+    display: none;
+  }
+
+  .domain {
+    position: relative;
+    background: url("https://img.rtmap.com/q.png");
+    background-size: 100%;
+    width: 426px;
+    height: 350px;
+
+    .facilityname1 {
+      background: $yelloweec64d;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 29px;
+      top: 50px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname2 {
+      background: $yelloweec64d;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 202px;
+      top: 27px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname3 {
+      background: $violet;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 291px;
+      top: 51px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname4 {
+      background: $blue3fb5c2;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 332px;
+      top: 174px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname5 {
+      background: $brownfa9d7d;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 239px;
+      top: 200px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname6 {
+      background: $yelloweec64d;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 185px;
+      bottom: 12px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname7 {
+      background: $greenc0db72;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 10px;
+      bottom: 60px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    .facilityname8 {
+      background: $violet;
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 127px;
+      bottom: 174px;
+      color: $white;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+    }
+
+    p {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.setconfig {
+  max-width: 700px;
+  margin-left: 440px;
+  padding-top: 30px;
+
+  .table {
+
+    td {
+      padding: 30px;
+    }
+  }
+}
+
+.subBtn {
+  margin: 70px 0 0 450px;
+}

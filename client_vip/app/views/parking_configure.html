@@ -1,0 +1,46 @@
+<div class="container-fluid" id="container_fluid">
+  <!-- 添加icons -->
+  {{>parkingSideb}}
+  <div class="main">
+    <div class="form-group">
+      <div class="form-group">
+        <label for=""><span style="color:red;">*</span>名称：</label>
+        <input type="text" class="form-control logoname" placeholder="名称：">
+      </div>
+      <label for="">排序：</label>
+      <input type="number" class="form-control sort" placeholder="请输入数字">
+    </div>
+    <p class="have"></p>
+    <div class="form-group">
+      <label for=""><span style="color:red;"></span>跳转地址：</label>
+      <input type="text" class="form-control pathurl" placeholder="跳转地址：如果添加优先级将高于跳转模版">
+    </div>
+    <div class="form-group">
+      <label for=""><span style="color:red;"></span>选择跳转模块</label>
+      <select class="form-control columnList">
+        <!-- <<option value="">1</option> -->
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="">简介</label>
+      <input type="text" class="form-control briefing" placeholder="请输入介绍">
+    </div>
+    <div class="form-group">
+      <label for=""><span style="color:red;">*</span>ICON图片：<span style="color:red;">建议上传66*66或100*100的图</span></label>
+    </div>
+    <div id="container">
+      <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+        <i class="glyphicon glyphicon-plus"></i>
+        <span>选择上传图片</span>
+      </a>
+    </div>
+    <img src="" id="image" border="0"/>
+    <div class="msg"></div>
+    <div class="subBtn">
+      <button type="button" id="dw_submit" class="btn btn-primary">提交</button>
+    </div>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'}</script>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

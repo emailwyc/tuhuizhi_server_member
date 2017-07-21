@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    {{>surveySide}}
+    <div class="main">
+      <div class="search">
+        <label for="">标题</label>
+        <input type="text" name="" value="" id="titleName" class="titleName">
+        <label for="" class="sechstatus">状态</label>
+        <select class="" name="" id="surveyState">
+          <option value="请选择">请选择</option>
+          <option value="调查中">调查中</option>
+          <option value="结束">结束</option>
+        </select>
+        <label for="" class="sechtime">时间</label>
+        <input type="Date" name="" value="" class="time" id="starTime">
+        <label for="">——</label>
+        <input type="Date" name="" value="" class="time" id="endTime">
+        <input type="button" name="" value="查询" class="startcheck" id="checkbtn">
+      </div>
+      <table>
+        <tr>
+          <td class="allTitel">总标题</td>
+          <td class="qr-code">二维码</td>
+          <td class="group">所属分组</td>
+          <td class="state">状态</td>
+          <td class="cTime">创建时间</td>
+          <td class="starTime">开始时间</td>
+          <td class="endTime">结束时间</td>
+          <td class="option">操作</td>
+        </tr>
+      </table>
+      <ul class="content" id="contentul">
+      </ul>
+      <ul class="paging">
+        <li class="one">总共<span class="allnum" id="allnum">0</span>页</li>
+        <li><a href="javascript:;" class="uppaper" id="prev">上一页</a></li>
+        <li>当前第<span id="currentpage">1</span>页</li>
+        <li><a href="javascript:;" class="downpaper" id="next">下一页</a></li>
+      </ul>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+$pagebgcolor: #efeff4;
+$black: #000;
+$write: #fff;
+$rgba: rgba(0, 0, 0, 0.5);
+$green: #61b335;
+$popborder: #d4d4d4;
+$gray: #797979;
+$red: #f00;
+$color: #333;
+
+@function rem($px) {
+  @return $px / 75px * 1rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: $black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: $black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $black;
+}
+
+a:active {
+  text-decoration: none;
+  color: $black;
+}
+
+input {
+  border: 0;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+input[type=button] {
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: $color;
+  font-size: rem(28px);
+  min-height: 100%;
+}
+.green {
+  color: $green;
+}
+.overfl {overflow: hidden; text-overflow: ellipsis;white-space: nowrap; }

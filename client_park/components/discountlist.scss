@@ -1,0 +1,123 @@
+@import '../pages/reset';
+
+$gray3: #e6e6e6;
+$white: #fff;
+$gray333: #333;
+$gray999: #999;
+$graye1e1e1: #e1e1e1;
+$grayf9f9f9: #f9f9f9;
+$coloreee: #eee;
+
+.item {
+  background-color: $white;
+  box-shadow: 0 0 16px $coloreee;
+  margin-bottom: rem(20px);
+  position: relative;
+  width: 100%;
+
+  .item-inner {
+    overflow: hidden;
+    padding: rem(26px);
+    position: relative;
+  }
+
+  &::before {
+    background: radial-gradient(transparent 0, transparent rem(6px), $white rem(6px));
+    background-position: rem(8px) 1px;
+    background-size: rem(18px) rem(20px);
+    content: '';
+    height: 100%;
+    left: rem(-5px);
+    position: absolute;
+    top: 0;
+    width: rem(7px);
+    z-index: 1;
+  }
+
+  &::after {
+    background: radial-gradient(transparent 0, transparent rem(6px), $white rem(6px));
+    background-position: 0 1px;
+    background-size: rem(18px) rem(20px);
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: rem(-6px);
+    top: 0;
+    width: rem(7px);
+    z-index: 1;
+  }
+
+  .radius-top {
+    background-color: $grayf9f9f9;
+    border: 1px solid $coloreee;
+    border-radius: 100%;
+    height: rem(12px);
+    position: absolute;
+    right: rem(204px);
+    top: rem(-6px);
+    width: rem(12px);
+  }
+
+  .radius-bottom {
+    background-color: $grayf9f9f9;
+    border: 1px solid $coloreee;
+    border-radius: 100%;
+    bottom: rem(-6px);
+    height: rem(12px);
+    position: absolute;
+    right: rem(204px);
+    width: rem(12px);
+  }
+
+  &.active {
+    background-color: $gray3;
+
+    &::before {
+      background: radial-gradient(transparent 0, transparent rem(6px), $gray3 rem(6px));
+      background-position: rem(8px) 1px;
+      background-size: rem(18px) rem(20px);
+    }
+
+    &::after {
+      background: radial-gradient(transparent 0, transparent rem(6px), $gray3 rem(6px));
+      background-position: 0 1px;
+      background-size: rem(18px) rem(20px);
+    }
+  }
+
+  .item-info {
+    color: $gray333;
+    display: -webkit-box;
+    display: box;
+    font-size: rem(24px);
+    line-height: rem(40px);
+
+    .item-left {
+      -webkit-box-flex: 1;
+      box-flex: 1;
+
+      h3 {
+        font-size: rem(28px);
+        line-height: rem(66px);
+      }
+
+      p{
+        font-size: rem(24px);
+      }
+    }
+
+    .item-right {
+      font-size: rem(20px);
+      line-height: rem(30px);
+      padding-top: rem(14px);
+      text-align: right;
+      width: rem(204px);
+
+      span {
+        color: $gray999;
+      }
+    }
+
+  }
+
+}

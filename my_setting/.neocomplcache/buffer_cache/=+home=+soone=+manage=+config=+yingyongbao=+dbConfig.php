@@ -1,0 +1,1 @@
+['mgdbConfig', '$dbmongo', 'manage', 'array', 'mongo', 'host', 'user', 'root', 'pass', 'dbname', 'manage_stat', 'port', 'cache', 'game', 'test', 'status', 'output', 'manage_cdk', 'data', 'stat_hash', 'stat_device', 'stat_acc', 'operate_log', 'user_log', 'account_device']

@@ -1,0 +1,23 @@
+@import "../user/public";
+
+$c9: #999;
+
+.tit {
+  height: 60px;
+}
+
+.attention-box {
+  color: $c9;
+}
+
+.subBtn {
+  button {
+    margin: 16px auto;
+    width: 120px;
+  }
+}
+
+.select-box {
+  display: inline-block;
+  width: 80%;
+}

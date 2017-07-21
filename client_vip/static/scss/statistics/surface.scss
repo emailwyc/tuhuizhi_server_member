@@ -1,0 +1,38 @@
+@import "../user/public";
+
+.heard{
+  border-bottom: 5px solid #aaa;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+table{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+th{
+  background: #ccc;
+}
+table th,
+table td {
+  text-align: center;
+  vertical-align: middle;
+  // border-top: 1px solid $tdbord;
+}
+table img{
+  height: 50px;
+  width:50px;
+}
+.sex{
+  width:50px;
+  height: 30px;
+}
+.previous_t{
+  margin-left: 50px;
+}
+.gdate,
+.edate{
+  width: 15%;
+}
+.gopagenum {
+  width: 5%;
+}

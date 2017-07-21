@@ -1,0 +1,24 @@
+@import './reset';
+@import '../components/ticketitem';
+@import url('//at.alicdn.com/t/font_1eoobi6jtkpgb9.css');
+
+$gray: #272536;
+$grayf9f9f9: #f9f9f9;
+
+body {background-color: $grayf9f9f9;}
+
+.iconfont {
+  color: $gray;
+  font-size: rem(40px);
+  line-height: rem(128px);
+}
+
+.myticket-box {
+  font-size: rem(28px);
+
+  .ticket-list {
+    // padding: rem(40px) rem(28px) 0;
+    padding: 0 rem(28px);
+  }
+
+}

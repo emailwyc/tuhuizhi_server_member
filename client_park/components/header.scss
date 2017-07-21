@@ -1,0 +1,50 @@
+@import '../pages/reset';
+
+$bordercolor :#e0e0e0;
+$bgcolor1: #fff;
+$color: #999;
+
+header {
+  background-color: $bgcolor1;
+  border-bottom: 1px solid $bordercolor;
+  display: -webkit-box;
+  display: box;
+  font-size: rem(28px);
+  padding: rem(64px) rem(60px);
+
+  .date-left {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    line-height: rem(52px);
+    padding-top: rem(56px);
+    text-align: center;
+
+    i {
+      color: $color;
+      font-style: normal;
+    }
+
+    p {
+      font-size: rem(36px);
+    }
+
+    .year {
+      line-height: rem(42px);
+    }
+  }
+
+  .pic-right {
+    border-radius: 100%;
+    height: rem(236px);
+    margin-left: rem(136px);
+    overflow: hidden;
+    width: rem(236px);
+
+    .pic {
+      background: url('../images/pic.jpg')  center no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

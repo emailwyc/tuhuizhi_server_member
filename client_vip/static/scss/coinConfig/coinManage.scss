@@ -1,0 +1,142 @@
+@import "../user/public";
+.headbox{
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+  h3{
+    border: none;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  hr{
+    margin-top: 0;
+    border-top-color: #ccc;
+  }
+  .searchlabel{
+    display: inline-block;
+    height: 30px;
+    border: 1px solid #333;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 20px;
+  }
+  .checklabel{
+
+    input{
+      margin: 0 20px;
+    }
+    button{
+      padding: 0 10px;
+    }
+    }
+  .searchinput{
+    width: 260px;
+    height: 27px;
+    border: none;
+    border-right: 1px solid #666;
+    box-sizing: border-box;
+    padding-left: 5px;
+    color:#999;
+    font-size: 14px;
+  }
+  .searchbtn{
+    // display: inline-block;
+    padding: 2px 25px;
+    color: #333;
+    font-size: 14px;
+  }
+}
+.configList{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  table{
+    width: 100%;
+    min-width: 1010px;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    font-weight: 600;
+    thead{
+      tr{
+        height: 50px;
+        font-weight: 700;
+      }
+      .headOrder{
+        width: 6%;
+        // max-width: 100px;
+      }
+      .headimg{
+        width: 10%;
+      }
+      .headname{
+        width: 19%;
+      }
+      .headopenid{
+        width: 30%;
+      }
+      .headcoin{
+        width: 10%;
+      }
+      .headtime{
+        width: 15%;
+      }
+      .headoptions{
+        width: 10%;
+      }
+    }
+    tbody{
+      tr{
+        height: 100px;
+      }
+      img{
+        width: 80px;
+        height: 80px;
+      }
+      .bodyOrder{
+        font-weight: 700;
+      }
+    }
+  }
+}
+.pages{
+  width: 100%;
+  overflow: hidden;
+  display: none;
+
+  ul{
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    li{
+      float: left;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin:0 5px;
+
+      input{
+        height: 100%;
+        outline: none;
+        width: 40px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+    }
+    .totalli,.skippage{
+      border: none;
+    }
+    .prev,.next,.sure{
+      cursor: pointer;
+    }
+    .sure{
+      background-color: #5a65f5;
+    }
+  }
+}
+.keyactive{
+  color: #ccc;
+}

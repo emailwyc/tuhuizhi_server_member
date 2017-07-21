@@ -1,0 +1,19 @@
+[color]
+        diff = auto
+        branch = auto
+        interactive = auto
+        status = auto
+[user] 
+        name = soone
+        email = soone@anyitou.com
+[alias]
+        st = status
+        ci = commit -s
+        br = branch
+        co = checkout
+        df = diff
+        lg = log -p
+        who = shortlog -s --
+
+[push] 
+        default = current

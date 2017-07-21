@@ -1,0 +1,39 @@
+<div class="container-fluid">
+    {{>MessageSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <h3>消息列表</h3>
+    <div class="list">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>序号</th>
+            <th>消息标题</th>
+            <th>消息图片</th>
+            <th>封面主图</th>
+            <th>消息状态</th>
+            <th>消息URL</th>
+            <th>消息事件类型</th>
+            <th>排序</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <nav aria-label="Page navigation">
+      <ul class="pager">
+        <input type="hidden" class="pagenum" value="1">
+        <li class="total"></li>
+        <li><a href="#" class="prev">上一页</a></li>
+        <li><a href="#" class="currentpage"></a></li>
+        <li><a href="#" class="next">下一页</a></li>
+        <li><a href="javascript:;" class="">10条/页</a></li>
+        <li>跳至第<input type="number" class="gopage" step="1" min="1">页</li>
+        <li><a href="javascript:;" class="gopage_btn">GO</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'}</script>

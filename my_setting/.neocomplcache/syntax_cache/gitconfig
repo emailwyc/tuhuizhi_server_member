@@ -1,0 +1,1 @@
+['match', 'matchgroup', 'start', 'z0-9', 'contains', 'true', 'roup', 'keepend', 'skip', 'nextgroup', 'gitconfigComment', 'gitconfigSection', 'gitconfigAssignment', 'gitconfigNone', 'gitconfigBoolean', 'gitconfigNumber', 'gitConfigString', 'gitConfigEscape', 'gitConfigError', 'gitconfigVariable', 'a-z0-9', 'eepend', 'false']

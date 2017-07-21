@@ -1,0 +1,1 @@
+['include', 'file', 'header', '客户端日志列表', 'nbsp', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', 'colspan', '总数', 'font', 'style', 'color', 'total', '日期', '帐号', '错误信息', '错误时间', '操作', 'list', 'foreach', 'from', 'item', 'tdate', 'nowdate', 'blue', 'title', 'info', 'truncate', 'true', 'pageHtml', 'footer']

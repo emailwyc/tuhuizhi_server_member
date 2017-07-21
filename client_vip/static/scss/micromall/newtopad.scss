@@ -1,0 +1,73 @@
+@import "../user/public";
+
+$gray: #ccc;
+
+.tips {
+  line-height: 50px;
+  color: $gray;
+}
+
+.btn-right {
+  float: right;
+}
+
+.table td {
+  vertical-align: middle;
+
+  a {
+    padding: 0 10px;
+  }
+
+  img {
+    width: 200px;
+  }
+}
+
+.adtext {
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: left;
+}
+
+.marig {
+  width: 50px;
+  display: inline-block;
+}
+
+.inpuw200 {
+  width: 200px;
+  display: inline-block;
+}
+
+.col-xs-2 {
+  width: 100px;
+}
+
+.look {
+  padding-left: 10px;
+  float: left;
+}
+
+
+.col-xs-10 span,
+.look {
+  color: $gray;
+}
+
+.btn-secondary.active {
+  margin-left: 0.9375rem;
+  display: inline-block;
+}
+
+.image {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.subBtn {
+  margin-top: 20px;
+}

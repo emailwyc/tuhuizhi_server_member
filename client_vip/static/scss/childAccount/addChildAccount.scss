@@ -1,0 +1,19 @@
+@import "../user/public";
+
+.form-check-inline {
+  display: inline-block;
+}
+
+.columnleft {
+  float: left;
+  width: 16.66667%;
+}
+
+.columnright {
+  padding-left: 17%;
+
+  .form-check-label {
+    min-width: 150px;
+    // padding-right: 40px;
+  }
+}

@@ -1,0 +1,28 @@
+<!-- 会员权益 -->
+{{>resourceSideb}}
+<div class="container-fluid" id="container_fluid">
+  <div class="tit">
+    <span>wifi描述：</span>
+    <input type="text" class="form-control title" id="wifi-desc" style="width: 80%;display:inline-block;">
+  </div>
+  <div class="tit">
+    <span>wifi Ip值：</span>
+    <input type="text" class="form-control title" id="wifi-ip" style="width: 80%;display:inline-block;">
+  </div>
+  <div class="form-group">
+    <label for=""><span style="color:red;">*</span>ICON图片：<span style="color:red;">建议上传66*66或100*100的图</span></label>
+  </div>
+  <div id="container">
+    <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+      <i class="glyphicon glyphicon-plus"></i>
+      <span>选择上传图片</span>
+    </a>
+  </div>
+  <img src="" id="image" border="0"/>
+  <!-- sidebar -->
+  <div class="subBtn">
+    <button type="button" id="dw_submit" class="btn btn-primary">提交</button>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

@@ -1,0 +1,50 @@
+@import "../user/public";
+
+.operation {
+  font-size: 14px;
+
+  .edit,
+  .del {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .move {
+    float: left;
+    line-height: 20px;
+  }
+}
+
+.table {
+  td {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
+.handbook_content {
+  width: 700px;
+  height: 40px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  img {
+    max-height: 40px;
+  }
+}
+
+.de {
+  color: #ccc;
+}
+
+
+.subBtn {
+  // width: 1000px;
+  margin-top: 10px;
+  text-align: right;
+  padding-bottom: 100px;
+}

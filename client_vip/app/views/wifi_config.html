@@ -1,0 +1,22 @@
+<!-- 会员权益 -->
+{{>resourceSideb}}
+<div class="container-fluid" id="container_fluid">
+  <form role="form">
+    <div class="form-group">
+      <p style="border-bottom: 1px solid #ccc">一键Wi-Fi属性配置</p>
+      <p for="exampleInputEmail1">一键Wi-Fi是否会员尊享？</p>
+      <label class="radio-inline">
+        <input type="radio" name="ismem"value="1"> 是
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="ismem" value="2" checked="checked"> 否
+      </label>
+    </div>
+  </form>
+  <!-- sidebar -->
+  <div class="subBtn" style="display: inline-block">
+    <button type="button" id="dw_submit" class="btn btn-primary">提交</button>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

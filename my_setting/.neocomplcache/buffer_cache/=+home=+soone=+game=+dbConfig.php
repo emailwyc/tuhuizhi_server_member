@@ -1,0 +1,1 @@
+['dbConfig', 'user', 'array', 'host', 'snsdb', 'pass', 'test', 'dbName', 'blog', 'group', 'common', 'shop', 'card', 'game', 'badge', 'topicvote', 'feedback', 'album', 'puzz', 'school', 'surp', 'star', 'feed', 'compete', '$cache', 'tempCacheType', 'memcache', 'tempCache', 'port', 'permCacheType', 'redis', 'permCache', 'gameCache']

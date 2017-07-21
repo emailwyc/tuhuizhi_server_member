@@ -1,0 +1,242 @@
+<!-- 联系我们 -->
+<div class="container-fluid">
+  {{>parkingSideb}}
+
+  <div class="main">
+
+    <script type="text/plain" id="myEditor" style="width:100%;height:70%">
+    </script>
+    <div class="detail">
+      <a class="dhead">返回订单管理</a>
+      <p class="chead">
+        <span>订单号:</span>
+        <span class="orderno_1 left"></span>
+        <span>发票状态:</span>
+        <span class="status_1 left"></span>
+        <span>车牌号:</span>
+        <span class="carnum_1 left"></span>
+        <span>停车时间:</span>
+        <span class="time_1 left"></span>
+        <p><span> 费用金额：</span><span class="pay"></span><span>￥</span></p>
+        <p><span>-会员优惠：</span><span class="pay_1"></span><span>￥</span></p>
+        <p class="pay_p"><span>=停车缴费：</span><span class="pay_2"></span><span>￥</span></p>
+      </p>
+      <p><button type="button" class="btn btn-default back" name="button">返回</button></p>
+    </div>
+    <div class="heard">
+      <p>停车缴费 — 订单管理</p>
+    </div>
+    <div class="group">
+      <form action="" class="form-inline">
+        <span>状态：</span>
+        <select class="status form-control" name="" id="">
+          <option value="">全部</option>
+          <option value="1">新订单（未付款）</option>
+          <option value="2" selected>已付款</option>
+          <!-- <option value="3">已开票</option> -->
+        </select>
+        <span>创建日期：</span>
+        <input class="create_time" name="creat" type="date" >
+        <span>付款日期：</span>
+        <input class="pay_time" type="date"  >
+        <!-- <span>开票日期：</span> -->
+        <!-- <input class="invoice_time" type="date" disabled> -->
+        <div class="group_1">
+         <span>用户：</span>
+         <input class="openid form-control" type="text">
+         <span>订单号：</span>
+         <input class="orderno form-control" type="text">
+         <span>车牌号：</span>
+         <input class="carnum form-control" type="text">
+        </div>
+        <!-- <button class="query">查询</button> -->
+      </form>
+    <div class="group_2">
+        <button class="query">查询</button>
+    </div>
+    </div>
+    <div >
+      <table  border="2" width="100%"  style="text-align:center;" >
+        <thead>
+        <tr>
+          <th><input type="checkbox" value="" /></th>
+          <th>订单号</th>
+          <th>创建时间</th>
+          <th>用户</th>
+          <th>车牌号</th>
+          <th>状态</th>
+          <th>付款时间</th>
+          <th>应付￥</th>
+          <th>优惠￥</th>
+          <th>实付￥</th>
+          <th>支付类型</th>
+          <!-- <th>开票时间</th> -->
+          <th>操作</th>
+          <!-- <th>开票人</th> -->
+        </tr>
+      </thead>
+        <tbody>
+        </tbody>
+        <!-- <tr class="tr0">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr1">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+        <!-- <tr class="tr2">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr3">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr4">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr5">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr6">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr7">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr8">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="tr9">
+          <td><input type="checkbox" value="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr> -->
+      </table>
+    </div>
+    <div class="group_3">
+      <!-- <button type="submit" class="bill right">导出</button> -->
+    <div class="right">
+      <button class="previous">上一页</button>
+      第<span class="num">1</span>页
+      <button class="next">下一页</button>
+      共<span class="num_p">1</span>页
+
+      <!-- <form method="post" action="https://backend.rtmap.com/MerAdmin/Park/exportParkOrders" target="_blank"> -->
+        <input type="hidden" name="key_admin" value="ad357006c826abc7555f0f7e8a5e5493">
+
+    <!-- </form> -->
+    </div>
+  </div>
+    <div class="kaip">
+      <a href="https://backend.rtmap.com/MerAdmin/Park/exportParkOrders?key_admin=ad357006c826abc7555f0f7e8a5e5493">导出</a>
+      <!-- <button class="btn btn-default kaipiao">确定开票</button> -->
+      <span class="state">开票成功</span>
+    </div>
+  </div>
+</div>

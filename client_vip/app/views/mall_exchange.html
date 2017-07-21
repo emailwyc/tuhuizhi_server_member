@@ -1,0 +1,43 @@
+<!-- 积分兑换 -->
+<div class="container-fluid">
+    {{>mallSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <div id="container">
+      <div class="header">
+        <div class="title">
+          <h3>积分兑换配置</h3>
+        </div>
+        <div class="wrapper">
+        </div>
+      </div>
+      <form role="form">
+        <div class="form-group">
+          <p for="exampleInputEmail1">是否开启线下兑换</p>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 是
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 否
+          </label>
+        </div>
+        <div class="form-group row">
+          <label for="exampleInputEmail1" class="col-sm-2 form-control-label">兑换地址:<span class="info">请填写地址</span></label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="地址">
+          </div>
+        </div>
+        <div class="form-group row color-box">
+          <label for="colorSelect" class="col-sm-2 form-control-label">商城颜色设置:<span class="info">请填写地址</span></label>
+          <div class="col-sm-4">
+            <!-- <select name="" id="colorSelect" class="form-control"></select> -->
+            <input class="form-control" type="color" value="#58a8ff" id="colorSelect">
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary updata">提交</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

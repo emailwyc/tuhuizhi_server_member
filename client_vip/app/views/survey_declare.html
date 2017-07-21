@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  {{>surveySide}}
+  <div class="main">
+
+    <div class="heard">
+      <p>免责声明</p>
+    </div>
+    <div class="tit">
+      <span>请输入标题：</span>
+      <input type="text" class="form-control title" id="title" style="width: 80%;display:inline-block;">
+    </div>
+    <div class="write">
+    <script type="text/plain" id="myEditor" style="width:100%;height:70%">
+    </script>
+    <div class="is-set">
+      <span>是否设置免责声明</span>
+      <label class="radio-inline">
+        <input type="radio" name="declareRadio" class="declareRadio" checked id="declareRadio1" value="1"> 是
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="declareRadio" class="declareRadio" id="declareRadio0" value="0"> 否
+      </label>
+    </div>
+    <div class="subBtn">
+      <button type="button" id="dw_submit" class="btn btn-primary">确定</button>
+    </div>
+  </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

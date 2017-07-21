@@ -1,0 +1,178 @@
+<!-- 客服管理 -->
+<div class="container-fluid">
+  {{>managementSideb}}
+  <div class="main">
+    <h3>客服管理</h3>
+  <form class="form-horizontal" role="form">
+    <div class="kefu">
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 control-label text-right">意见反馈</label>
+        <div class="col-sm-2">
+          <select class="form-control feedback">
+            <option value="true">开启</option>
+            <option value="false">关闭</option>
+          </select>
+        </div>
+      </div>
+      <!-- <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 control-label text-right">微信客服</label>
+        <div class="col-sm-2">
+          <select class="form-control wechatservice">
+            <option value="true">开启</option>
+            <option value="false">关闭</option>
+          </select>
+        </div>
+        <div style="color: red;font-size: 12px;line-height: 36px;">注意！客服名称不能为空</div>
+      </div>
+      <div class="imges">
+        <div class="form-group row wechatservice1">
+          <div class="col-sm-offset-2 col-sm-2 colmarg">
+            <input type="text" class="form-control wechatPhone" placeholder="请先填写客服名称">
+          </div>
+          <div class="col-sm-3 qrcode">
+            <img src="http://img.rtmap.com/2016/11/03/ef91pqpf9tkg9rt.jpg-w640" id="imghead"/>
+          </div>
+          <div id="container">
+            <a class="btn btn-default btn-lg" id="pickfiles" href="#" >
+                <i class="glyphicon glyphicon-plus"></i>
+                <span>选择上传文件</span>
+            </a>
+          </div>
+          <div class="col-sm-3 colmarg">
+            <a class="btn add">添加</a>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="msg"></div> -->
+      <div class="form-group row">
+        <label for="inputPassword4" class="col-sm-2 control-label text-right">电话客服</label>
+        <div class="col-sm-2">
+          <select class="form-control phoneservice">
+            <option value="true">开启</option>
+            <option value="false">关闭</option>
+          </select>
+        </div>
+        <div style="color: red;font-size: 12px;line-height: 36px;">注意！电话名称不能为空</div>
+      </div>
+      <div class="phonebox">
+        <div class="form-group row phoneservice1">
+          <div class="col-sm-offset-2 col-sm-2">
+            <input type="text" class="form-control phonename"  placeholder="请先填写名称">
+          </div>
+          <div class="col-sm-3">
+            <input type="text" class="form-control phone"  placeholder="请填写电话号码">
+          </div>
+          <div class="col-sm-5">
+            <a class="btn add_1">添加</a>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword5" class="col-sm-2 control-label text-right">客服说明</label>
+        <div class="col-sm-2">
+          <select class="form-control servicedescription">
+            <option value="true">开启</option>
+            <option value="false">关闭</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-offset-2 col-sm-10">
+          <script type="text/plain" id="myEditor" style="width:1000px;height:440px;">
+          </script>
+          <!-- <textarea class="form-control" id="textarea" rows="3" placeholder="填写客服说明文本，例如服务时间，服务台楼层等"></textarea> -->
+        </div>
+      </div>
+    </div>
+</form>
+<div class="msg"></div>
+<div class="form-group row">
+  <div class="col-sm-offset-2 col-sm-10">
+    <button type="botton" class="btn btn-primary subBtn">提交修改</button>
+  </div>
+</div>
+<div>
+  <p>意见反馈日志</p>
+  <div>
+    <form class="form-inline">
+      <span>内容筛选：</span>
+      <input class="form-control" type="radio" checked name="screen" value="0"/>
+      <select class="condition form-control">
+        <option value="30">不限</option>
+        <option value="1">一天内</option>
+        <option value="5">5天内</option>
+        <option value="15">15天内</option>
+        <option value="30">30天内</option>
+        <option value="60">60天内</option>
+        <option value="90">90天内</option>
+        <option value="180">180天内</option>
+        <option value="360">360天内</option>
+      </select>
+      <input class="form-control" type="radio" name="screen" value="1"/>
+      <input type="date" class="sdate" disabled value=""/>
+      <span>-</span>
+      <input type="date" class="edate" disabled value=""/>
+    </form>
+  </div>
+  <table class="table"  border="2" width="100%"  style="text-align:center;" >
+    <thead>
+    <tr>
+      <th><input type="checkbox" value="" /></th>
+      <th>会员名称</th>
+      <th>内容</th>
+      <th>提交时间</th>
+      <th>操作</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<nav aria-label="Page navigation">
+  <button type="button" class="btn btn-default problem">删除</button>
+  <ul class="pager">
+    <li class="total"></li>
+    <li><a href="javascript:;" class="prev">上一页</a></li>
+    <li><a href="javascript:;" class="currentpage"></a></li>
+    <li><a href="javascript:;" class="next">下一页</a></li>
+  </ul>
+</nav>
+<div class="moda_2">
+<p><span class="warning">!</span> 确定要删除该条意见反馈吗？</p>
+<button class="btn btn-default btn-sm cancel">取消</button>
+<button class="btn btn-primary btn-sm deleall">确定</button>
+</div>
+<div class="moda_3">
+<p>未选择内容</p>
+<button class="btn btn-primary btn-sm deleall_1">确定</button>
+</div>
+<div class="moda_4">
+<p><span class="tu">v</span>删除成功</p>
+</div>
+</div>
+  </div>
+</div>
+<!-- 删除 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">删除</h4>
+      </div>
+      <div class="modal-body">
+        <div style=""></div>
+        确定要删除吗？
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary del">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'}</script>
+
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

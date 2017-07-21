@@ -1,0 +1,39 @@
+<!-- 客服管理 -->
+<div class="container-fluid">
+  {{>managementSideb}}
+  <div class="main">
+    <h3>回复列表</h3>
+    <div class="subBtn" style="text-align: right;margin-bottom: 15px;">
+      <a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">回复</a>
+    </div>
+    <table class="table table-striped table-hover table-bordered">
+      <tbody>
+      </tbody>
+    </table>
+    <div class="msg"></div>
+</div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">回复</h4>
+      </div>
+      <div class="modal-body">
+        <!-- <input type="text" class="" /> -->
+        <textarea class="content" placeholder="请输入回复的文字"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary replyok">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'}</script>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

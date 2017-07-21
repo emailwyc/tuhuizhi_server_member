@@ -1,0 +1,42 @@
+<!-- 联系我们 -->
+<div class="container-fluid">
+  {{>statisticsSideb}}
+
+  <div class="main">
+    <div class="heard">
+      <span>统计日期：</span>
+      <input class="sdate" name="creat" type="date" >
+      <span>～</span>
+      <input class="edate" type="date" >
+      <button class="query ">查询</button>
+    </div>
+    <div class="content">
+      <span>访问流量统计：</span>
+      <select class="service" name="" id="">
+        <option value="1000">总体</option>
+        <option value="1007">品牌导航</option>
+        <option value="1001">电子会员</option>
+        <option value="1005">智能停车</option>
+      </select>
+      <table class="table-bordered" width="100%" style="text-align:center;">
+        <thead>
+        <tr>
+          <th>日期</th>
+          <th>累计页面访问量</th>
+          <th>累计访问人数</th>
+          <th>日页面访问量</th>
+          <th>日页面访问人数</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+      </table>
+    </div>
+    <div style="text-align:center">
+      <a class="a1 btn btn-default btn-lg active" href="">导出</a>
+      <button class="previous_s">上一页</button>
+      第<span class="num_s">1</span>页
+      <button class="next_s">下一页</button>
+    </div>
+  </div>
+</div>

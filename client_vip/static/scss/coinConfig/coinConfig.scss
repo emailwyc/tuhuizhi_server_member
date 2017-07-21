@@ -1,0 +1,156 @@
+@import "../user/public";
+.headbox{
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+  h3{
+    border: none;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  hr{
+    margin-top: 0;
+    border-top-color: #ccc;
+  }
+  .limitinput{
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    padding-left: 5px;
+    color:#999;
+    font-size: 14px;
+  }
+  .headsubmit{
+    display: inline-block;
+    padding: 2px 25px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    color: #333;
+    font-size: 14px;
+  }
+  .headList{
+    margin-bottom: 0;
+  }
+}
+.configList{
+  width: 100%;
+  margin-top: 10px;
+
+  table{
+    width: 50%;
+    min-width: 500px;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+
+    thead{
+      tr{
+        height: 50px;
+        font-weight: 700;
+      }
+      .headOrder{
+        width: 10%;
+        // max-width: 100px;
+      }
+      .headConfig{
+        width: 50%;
+      }
+      .headNum{
+        width: 20%;
+      }
+      .headStatus{
+        width: 20%;
+      }
+    }
+    tbody{
+      tr{
+        height: 90px;
+
+        input{
+          width: 70px;
+        }
+      }
+      .bodyOrder{
+        font-weight: 700;
+      }
+      .bodyStatus{
+        a{
+          color: #666;
+        }
+
+      }
+    }
+  }
+}
+.options{
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+
+  a{
+    display: inline-block;
+    padding: 5px 35px;
+    border: 1px solid #666;
+    color: #333;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  p{
+    margin-bottom: 0;
+    text-align: left;
+    color: red;
+  }
+}
+.styles{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+
+
+  .content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 260px;
+    height: 140px;
+    border: 1px solid #666;
+    background: #fff;
+
+    .title{
+      font-size: 20px;
+      border-bottom: 1px solid #999;
+    }
+    .markCancel{
+      display: inline-block;
+      float: right;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .alertContent{
+      font-size: 18px;
+      box-sizing: border-box;
+      padding-left: 20px;
+    }
+    .alertoptions{
+      text-align: center;
+    }
+    // .alertSure, .alertCancel{
+    //   border: 1px solid transparent;
+    // }
+  }
+}
+.alertActive{
+  border: 1px solid blue;
+}

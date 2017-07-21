@@ -1,0 +1,34 @@
+<div class="container-fluid">
+    {{>surveySide}}
+    <div class="main">
+      <div class="titlebwarp">
+        <h4 class="titlename"></h4>
+        <a href="javascript:;" class="summarize">查看汇总详情</a>
+        <a href="javascript:;" class="summarize" id="exportdetail">导出用户答题详情</a>
+      </div>
+      <div class="listwarp">
+        <table>
+          <thead>
+            <tr>
+              <td class="headpic">头像</td>
+              <td class="uname">用户名</td>
+              <td class="uopenid">openid</td>
+              <td class="options">操作</td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pages">
+        <ul>
+          <li>共<i class="totalnum"></i>页</li>
+          <li>共<i class="countAll">0</i>条</li>
+          <li class="prev">上一页</li>
+          <li>当前第<i class="currentnum">1</i>页</li>
+          <li class="next">下一页</li>
+          <span>跳到</span><li><input type="number" name="" value="1" min="1" class="currentval"></li><span>页</span>
+          <li class="surenum">确定</li>
+        </ul>
+      </div>
+    </div>
+</div>

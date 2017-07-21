@@ -1,0 +1,32 @@
+@import "../user/public";
+
+.main{
+  .header{
+    margin-bottom: 1rem;
+    border: 1px solid #eceeef;
+    .title{
+      position: relative;
+      margin: 0.75rem;
+      line-height: 1.5;
+      border-bottom: 1px solid #eceeef;
+      h3{ border: 0;
+        margin-bottom: 0.375rem;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .form-inline{
+    span{
+      margin: 0 1.375rem;      
+    }
+  }
+}
+
+#image {
+  width: 37%;
+  height: 118px;
+  border: 0;
+}

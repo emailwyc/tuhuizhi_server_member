@@ -1,0 +1,239 @@
+@import "../user/public";
+
+.configtitle{
+  margin:auto;
+  text-align: center;
+}
+.addrank{
+  padding:5px 0;
+  width: 90px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f77a3d;
+  color: white;
+  cursor: pointer;
+}
+.tablebox{
+  width: 100%;
+  height: auto;
+  table{
+    width: 100%;
+
+    thead{
+      width: 100%;
+      text-align: center;
+      border-top: 1px solid #ccc;
+      border-bottom: 2px solid #ccc;
+
+      tr{
+        font-weight: 700;
+        height: 50px;
+      }
+    }
+    tbody{
+      text-align: center;
+
+      tr:nth-child(odd){
+        background-color: #eceeef;
+      }
+
+      tr{
+        height: 40px;
+      }
+      tr:hover{
+        background-color: #e5e5e5;
+      }
+    }
+  }
+}
+.rankbox{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(195, 192, 185, 0.5);
+  z-index: 100000;
+  display: none;
+
+  .rancont{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    .cancel{
+      height: 25px;
+      width: 25px;
+      margin: 0 0 0 475px;
+      cursor: pointer;
+      // overflow: hidden;
+      b {
+        display:inline-block;
+        float: right;
+        margin-top: 10px;
+        width:24px;
+        height:2px;
+        background:#ccc;
+        cursor: pointer;
+        font-size:0;
+        line-height:0;
+        vertical-align:middle;
+        -webkit-transform: rotate(45deg);
+      }
+      b:after {
+        content:'.';
+        float: right;
+        display:block;
+        width:24px;
+        height:2px;
+        background:#ccc;
+        -webkit-transform: rotate(-90deg);
+      }
+    }
+    label{
+      width: 140px;
+      text-align: right;
+    }
+    input{
+      width: 180px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      box-sizing: border-box;
+      padding-left: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .codebox{
+      margin: 50px 0;
+
+    }
+    .carname{
+      margin: 0 0 20px 0;
+
+    }
+    .submitbox{
+      overflow: hidden;
+      text-align: center;
+      a{
+        display: inline-block;
+        padding: 5px 15px;
+        color:white;
+        margin: 0 auto;
+        background-color: blue;
+        border-radius: 5px;
+      }
+    }
+  }
+
+}
+// 编辑
+.editbox{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(195, 192, 185, 0.5);
+  z-index: 100000;
+  display: none;
+
+  .editcont{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    .editcancel{
+      height: 25px;
+      width: 25px;
+      margin: 0 0 0 475px;
+      cursor: pointer;
+      // overflow: hidden;
+      b {
+        display:inline-block;
+        float: right;
+        margin-top: 10px;
+        width:24px;
+        height:2px;
+        background:#ccc;
+        cursor: pointer;
+        font-size:0;
+        line-height:0;
+        vertical-align:middle;
+        -webkit-transform: rotate(45deg);
+      }
+      b:after {
+        content:'.';
+        float: right;
+        display:block;
+        width:24px;
+        height:2px;
+        background:#ccc;
+        -webkit-transform: rotate(-90deg);
+      }
+    }
+    label{
+      width: 140px;
+      text-align: right;
+    }
+    input{
+      width: 180px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      box-sizing: border-box;
+      padding-left: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .editcode{
+      margin: 50px 0;
+
+    }
+    .editname{
+      margin: 0 0 20px 0;
+
+    }
+    .editsubmit{
+      overflow: hidden;
+      text-align: center;
+      a{
+        display: inline-block;
+        padding: 5px 15px;
+        color:white;
+        margin: 0 auto;
+        background-color: blue;
+        border-radius: 5px;
+      }
+    }
+  }
+
+}
+
+// .modal {
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     z-index: 10000;
+//     display: block;
+//     overflow: hidden;
+//     outline: 0;
+// }

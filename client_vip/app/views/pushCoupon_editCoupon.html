@@ -1,0 +1,61 @@
+<div class="container-fluid">
+    {{>pushCouponSideb}}
+  <!-- sidebar -->
+  <div class="main">
+      <div class="header">
+        <div class="title">
+          <h3>编辑活动劵</h3>
+        </div>
+        <div class="wrapper">
+        </div>
+      </div>
+      <form>
+        <div class="form-group row">
+          <label for="inputBuild" class="col-sm-2 form-control-label">建筑物名称</label>
+          <div class="col-sm-4">
+            <select class="form-control class-box build" id="inputBuild"></select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="erpRadio" class="col-sm-2 form-control-label">
+            <input class="form-check-input" type="radio" name="activeRadios" id="erpRadio" value="0">
+            第三方地址</label>
+          <div class="col-sm-4">
+            <input type="url" class="form-control erp" id="inputErp" placeholder="选择第三方地址，则活动id无效">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="activeRadio" class="col-sm-2 form-control-label">
+            <input class="form-check-input" type="radio" name="activeRadios" id="activeRadio" value="1">
+            活动ID</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control activity" id="inputActivity" placeholder="支持多个活动id，例如：1234,4321">
+          </div>
+        </div>
+        <hr>
+        <div class="form-group row">
+          <label class="form-check-label col-sm-4 form-control-label" for="pushRadios1">
+            <input class="form-check-input" type="radio" name="pushRadios" id="pushRadios1" value="0">
+            推送给全部线上会员
+          </label>
+        </div>
+        <div class="form-group row">
+          <label class="form-check-label col-sm-4 form-control-label" for="pushRadios2">
+            <input class="form-check-input" type="radio" name="pushRadios" id="pushRadios2" value="1">
+            推送给指定openid
+          </label>
+        </div>
+        <div class="form-group row">
+          <label for="openidTextarea" class="col-sm-10 col-form-label form-control-label">openid：(最多1W人，间隔5mins一次，英文的逗号隔开)</label>
+          <textarea class="col-sm-5" id="openidTextarea" rows="5"></textarea>
+        </div>
+      </form>
+      <!-- <div class="msg"></div> -->
+      <div class="form-group row">
+        <div class="col-sm-10 col-sm-offset-2">
+          <button type="button" class="subBtn btn btn-secondary">提交</button>
+        </div>
+      </div>
+  </div>
+</div>
+<script>var conf={id:'{{id}}', classid:'{{classid}}'}</script>

@@ -1,0 +1,66 @@
+<!-- Y币记录 -->
+<div class="container-fluid">
+  {{>coinManageSide}}
+  <div class="main">
+    <div class="headbox">
+      <h3>Y币记录</h3>
+      <button type="button" name="返回" class="back">返回</button>
+      <hr>
+      <label for="" class="">
+        动作查看：<select class="" name="" class="behover" value="123" id="behover">
+                    <option value="">全部</option>
+                    <option value="limit">每日Y币累计上限</option>
+                    <option value="follow">首次关注</option>
+                    <option value="register">线上注册/绑卡</option>
+                    <option value="sign">每日签到</option>
+                    <option value="editMember">会员信息补充</option>
+                    <option value="joinActivity">报名参加活动</option>
+                    <option value="storeLike">店铺点赞</option>
+                    <option value="lookActivity">查看精彩活动</option>
+                  </select>
+      </label>
+      <label for="">Y币日志筛选：<input type="date" name="" value="" class="startime"></label> ——
+      <label for=""><input type="date" name="" value="" class="endtime">
+      <button value="查询" class="headcheck">查询</button></label>
+      <label for="" class="">
+        修改积分：添加Y币：<input type="number" min="0" name="" placeholder="请输入添加数(正值)" value="" class="addYnum">
+        扣除Y币：<input type="number" name="" min="0" placeholder="请输入扣除数(正值)" value="" class="deductYnum">
+        修改原因：<input type="text" name="" value="" placeholder="请输入积分变动原因" class="changeReason" onkeyup="this.value=this.value.replace(/\s+/g,'')">
+        <button value="提交" class="headsubmit">提交</button>
+      </label>
+      <p class="hint"></p>
+    </div>
+    <div class="userInfo">
+      <label for="">
+        <strong>头像：</strong><img src="" alt="默认图片" class="userimg">
+        <strong>昵称：</strong><span class="userName"></span>
+        <strong>openid:</strong><span class="userOpenid"></span>
+      </label>
+    </div>
+    <div class="behoverList">
+      <table style="border-collapse:collapse;"  border="1">
+        <thead>
+          <tr>
+            <td class="time">时间</td>
+            <td class="userBehover">用户行为</td>
+            <td class="yChange">Y值变动</td>
+            <td class="remark">备注</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="pages">
+          <ul>
+            <li class="totalli">总共<span class="totalpage"></span>页</li>
+            <li class="prev">上一页</li>
+            <li>当前第<span class="currentpage">1</span>页</li>
+            <li class="next">下一页</li>
+            <li class="skippage">跳转到第<input type="number" name="" value="1" min="1" class="gopage">页</li>
+            <li class="sure">确定</li>
+          </ul>
+    </div>
+  </div>
+</div>

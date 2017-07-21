@@ -1,0 +1,29 @@
+@import "../user/public";
+
+.table {
+
+  a{
+    margin-right: 10px;
+  }
+}
+
+.search_input {
+  width: 400px;
+  float: left;
+}
+
+.regtime {
+  float: left;
+  height: 50px;
+  margin-left: 10px;
+  width: 600px;
+}
+
+.allBtn {
+  float: left;
+  width: 200px;
+}
+
+.pager {
+  display: none;
+}

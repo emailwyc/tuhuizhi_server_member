@@ -1,0 +1,105 @@
+<div class="container-fluid">
+    {{>mallSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <div id="container">
+        <div class="header">
+          <div class="title">
+            <h3>兑换记录</h3>
+            <a href="javascript:;" class="btn btn-secondary export-btn">导出</a>
+          </div>
+
+          <div class="wrapper">
+            <label for="inputBuild">选择建筑物：</label>
+            <div class="col-sm-3">
+              <select class="form-control build" id="inputBuild"></select>
+            </div>
+
+            <div class="regtime">
+              <span>兑换时间：开始</span>
+              <input type="date" class="regTime" />
+              <span>结束</span>
+              <input type="date" class="endTime" />
+              <button class="btn btn-secondary time-btn">查询</button>
+            </div>
+
+            <label for="inputStatus">状态查看：</label>
+            <div class="col-sm-2">
+              <select class="form-control status" id="inputStatus"></select>
+            </div>
+
+            <label for="inputType">活动查看：</label>
+            <div class="col-sm-2">
+              <select class="form-control type" id="inputType"></select>
+            </div>
+
+            <div class="search_input">
+              <div class="input-group">
+                <input type="text" class="form-control searchinput" placeholder="请输入手机号查询">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary search_btn" type="button">搜索</button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="list">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>建筑物</th>
+                <th>会员等级</th>
+                <th>会员名</th>
+                <th>手机号</th>
+                <th>礼品名称</th>
+                <th>领取时间</th>
+                <th>积分消耗</th>
+                <th>状态</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>
+                  <div class="user">
+                    <img class="face" src="http://wx.qlogo.cn/mmopen/Fl3CGjhLlRR46T3FXoxic8zk6lpibHibJUQR1CLqibScyBrkx5Yj03jNf5y2ldmLGKUElZp5rm7FFRXs1E0f0kblWf55lVy5xgls/0#" />
+                    <p class="username">name</p>
+                    <p class="remarks">备注</p>
+                  </div>
+                </td>
+                <td>
+                金卡会员
+                </td>
+                <td>
+                  有效
+                </td>
+                <td>
+                  5000
+                </td>
+                <td>
+                  2016-08-25 10:45
+                </td>
+                <td>
+                  <a href="#">详情</a>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+        <nav aria-label="Page navigation">
+          <!-- <div class="exportBtn"><button type="button" class="btn btn-outline-secondary Export">下载数据</button></div> -->
+          <ul class="pager">
+            <input type="hidden" class="pagenum" value="1">
+            <li class="total"></li>
+            <li><a href="javascript:void(0)" class="prev">上一页</a></li>
+            <li><a href="javascript:void(0)" class="currentpage"></a></li>
+            <li><a href="javascript:void(0)" class="next">下一页</a></li>
+            <li><a href="javascript:;" class="">10条/页</a></li>
+            <li>跳至第<input type="number" class="gopage" step="1" min="1">页</li>
+            <li><a href="javascript:;" class="gopage_btn">GO</a></li>
+          </ul>
+        </nav>
+
+    </div>
+  </div>
+</div>

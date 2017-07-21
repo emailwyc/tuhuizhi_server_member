@@ -1,0 +1,1 @@
+['mdbConfig', 'admin', 'array', 'host', 'user', 'root', 'pass', 'dbName', 'manage', 'game', 'package', 'glogs', 'appadmin', 'db_wuxia_data_dev', 'clientlog', 'soone', 'db_wuxia_log_dev', '$cache', 'tempCacheType', 'memcache', 'tempCache', 'port', '$CURSV', 'isset', '$_SESSION', 'CurGameSv', 'else', 'curchnel']

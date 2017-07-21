@@ -1,0 +1,56 @@
+@import './reset';
+@import url('//at.alicdn.com/t/font_1eoobi6jtkpgb9.css');
+
+$bordercolor :#e0e0e0;
+$bgcolor: #f9f9f9;
+$bgcolor1: #fff;
+$color: #279df2;
+$color2: #ff8a00;
+
+body {background-color: $bgcolor;position: relative;}
+
+.iconfont {
+  color: $gray;
+  font-size: rem(40px);
+  vertical-align: middle;
+}
+
+.mycar-box {
+    .tap-box {
+      border-top: 1px solid $bordercolor;
+
+      li {
+        background-color: $bgcolor1;
+        border-bottom: 1px solid $bordercolor;
+        height: rem(130px);
+        line-height: rem(130px);
+        padding: 0 rem(43px);
+
+        .item-con {
+          -webkit-box-flex: 1;
+          box-flex: 1;
+          font-size: rem(28px);
+          font-weight: bold;
+        }
+        .in-box {
+          strong {color: $color2;font-size: rem(28px);font-weight: normal;padding-right: rem(14px);vertical-align: top;}
+        }
+      }
+    }
+
+  .item-tap {
+    display: -webkit-box;
+    display: box;
+  }
+
+  .attention-btn {
+    bottom: rem(178px);
+    color: $color;
+    font-size: rem(28px);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+}

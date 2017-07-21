@@ -1,0 +1,981 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/file
+
+# 上个 替换 Search 图案：
+~MSle0&..\/images
+
+# 最后替换的字符串
+$
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:w
+:set nonu
+:qall
+:tabe id_rsa.pub
+:wqall
+:'<,'><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+:tabe /usr/lib/firefox/browser/icons/mozicon128.png
+:tabe /usr/share/applications/apturl.desktop
+:tabe /usr/share/applications/chromium-browser.desktop
+:set paste
+:paste
+:q!
+:tabe activity-log-manager.desktop
+:wq
+:tabe NightTime.js
+:tabe MoveTo.js
+:tabe StartScene.js
+:q:q
+:we
+:'<,'><<<<<<<<<<<<<<<<<<<<
+:'<,'><<<<<<<<<<<<<
+:tabe ../../.vimrc
+:tabe start.js
+:tabe resource.js
+:tabe Miner2.js
+:tabe app2.js
+:tabe ../project.json
+:tabe ../main.js
+:tabe ../index.html
+:tabe Miner.js
+:tabe GameConfig.js
+:tabe ../../js/commentajax.js
+:tabe ../../js/XTools.js
+:tabe ../../js/script_common.js
+:tabe admingm.php
+:tabe modules/helps.php
+:tabe Home.php
+:tabe ../views/home/index.php
+:tabe ../models/Department_model.php
+:tabe ../models/Doctor_model.php
+:tabe ../models/Hospital_model.php
+:tabe ../views/home/doctor.php
+:%s/..\/images/\/ui\/images/g
+:%s/images/\/ui\/images/g
+:%s/images\//\/ui\/images\//g
+:%s/images\//\/ui\/images/g
+:tabe app_huimeibest/config/config.php
+:tabe app_huimeibest/config/routes.php
+:wuu
+
+# 查找字符串 历史记录 (从新到旧)：
+?/file
+?/do
+? \<force\>
+? \<pMult\>
+? \<velocity\>
+?/cc.pSub
+?/cc.bSub
+? \<ObstacleCircle\>
+?/二维码
+?/客服
+?/content
+? \<return_data\>
+?/php
+?/filetype
+? \<_UpdatePosition\>
+? \<Home\>
+? \<EnterMineAndDigForNugget\>
+? \<initWithFile\>
+? \<_miner\>
+?/Hello
+? \<bindLenVerify\>
+? \<checkValidWords\>
+? \<wrap_letter_leninfo_id\>
+?/template
+?/httpR
+? \<do_post_request\>
+?/insert
+? \<fields\>
+?/批量
+?/mkdir
+?/HTTP_REFERER
+?/HTTP_R
+? \<system_last_time\>
+? \<redirect\>
+?/登录
+? \<checkAuth\>
+?/post
+?/Post
+? \<query_safety\>
+?/update
+?/limit
+?/key
+?/STRING
+?/offset
+?/saddslashes
+?/getPage
+?/message
+?/log
+?/order_by
+?/like
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+""0	LINE	0
+	echo date("Y-m-d H:i:s",1459839789);exit;
+"1	LINE	0
+	" ============================================================================
+	" Netrw Directory Listing                                        (netrw v149)
+	"   /home/soone/soone
+	"   Sorted by      name
+	"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+	"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+	" ============================================================================
+	../
+	./
+	.test.php.swo
+	plan.txt
+	test.php
+	.swp
+	.test.php.swp
+"2	LINE	0
+	[Desktop Entry]
+	Name=Firefox
+	Comment=SooneBaby Firefox
+	Exec=/usr/lib/firefox/firefox
+	Icon=/usr/lib/firefox/browser/icons/mozicon128.png
+	Terminal=false
+	Type=Application
+	Categories=Application;Network;
+"3	LINE	0
+	Icon=/usr/lib/firefox/browser/icons/mozicon128.png
+"4	LINE	0
+	[Desktop Entry]  
+	Name=Firefox  
+	Comment=火狐浏览器  
+	GenericName=火狐浏览器-中国版  
+	Exec=/usr/lib/firefox/firefox  
+	Icon=/usr/lib/firefox/browser/icons/mozicon128.png  
+	Terminal=false  
+	Type=Application  
+	Categories=Application;Network;
+"5	LINE	0
+	[Desktop Entry]  
+	Name=Firefox  
+	Comment=火狐浏览器  
+	GenericName=火狐浏览器-中国版  
+	Exec=/usr/lib/firefox/firefox  
+	Icon=/usr/lib/firefox/browser/icons/mozicon128.png  
+	Terminal=false  
+	Type=Application  
+	Categories=Application;Network;
+"6	LINE	0
+	ktop Entry]
+	Name=Firefox
+	Comment=this is firefox
+	Exec=/opt/firefox/firefox
+	Icon=/opt/firefox/icons/mozicon128.png
+	Terminal=false
+	Type=Application
+	Categories=Application;Network;
+"7	LINE	0
+	[Desktop Entry]  
+	Name=Firefox  
+	Comment=火狐浏览器  
+	GenericName=火狐浏览器-中国版  
+	Exec=/usr/lib/firefox/firefox  
+	Icon=/usr/lib/firefox/browser/icons/mozicon128.png  
+	Terminal=false  
+	Type=Application  
+	Categories=Application;Network;
+"8	LINE	0
+	[Desktop Entry]  
+	Name=Firefox  
+	Comment=火狐浏览器  
+	GenericName=火狐浏览器-中国版  
+	Exec=/usr/lib/firefox/firefox  
+	Icon=/usr/lib/firefox/browser/icons/mozicon128.png  
+	Terminal=false  
+	Type=Application  
+	Categories=Application;Network;
+"9	BLOCK	3
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+"-	CHAR	0
+	1452493508
+
+# 文件标记:
+'0  1  0  ~/node_modules/vue/node_modules/envify/visitors.js
+'1  253  0  ~/npm-debug.log
+'2  58  0  ~/node_modules/vue/README.md
+'3  2  0  ~/soone/test.php
+'4  3  0  ~/soone/test.php
+'5  377  0  /soone/root@182.92.114.44
+'6  1  0  /soone/myphp/PC6官方下载.url
+'7  1  0  /soone/myphp/key.txt
+'8  1  0  /soone/22号之前邀请人数统计.XLS
+'9  1  0  /soone/id_rsa.pub
+
+# 跳转列表 (从新到旧):
+-'  1  0  ~/node_modules/vue/node_modules/envify/visitors.js
+-'  253  0  ~/npm-debug.log
+-'  1  0  ~/npm-debug.log
+-'  58  0  ~/node_modules/vue/README.md
+-'  1  0  ~/node_modules/vue/README.md
+-'  2  0  ~/soone/test.php
+-'  1  0  ~/soone/test.php
+-'  3  0  ~/soone/test.php
+-'  377  0  /soone/root@182.92.114.44
+-'  1  0  /soone/root@182.92.114.44
+-'  1  0  /soone/myphp/PC6官方下载.url
+-'  1  0  /soone/myphp/key.txt
+-'  1  0  /soone/22号之前邀请人数统计.XLS
+-'  1  0  /soone/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/authorized_keys
+-'  1  0  ~/program/huodong/CodeIgniter/CodeIgniter/admin.php
+-'  253  0  ~/wechat-h5/app_huimeibest/controllers/Weixin.php
+-'  1  0  ~/wechat-h5/app_huimeibest/controllers/Weixin.php
+-'  1  0  ~/wechat-h5/app_huimeibest/controllers/WxMenu.php
+-'  1  0  ~/wechat-h5/app_huimeibest/controllers/Doctor.php
+-'  5  0  ~/soone/test.php
+-'  8  0  ~/soone/test.php
+-'  4  29  ~/soone/test.php
+-'  7  22  ~/soone/test.php
+-'  55  0  ~/soone/plan.txt
+-'  1  0  ~/soone/plan.txt
+-'  11  9  /etc/hosts
+-'  1  0  /etc/hosts
+-'  2  11  /usr/share/applications/firefox.desktop
+-'  1  0  /usr/share/applications/firefox.desktop
+-'  2  0  /soone/2月份订单统计.XLS
+-'  1  0  /soone/2月份订单统计.XLS
+-'  27  0  ~/ssh/login.private.rsa
+-'  1  0  ~/ssh/login.private.rsa
+-'  1  0  ~/wechat-h5/composer.json
+-'  7  0  ~/wechat-h5/test.php
+-'  1  0  ~/wechat-h5/test.php
+-'  4  1  ~/wechat-h5/composer.json
+-'  159  0  ~/weixin_helper.php
+-'  1  0  ~/weixin_helper.php
+-'  93  0  ~/.bashrc
+-'  2  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  ~/.vimrc
+-'  33  0  ~/.vimrc
+-'  10  30  /etc/hosts
+-'  1  0  ~/program/huodong/huodong.sql
+-'  49  0  ~/soone/plan.txt
+-'  16  0  ~/soone/plan.txt
+-'  18  0  ~/soone/test.php
+-'  3  0  /soone/video.yizhancms.com/video/test.php
+-'  1  0  /soone/video.yizhancms.com/video/test.php
+-'  4  0  /soone/video.yizhancms.com/video/test.php
+-'  1  0  /soone/video.yizhancms.com/video/demo.php
+-'  7  0  /soone/video.yizhancms.com/video/demo.php
+-'  15  30  /soone/video.yizhancms.com/video/index.php
+-'  30  1  /soone/video.yizhancms.com/video/index.php
+-'  22  31  /soone/video.yizhancms.com/video/index.php
+-'  1  0  /soone/video.yizhancms.com/video/index.php
+-'  137  8  ~/program/manage/adminuser.php
+-'  1  0  ~/program/manage/adminuser.php
+-'  1  0  ~/wechat-h5/Happy/Happy/src/DayTime.js
+-'  177  8  ~/wechat-h5/Happy/Happy/src/NightTime.js
+-'  1  0  ~/wechat-h5/Happy/Happy/src/NightTime.js
+-'  6  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  7  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  8  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  9  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  10  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  11  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  12  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  13  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  14  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  15  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  16  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  17  8  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  1  4  ~/wechat-h5/Happy/Happy/src/MoveTo.js
+-'  204  0  ~/wechat-h5/Happy/Happy/src/DayTime.js
+-'  11  5  ~/program/comment/UI/js/commentajax.js
+-'  18  168  ~/program/comment/UI/js/commentajax.js
+-'  55  8  ~/program/comment/UI/js/commentajax.js
+-'  1  0  ~/program/comment/UI/js/commentajax.js
+-'  1  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Weixinceshi.php
+-'  495  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Weixinceshi.php
+-'  93  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/CodeAlert.php
+-'  1  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/CodeAlert.php
+-'  15882  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/newstyle/js/amazeui.js
+-'  132  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/newstyle/js/amazeui.js
+-'  15928  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/newstyle/js/amazeui.js
+-'  1  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/newstyle/js/amazeui.js
+-'  112  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/newstyle/js/amazeui.js
+-'  1  0  ~/program/CodeIgniter-3.0.0
+-'  2  1  ~/program
+-'  433  31  ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Weixinceshi.php
+-'  1263  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/libraries/Wechat.php
+-'  381  13  ~/program/huodong/CodeIgniter/CodeIgniter/application/libraries/Wechat.php
+-'  1  0  ~/program/huodong/CodeIgniter/CodeIgniter/application/libraries/Wechat.php
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/node_modules/vue/node_modules/envify/visitors.js
+	"	1	0
+
+> ~/npm-debug.log
+	"	253	0
+
+> ~/node_modules/vue/README.md
+	"	58	0
+
+> ~/soone/test.php
+	"	2	0
+	^	2	14
+	.	2	13
+	+	1	6
+	+	8	14
+	+	9	14
+	+	10	11
+	+	12	0
+	+	11	10
+	+	12	17
+	+	14	0
+	+	13	9
+	+	14	7
+	+	16	0
+	+	15	10
+	+	13	11
+	+	4	80
+	+	7	44
+	+	4	74
+	+	7	57
+	+	6	12
+	+	4	36
+	+	7	38
+	+	4	65
+	+	4	33
+	+	17	0
+	+	4	65
+	+	4	30
+	+	6	0
+	+	4	30
+	+	1	6
+	+	4	64
+	+	4	29
+	+	4	0
+	+	3	40
+	+	2	13
+
+> /soone/root@182.92.114.44
+	"	377	0
+
+> /soone/myphp/PC6官方下载.url
+	"	1	0
+
+> /soone/myphp/key.txt
+	"	1	0
+
+> /soone/22号之前邀请人数统计.XLS
+	"	1	0
+
+> /soone/id_rsa.pub
+	"	1	0
+
+> ~/.ssh/authorized_keys
+	"	1	0
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/admin.php
+	"	1	0
+
+> ~/wechat-h5/app_huimeibest/controllers/Weixin.php
+	"	253	0
+
+> ~/wechat-h5/app_huimeibest/controllers/WxMenu.php
+	"	1	0
+
+> ~/wechat-h5/app_huimeibest/controllers/Doctor.php
+	"	1	0
+
+> ~/soone/plan.txt
+	"	55	0
+	^	55	0
+	.	55	0
+	+	1	20
+	+	49	9
+	+	11	18
+	+	49	24
+	+	11	24
+	+	1	0
+	+	49	24
+	+	8	20
+	+	1	7
+	+	12	3
+	+	11	15
+	+	5	15
+	+	4	20
+	+	3	0
+	+	1	7
+	+	3	32
+	+	4	32
+	+	5	34
+	+	6	32
+	+	7	32
+	+	8	17
+	+	7	35
+	+	8	34
+	+	9	35
+	+	11	32
+	+	10	29
+	+	11	31
+	+	13	34
+	+	10	35
+	+	11	0
+	+	14	0
+	+	15	37
+	+	49	0
+	+	26	9
+	+	24	12
+	+	48	0
+	+	32	35
+	+	41	18
+	+	42	40
+	+	47	16
+	+	24	1
+	+	26	0
+	+	24	12
+	+	26	12
+	+	36	12
+	+	40	0
+	+	24	25
+	+	22	0
+	+	20	15
+	+	21	18
+	+	24	14
+	+	26	12
+	+	24	15
+	+	26	14
+	+	27	12
+	+	28	9
+	+	29	15
+	+	30	15
+	+	31	20
+	+	30	14
+	+	36	14
+	+	41	19
+	+	46	9
+	+	41	21
+	+	24	33
+	+	26	35
+	+	27	34
+	+	28	32
+	+	29	35
+	+	30	31
+	+	23	6
+	+	47	1
+	+	105	0
+	+	104	0
+	+	53	171
+	+	55	0
+
+> /etc/hosts
+	"	11	9
+	^	11	10
+	.	11	10
+	+	10	11
+	+	11	10
+
+> /usr/share/applications/firefox.desktop
+	"	2	11
+	^	2	12
+	.	2	11
+	+	1	21
+	+	1	21
+	+	12	0
+	+	1	17
+	+	1	30
+	+	1	12
+	+	1	17
+	+	1	0
+	+	1	13
+	+	1	11
+	+	1	30
+	+	1	15
+	+	1	0
+	+	1	0
+	+	1	25
+	+	1	0
+	+	1	0
+	+	1	49
+	+	1	49
+	+	1	0
+	+	1	0
+	+	1	21
+	+	1	42
+	+	1	15
+	+	1	11
+	+	1	23
+	+	1	19
+	+	1	14
+	+	1	29
+	+	1	50
+	+	1	14
+	+	1	0
+	+	2	11
+
+> /usr/share/applications/chromium-browser.desktop
+	"	294	0
+
+> /usr/share/applications/apturl.desktop
+	"	1	0
+
+> /usr/lib/firefox/browser/icons/mozicon128.png
+	"	1	0
+
+> /usr/share/applications/activity-log-manager.desktop
+	"	5	0
+
+> /soone/2月份订单统计.XLS
+	"	2	0
+
+> ~/ssh/login.private.rsa
+	"	27	0
+
+> ~/wechat-h5/composer.json
+	"	1	0
+
+> ~/wechat-h5/test.php
+	"	7	0
+	^	3	25
+	.	3	0
+	+	1	6
+	+	2	39
+	+	9	16
+	+	3	22
+	+	3	34
+	+	9	4
+	+	3	4
+	+	9	0
+	+	6	64
+	+	7	27
+	+	8	19
+	+	9	0
+	+	6	22
+	+	7	14
+	+	3	17
+	+	3	3
+	+	7	13
+	+	3	12
+	+	7	0
+	+	3	0
+	+	3	0
+	+	2	16
+	+	2	68
+	+	2	20
+	+	2	65
+	+	2	0
+	+	2	0
+	+	2	6
+	+	2	13
+	+	3	4
+	+	2	4
+	+	2	0
+	+	2	0
+	+	2	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	9
+	+	7	14
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	3	0
+	+	2	44
+	+	3	0
+	+	3	4
+	+	3	34
+	+	6	0
+	+	3	0
+	+	5	1
+	+	5	12
+	+	3	0
+	+	5	30
+	+	3	21
+	+	3	34
+	+	5	0
+	+	6	0
+	+	3	19
+	+	6	0
+	+	5	30
+	+	4	31
+	+	5	30
+	+	6	22
+	+	3	0
+
+> ~/weixin_helper.php
+	"	159	0
+
+> ~/.bashrc
+	"	93	0
+	^	93	34
+	.	93	33
+	+	91	9
+	+	19	13
+	+	20	17
+	+	92	34
+	+	91	34
+	+	92	9
+	+	94	76
+	+	93	33
+
+> ~/.vimrc
+	"	1	0
+	^	16	18
+	.	16	17
+	+	16	17
+
+> ~/program/huodong/huodong.sql
+	"	1	0
+
+> /soone/video.yizhancms.com/video/test.php
+	"	3	0
+	^	3	26
+	.	3	25
+	+	1	6
+	+	4	116
+	+	4	2
+	+	4	0
+	+	2	26
+	+	3	25
+
+> /soone/video.yizhancms.com/video/demo.php
+	"	1	0
+
+> /soone/video.yizhancms.com/video/index.php
+	"	15	30
+
+> ~/program/manage/adminuser.php
+	"	137	8
+
+> ~/wechat-h5/Happy/Happy/src/DayTime.js
+	"	1	0
+
+> ~/wechat-h5/Happy/Happy/src/MoveTo.js
+	"	54	0
+
+> ~/wechat-h5/Happy/Happy/src/NightTime.js
+	"	226	7
+
+> ~/wechat-h5/Happy/Happy/frameworks/cocos2d-html5/template/src/myApp.js
+	"	1	8
+
+> ~/wechat-h5/Happy/Happy/frameworks/cocos2d-html5/template/index.html
+	"	5	4
+
+> ~/wechat-h5/Happy/Happy/frameworks/cocos2d-html5/AUTHORS.txt
+	"	2	0
+
+> ~/wechat-h5/Happy/Happy/frameworks/cocos2d-html5/Au
+	"	1	0
+
+> ~/wechat-h5/Happy/Happy/frameworks/cocos2d-html5/CHANGELOG.txt
+	"	778	0
+
+> ~/wechat-h5/Happy/Happy/frameworks/cocos2d-html5/cocos2d/core/support/CCPointExtension.js
+	"	102	21
+
+> ~/wechat-h5/Happy/Happy/src/StartScene.js
+	"	11	8
+
+> ~/program/comment/UI/js/commentajax.js
+	"	11	5
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Weixinceshi.php
+	"	1	0
+	^	434	103
+	.	434	0
+	+	434	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/CodeAlert.php
+	"	93	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/newstyle/js/amazeui.js
+	"	15882	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/libraries/Wechat.php
+	"	1263	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/helpers/weixin_helper.php
+	"	50	3
+	.	4	0
+	+	160	0
+	+	4	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Code.php
+	"	34	6
+
+> ~/wechat-h5/app_huimeibest/helpers/common_helper.php
+	"	7	2
+	^	7	0
+	.	7	0
+	+	1070	0
+	+	1068	1
+	+	1072	0
+	+	1071	0
+	+	1072	0
+	+	1071	9
+	+	1070	32
+	+	1071	10
+	+	1072	17
+	+	1072	22
+	+	1078	0
+	+	1078	2
+	+	1073	2
+	+	1078	0
+	+	1073	30
+	+	1078	18
+	+	1073	35
+	+	1078	0
+	+	1073	0
+	+	1073	21
+	+	1078	0
+	+	1074	36
+	+	1075	30
+	+	1076	31
+	+	1073	0
+	+	1074	31
+	+	1073	0
+	+	1078	18
+	+	1114	0
+	+	1081	0
+	+	1103	0
+	+	1089	0
+	+	1104	0
+	+	1090	0
+	+	1089	25
+	+	1112	0
+	+	1104	1
+	+	1107	22
+	+	1108	22
+	+	1110	0
+	+	1106	0
+	+	1113	0
+	+	1107	0
+	+	1106	25
+	+	1111	0
+	+	7	0
+
+> ~/wechat-h5/ww.png
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/wechat-h5/ww.jpg
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/wechat-h5/ww.
+	"	1	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Weixin.php
+	"	106	3
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Weixi
+	"	1	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Mx.php
+	"	323	1
+
+> ~/wechat-h5/ui/1-1-1-ysxq.html
+	"	1	0
+	.	20	0
+	+	18	0
+	+	14	0
+	+	72	0
+	+	67	168
+	+	70	0
+	+	18	0
+	+	1	0
+	+	20	0
+
+> ~/.vim/indent/php.vim
+	"	2	11
+	^	37	25
+	.	37	0
+	+	1	27
+	+	1	36
+	+	1	36
+	+	1	31
+	+	1	39
+	+	1	48
+	+	1	36
+	+	1	84
+	+	1	75
+	+	1	64
+	+	1	79
+	+	37	0
+
+> ~/wechat-h5/ui/1-1-3-1-yygh2.html
+	"	123	0
+
+> ~/wechat-h5/app_huimeibest/views/welcome_message.php
+	"	89	0
+	^	73	5
+	.	74	0
+	+	6	0
+	+	74	0
+	+	73	7
+	+	74	0
+
+> ~/wechat-h5/app_huimeibest/views/index.html
+	"	4	0
+	.	4	0
+	+	4	0
+
+> /soone/game/miner/src/Miner.js
+	"	18	0
+
+> /soone/game/miner/src/start.js
+	"	1	0
+
+> /soone/game/人工智能/第一组/代码/index.html
+	"	1	0
+
+> /soone/game/miner/src/resource.js
+	"	1	0
+
+> /soone/game/人工智能/第一组/代码/src/Miner2/app2.js
+	"	3	4
+
+> /soone/game/人工智能/第一组/代码/src/Miner2/Miner2.js
+	"	1	0
+	.	120	0
+	+	120	0
+
+> /soone/game/人工智能/第一组/代码/src/app3.js
+	"	1	0
+	.	11	0
+	+	12	0
+	+	11	0
+
+> /soone/game/人工智能/第一组/代码/src/GameConfig.js
+	"	3	30
+
+> /soone/game/人工智能/第一组/代码/src/Miner.js
+	"	12	4
+
+> /soone/game/人工智能/第一组/代码/main.js
+	"	64	40
+
+> /soone/game/人工智能/第一组/代码/project.json
+	"	15	8
+
+> /soone/game/miner/src/app.js
+	"	1	0
+	^	3	4
+	.	3	4
+	+	35	8
+	+	38	28
+	+	2	8
+	+	3	4
+
+> /soone/game/人工智能/第一组/代码/src/Troll.js
+	"	1	0
+
+> /soone/game/人工智能/第一组/代码/src/resource.js
+	"	1	0
+
+> /soone/game/人工智能/第一组/代码/src/app.js
+	"	154	0
+
+> /soone/game/miner/main.js
+	"	55	3
+	^	56	38
+	.	56	37
+	+	56	37
+
+> /soone/game/miner/index.html
+	"	5	32
+	^	5	33
+	.	5	32
+	+	6	20
+	+	5	32
+
+> ~/program/comment/UI/templets/other/comment.html
+	"	1	12
+
+> ~/program/comment/UI/js/script_common.js
+	"	11	4
+
+> ~/program/comment/UI/js/XTools.js
+	"	16	1
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/Order.php
+	"	2202	40
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/helpers/common_helper.php
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/program/manage/ui/scripts/common.js
+	"	68	0
+
+> ~/.bash_history
+	"	3397	0
+
+> ~/program/manage/.gitignore
+	"	1	0
+
+> ~/program/manage/.git/config
+	"	1	0
+
+> ~/program/manage/modules/helps.php
+	"	59	0
+
+> ~/program/manage/common.php
+	"	45	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/coupon_notify_url.php
+	"	1	4
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/orderPay.php
+	"	28	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/WxPayPubHelper/WxPay.pub.config.php
+	"	40	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/php/jsapi_ticket.json
+	"	1	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/php/access_token.json
+	"	1	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/helpPay.php
+	"	58	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/controllers/ok.php
+	"	1	0
+
+> ~/program/huodong/CodeIgniter/CodeIgniter/application/pay/orderInfos.php
+	"	394	3
+
+> /soone/wxpay/wxpay/WebPay/pay.php
+	"	1	0

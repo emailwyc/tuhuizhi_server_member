@@ -1,0 +1,37 @@
+@import "../user/public";
+
+.imglogo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.layoutbox {
+  padding: 15px;
+}
+
+.radiobox {
+  label {
+    padding-right: 10px;
+  }
+}
+
+.table {
+  a.briefing {
+    width: 200px;
+    line-height: 20px;
+    max-height: 60px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  tr {
+    td {
+      vertical-align: middle;
+    }
+  }
+}

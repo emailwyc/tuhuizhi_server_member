@@ -1,0 +1,49 @@
+<!-- 联系我们 -->
+<div class="container-fluid">
+  {{>parkingSideb}}
+
+  <div class="main parking_box">
+    <div class="list_box">
+      <div class="item no_click is_wechat clearfix">
+        <span>微信支付</span>
+        <a href="javascript:;" class="fr">已开启</a>
+      </div>
+    </div>
+    <div class="list_box">
+      <div class="item can_click is_score clearfix">
+        <span>积分支付</span>
+        <a href="javascript:;" class="fr btnn"></a>
+      </div>
+      <div class="exchange-box">
+        <label>1 元 = <input type="number" id="score_inp" class="form-control" value="100" placeholder="请输入积分数"> 积分</label>
+      </div>
+    </div>
+    <div class="list_box">
+      <div class="item can_click is_freetime clearfix">
+        <span>会员特权减免</span>
+        <a href="javascript:;" class="fr btnn"></a>
+      </div>
+      <div class="user_power_box active">
+        <ul class="power_list">
+          <!-- <li class="power_item">
+            <label>
+              特权条件：<select name="" id="" disabled><option value="0">请选择</option></select>
+            </label>
+            <label>
+              ，减免 <input type="num" placeholder="粒度0.5" readonly /> 小时
+            </label>
+            <a href="javascript:;" class="fr delete_btn">删除</a>
+          </li> -->
+        </ul>
+        <div class="btnn add_btn">+ 添加阶梯条件</div>
+      </div>
+    </div>
+    <div class="list_box">
+      <div class="item can_click is_reft clearfix">
+        <span>购物小票减免</span>
+        <a href="javascript:;" class="fr btnn"></a>
+      </div>
+    </div>
+    <div class="btnn sure_btn active">确认</div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+@import '../pages/reset';
+@import url('//at.alicdn.com/t/font_rdg7ear7fl9jm7vi.css');
+
+$colorff8a00: #ff8a00;
+$grayf1f1f1: #f1f1f1;
+$color666: #666;
+$graybcbcbc: #bcbcbc;
+
+.iconfont {
+  color: $colorff8a00;
+  font-size: rem(60px);
+  vertical-align: middle;
+}
+
+.add {
+  background-color: $grayf1f1f1;
+  border-bottom: 1px solid $graybcbcbc;
+  border-top: 1px solid $graybcbcbc;
+  color: $color666;
+  font-size: rem(40px);
+  line-height: rem(42px);
+  padding: rem(26px) rem(60px) rem(30px);
+  text-align: right;
+
+  input {
+    background-color: transparent;
+    margin: 0 rem(10px);
+    text-align: center;
+    vertical-align: middle;
+    width: rem(100px);
+  }
+
+
+}

@@ -1,0 +1,212 @@
+@import "../user/public";
+
+
+.set{
+  padding: 0 0 10px 20px;
+
+  input{
+    margin-left: 10px;
+    height: 30px;
+  }
+  .setTitle{
+    width: 40%;
+    float: left;
+
+    input{
+      width: 320px;
+    }
+  }
+  .setStarTime{
+    width: 26%;
+    float: left;
+
+    input{
+      width: 150px;
+    }
+  }
+  .setEndTime{
+    // margin-top: 23px;
+    float: left;
+
+    input{
+      width: 150px;
+    }
+  }
+  .uploadbox{
+    width: 100%;
+    height: 100px;
+    float: left;
+    a{
+      float: left;
+      margin: 20px 20px 0 0;
+    }
+    img{
+      width: 70px;
+      height: 70px;
+      float: left;
+      margin-top: 5px;
+    }
+  }
+}
+.contentbox{
+  // overflow: hidden;
+  // margin-left: 0;
+  margin-top:100px;
+  .setContent{
+    margin-left: -20px;
+    width: 1040px;
+    padding: 20px 20px 20px 40px;
+    background-color: #f9f9f9;
+    position: relative;
+
+    .titleName{
+        input{
+          margin-left: 10px;
+          width: 320px;
+        }
+        img{
+          width: 26px;
+          height: 26px;
+          float: right;
+          margin-top: -5px;
+          margin-right: 20px;
+        }
+
+        img.deltitle{
+          width: 26px;
+          height: 26px;
+          float: right;
+          margin-top: -5px;
+          margin-right: 20px;
+          background: url("../../img/survey/del.png") no-repeat;
+        }
+    }
+    .type{
+      margin-top: 20px;
+      select{
+        width: 195px;
+        height: 30px;
+        margin-left: 10px;
+        padding-left: 40px;
+      }
+    }
+    .selection{
+      margin-top: 20px;
+
+      li{
+        width: 400px;
+        height: 44px;
+        margin-left: 45px;
+        margin-top: 15px;
+
+        input{
+          padding-left:30px;
+          width: 375px;
+          height: 42px;
+        }
+        img{
+          width: 23px;
+          height: 28px;
+          float: right;
+          margin-top: 5px;
+        }
+      }
+    }
+    .text{
+      // position: absolute;
+      // left:85px;
+      // top: 130px;
+
+      textarea{
+        width: 375px;
+        height: 160px;
+        padding: 20px 0 0 30px;
+        display: none;
+      }
+    }
+    .addselection{
+      width: 115px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      border: 1px dashed #ccc;
+      background-color: white;
+      margin-left: 44px;
+      cursor: pointer;
+    }
+  }
+  .other{
+    margin-top: 20px;
+  }
+}
+.issure{
+  margin-left: -20px;
+  margin-top: 10px;
+  padding-bottom: 200px;
+  margin-left: 380px;
+  text-align:center;
+
+  .butstyle{
+    width: 138px;
+    height:40px;
+    float: left;
+    margin-right: 80px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+  }
+  .submit{
+    background-color: gray;
+  }
+  .cancel:hover{
+      background-color: gray;
+  }
+}
+
+.delselection {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+
+.inputbox {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.awardbox {
+  padding-bottom: 20px;
+
+  .awardtitle span{
+    display: inline-block;
+    color: #ccc;
+    font-size: 14px;
+  }
+  .typeOne, .typeTwo, .typeThree{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .typeOne label, .typeTwo label, .typeThree label, .typeNone label{
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    margin-bottom: 0;
+  }
+  .typeNone label{
+    width: 200px;
+  }
+}
+
+.group-select {
+  padding-bottom: 20px;
+
+  select {
+    width: 68%;
+    display: inline-block;
+  }
+}

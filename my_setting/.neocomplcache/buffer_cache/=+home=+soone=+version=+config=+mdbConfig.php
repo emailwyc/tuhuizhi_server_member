@@ -1,0 +1,1 @@
+['mdbConfig', 'package', 'array', 'host', 'user', 'game', 'pass', 'dbName', 'glogs', 'root', 'db_wuxia_data_dev', '$cache', 'tempCacheType', 'memcache', 'tempCache', 'port', '$CURSV', 'isset', '$_SESSION', 'CurGameSv', 'else', 'curchnel']

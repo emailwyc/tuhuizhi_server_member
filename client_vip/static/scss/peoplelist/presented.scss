@@ -1,0 +1,36 @@
+@import "../user/public";
+
+.presentbox{
+   .preswitch{
+     margin: 0  auto 10px;
+   }
+   label{
+     margin-right: 30px;
+   }
+   .otherlabel{
+     margin-right: 0;
+   }
+   .jifenbox{
+     margin: 10px 0;
+
+     input{
+       width: 185px;
+       height: 30px;
+       box-sizing: border-box;
+       padding-left: 5px;
+       font-size: 14px;
+       border: 1px solid #aaa;
+       border-radius: 5px;
+     }
+   }
+   .sure{
+     margin: 0 0;
+     text-align: center;
+     color: white;
+     cursor: pointer;
+     width: 80px;
+     padding: 5px 0;
+     background-color: blue;
+     border-radius: 5px;
+   }
+}

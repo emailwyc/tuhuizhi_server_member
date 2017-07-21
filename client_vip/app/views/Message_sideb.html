@@ -1,0 +1,16 @@
+<div class="sidebar">
+  <ul class="nav nav-pills nav-stacked">
+    <li class="nav-item">
+      <a class="nav-link {{#isMsgList}}act{{/isMsgList}}"  href="/Message/list">事件消息列表</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {{#isAddMsg}} act{{/isAddMsg}}"  href="/Message/addMsg">添加事件消息</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {{#isTemplateMsgList}}act{{/isTemplateMsgList}}" href="/Message/templateMsgList">模版消息列表</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {{#isAddTemplateMsg}}act{{/isAddTemplateMsg}}" href="/Message/addTemplateMsg">添加模版消息</a>
+    </li>
+  </ul>
+</div>

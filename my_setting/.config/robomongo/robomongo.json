@@ -1,0 +1,85 @@
+{
+ "autoExpand" : false,
+ "batchSize" : 50,
+ "connections" : [
+  {
+   "connectionName" : "MyMongo",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "localhost",
+   "serverPort" : 27017,
+   "sshAuthMethod" : 0,
+   "sshHost" : "",
+   "sshPassphrase" : "",
+   "sshPort" : 22,
+   "sshPrivateKey" : "",
+   "sshPublicKey" : "",
+   "sshUserName" : "",
+   "sshUserPassword" : "",
+   "sslEnabled" : false,
+   "sslPemKeyFile" : ""
+  },
+  {
+   "connectionName" : "test",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "hm-dev",
+     "userPassword" : "ea000eceb0fe38c5aacecfef557303cc"
+    }
+   ],
+   "defaultDatabase" : "backend_dev",
+   "serverHost" : "123.57.24.63",
+   "serverPort" : 27017,
+   "sshAuthMethod" : 0,
+   "sshHost" : "",
+   "sshPassphrase" : "",
+   "sshPort" : 22,
+   "sshPrivateKey" : "",
+   "sshPublicKey" : "",
+   "sshUserName" : "",
+   "sshUserPassword" : "",
+   "sslEnabled" : false,
+   "sslPemKeyFile" : ""
+  },
+  {
+   "connectionName" : "mongo",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "10.172.241.100",
+   "serverPort" : 27017,
+   "sshAuthMethod" : 1,
+   "sshHost" : "182.92.114.44",
+   "sshPassphrase" : "",
+   "sshPort" : 22,
+   "sshPrivateKey" : "",
+   "sshPublicKey" : "",
+   "sshUserName" : "root",
+   "sshUserPassword" : "Huimei123456",
+   "sslEnabled" : false,
+   "sslPemKeyFile" : ""
+  }
+ ],
+ "disableConnectionShortcuts" : false,
+ "loadMongoRcJs" : false,
+ "style" : "Native",
+ "timeZone" : 0,
+ "uuidEncoding" : 0,
+ "version" : "1.0",
+ "viewMode" : 0
+}

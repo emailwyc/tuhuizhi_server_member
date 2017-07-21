@@ -1,0 +1,26 @@
+@import '../pages/reset';
+
+$white: #fff;
+$gray666: #666;
+$graye0e0e0: #e0e0e0;
+$dedede: #dedede;
+
+.tap-box {
+  background-color: $graye0e0e0;
+  border-bottom: 1px solid $dedede;
+  color: $gray666;
+  display: -webkit-box;
+  display: box;
+  height: rem(90px);
+  line-height: rem(90px);
+  text-align: center;
+
+  li {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+
+    &.active {
+      background-color: $white;
+    }
+  }
+}

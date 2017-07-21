@@ -1,0 +1,50 @@
+@import "../user/public";
+
+$grayc: #ccc;
+$white: #fff;
+$red: red;
+
+.setBox {
+  padding-top: 20px;
+
+  .linkbox {
+    position: relative;
+    width: 500px;
+
+    .boxber {
+      border: 1px solid $grayc;
+      padding: 20px;
+      margin: 20px;
+      overflow: hidden;
+    }
+
+    .boxtit {
+      width: 250px;
+      position: absolute;
+      // top: 10px;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background: $white;
+      font-weight: bold;
+    }
+  }
+
+  .settime {
+    padding: 10px;
+
+    .red {
+      color: $red;
+      vertical-align: middle;
+    }
+  }
+
+  .inp {
+    width: 100px;
+  }
+}
+
+.btnbox {
+  text-align: center;
+}

@@ -1,0 +1,103 @@
+
+<div class="container-fluid">
+{{>surveySide}}
+  <div class="main">
+    <div class="set">
+      <div class="inputbox">
+        <div class="setTitle">
+          <lable>标题</leble>
+          <input type="text" name="" value="" id="paperTitle">
+        </div>
+        <div class="setStarTime">
+          <lable>开始时间</leble>
+          <input type="Date" name="" value="" id="startTime">
+        </div>
+        <div class="setEndTime">
+          <lable>结束时间</leble>
+          <input type="Date" name="" value="" id="endTime">
+        </div>
+      </div>
+      <div class="group-select">
+        <span>选择分组：</span>
+        <select class="form-control group-box">
+        </select>
+      </div>
+      <div class="awardbox">
+        <p class="awardtitle">问卷有礼<span>(从以下选项中选择问卷调查奖励方式)</span></p>
+        <p class="typeNone">
+          <label><input type="radio" name="awardType" value="4" checked><span>我不参与问卷有礼</span></label>
+        </p>
+        <p class="typeOne">
+          <label><input type="radio" name="awardType" value="1"><span>抽奖</span></label>
+          <input type="text" class="link" style="width: 80%;" name="inputValue" value="" placeholder="问卷结束后跳转地址">
+        </p>
+        <p class="typeTwo">
+          <label><input type="radio" name="awardType" value="3"><span>赠送积分</span></label>
+          <input type="number" class="integralNum" style="width: 20%;margin-right:10px;" name="inputValue" value="" placeholder="输入赠送积分数量">积分
+        </p>
+        <p class="typeThree">
+          <label><input type="radio" name="awardType" value="2"><span>活动ID</span></label>
+          <input type="text" class="activityID" style="width: 80%;" name="inputValue" value="" placeholder="输入营销平台活动ID">
+        </p>
+      </div>
+      <div class="uploadbox">
+        <div id="container">
+          <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>选择图片</span>
+          </a>
+        </div>
+        <img src="" id="image" />
+      </div>
+
+    </div>
+    <div class="contentbox" id="contentbox">
+      <div class="setContent" id="setbox1">
+        <div class="titleName">
+          <label for="">题目</label>
+          <input type="text" name="" value="">
+          <img src="https://img.rtmap.com/addtimu.png" alt="添加题目" title="添加题目" id="addtitle">
+          <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTNEOEI5MkNDNjYzMTFFNjlDRjBCMzYzNjUwODgwNDQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTNEOEI5MkRDNjYzMTFFNjlDRjBCMzYzNjUwODgwNDQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBM0Q4QjkyQUM2NjMxMUU2OUNGMEIzNjM2NTA4ODA0NCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBM0Q4QjkyQkM2NjMxMUU2OUNGMEIzNjM2NTA4ODA0NCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PiR8gzkAAAELSURBVHjaYvz//z/DYAKMw85BJSUlHECqFYj5gbgUiN+Tor+npweFz0IFTyUAcRGU/ROIsykxjIkKDhJFYitQahg1HPQdif1lMDiIqmDUQaMOGnXQqIOGg4OeIbE/ULW2B9bcKUBKBIj/EKkfpNkBiH2g/ItAvBhkLpH6WaDVzSJgrf8JpbYHOmYSkMql0IP6UEwqcANiP/QokxzApCODrT0Eiq6HQKwCbdcQA/4CsRZSqDwG4qMkpE12IH4OxP3UbDEmAql5UC6ITqakxUiNXCaExOYeDNmeEQd7tGAcddCog0YdNGIdxIbE5hwMDvpFza40NUY/FgKxKRDzAnE9VVuMgwEMOgcBBBgA0Ko9QB5vKGUAAAAASUVORK5CYII=" alt="添加题目" title="添加题目" id="addtitle"> -->
+        </div>
+        <div class="type">
+          <label for="">类型</label>
+            <select class="select" name="" id="select1">
+              <option value="0"><a href="#">单选</a></option>
+              <option value="1"><a href="#">多选</a></option>
+              <option value="2"><a href="#">问答</a></option>
+            </select>
+        </div>
+        <ul class="selection" id="selectbox1">
+          <li>
+            <input type="text" name="" value="" placeholder="选项">
+            <span class="delselection"><img src="https://img.rtmap.com/webwxgetmsgimg.png" title="删除选项" alt="删除"></span>
+          </li>
+          <li>
+            <input type="text" name="" value="" placeholder="选项">
+            <!-- <span class="delselection">X</span> -->
+            <span class="delselection"><img src="https://img.rtmap.com/webwxgetmsgimg.png" title="删除选项" alt="删除"></span>
+            <!-- <span class="delselection"><img src="data:image/png;base64,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" title="删除选项" alt="删除"></span> -->
+          </li>
+          <li>
+            <input type="text" name="" value="" placeholder="选项">
+            <!-- <span class="delselection">X</span> -->
+            <span class="delselection"><img src="https://img.rtmap.com/webwxgetmsgimg.png" title="删除选项" alt="删除"></span>
+            <!-- <span class="delselection"><img src="data:image/png;base64,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" title="删除选项" alt="删除"></span> -->
+          </li>
+        </ul>
+        <div class="text" >
+          <textarea name="name" rows="8" cols="80" disabled="disabled" placeholder="问答" id="text1"></textarea>
+        </div>
+        <div class="addselection" id="1">新建选项</div>
+      </div>
+    </div>
+    <div class="issure">
+      <a href="javascript:;" class="submit butstyle" id="submit">提交</a>
+      <a href="/survey/survey" class="cancel butstyle" id="cancel">取消</a>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>
+
+<script>var conf={paperId:'{{id}}'};</script>

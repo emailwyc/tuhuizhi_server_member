@@ -1,0 +1,1 @@
+['include', 'file', 'header', '客户端错误日志', 'nbsp', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', '错误信息', '错误次数', '创建时间', '更新时间', 'list', 'foreach', 'from', 'item', 'title', 'err_info', 'truncate', 'true', 'err_cnt', 'create_time', 'update_time', 'colspan', 'pageHtml', 'font', 'style', 'color', '总计', 'total', 'footer']

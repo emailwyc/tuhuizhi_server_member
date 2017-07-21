@@ -1,0 +1,113 @@
+<!-- 会员卡样 -->
+<div class="container-fluid">
+  {{>memberSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <a href="/member/cardedit"  class="btn btn-primary btn-right">添加</a>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>卡类型编号</th>
+          <th>卡类型名称</th>
+          <th>排序</th>
+          <th>是否线上注册</th>
+          <th>会员卡图片</th>
+          <th>当前服务号卡类型</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <th scope="row">08</th>
+          <td>普通卡</td>
+          <td><img src="data:image/png;base64,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" /></td>
+          <td><a href="#">删除</a></td>
+        </tr> -->
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="exampleModalLabel">上传图片</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <p>提示：未登录状态，默认编码请输入default</p>
+          <div class="form-group">
+            <label for="recipient-name" class="form-control-label">会员卡编码</label>
+            <input type="text" class="form-control cardnumber carcode">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="form-control-label">会员卡级别名称</label>
+            <input type="text" class="form-control cardname cardlevel">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="form-control-label">排序：</label>
+            <input type="text" class="form-control cardname sort">
+          </div>
+          <div class="form-check register">
+            <label for="">是否线上注册：</label>
+            <label class="form-check-inline">
+              <input class="form-check-input" type="radio" name="register" checked="checked" value="1"> 是
+            </label>
+            <label class="form-check-inline">
+              <input class="form-check-input" type="radio" name="register" value="0"> 否
+            </label>
+          </div>
+          <div class="form-check default">
+            <label for="">当前服务号卡类型：</label>
+            <label class="form-check-inline">
+              <input class="form-check-input" type="radio" name="default" checked="checked" value="1"> 是
+            </label>
+            <label class="form-check-inline">
+              <input class="form-check-input" type="radio" name="default" value="0"> 否
+            </label>
+          </div>
+          <div class="">会员卡图片：（建议上传JPG格式的750*400图片）</div>
+          <img src="" id="image" />
+          <div id="container">
+            <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+              <i class="glyphicon glyphicon-plus"></i>
+              <span>选择上传文件</span>
+            </a>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-block btnform">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">删除</h4>
+      </div>
+      <div class="modal-body">
+        <div style=""></div>
+        确定要删除吗？
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary delOk">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

@@ -1,0 +1,38 @@
+<div class="container-fluid">
+{{>userSideb}}
+<div class="presentbox">
+  <div class="firstbox">
+    <p class="preswitch">首次赠送积分：</p>
+    <label for=""><input type="radio" name="first" value="1" class="opend">开启</label>
+    <label for=""><input type="radio" name="first" value="0" class="closeinput" checked="checked">关闭</label>
+    <div class="jifenbox">
+      <label for="" class="otherlabel">赠送积分：</label><input type="text" name="switch" value="" placeholder="请输入要赠送的积分数" class="preinput" />
+    </div>
+  </div>
+  <hr />
+
+  <div class="birthdaybox">
+    <p class="birthday">生日赠送积分：</p>
+    <label for=""><input type="radio" name="birthdayoff" value="1" class="opend">开启</label>
+    <label for=""><input type="radio" name="birthdayoff" value="0" checked="checked" class="closeinput">关闭</label>
+    <div class="jifenbox">
+      <label for="" class="otherlabel">赠送积分倍数：</label><input type="text" name="switch" value=""  placeholder="请输入要赠送的积分" class="birthdayscorenum" />
+    </div>
+  </div>
+  <hr />
+  <div class="timebox">
+    <p class="timetotime">时间段赠送积分：</p>
+    <label for=""><input type="radio" name="temi" value="1" class="opend">开启</label>
+    <label for=""><input type="radio" name="temi" value="0" class="closeinput" checked="checked">关闭</label>
+    <div class="jifenbox">
+      <label for="" class="otherlabel">赠送积分日期：</label><input type="date" value="" placeholder="请输入日期" class="starttime" />
+      ～ <input type="date" value="" placeholder="请输入日期" class="endtime" />
+    </div>
+    <div class="jifenbox">
+      <label for="" class="otherlabel">赠送积分倍数：</label><input type="text" name="switch" value="" placeholder="请输入要赠送的积分" class="timenum" />
+    </div>
+  </div>
+  <div class="msg"></div>
+  <p class="sure">确定</p>
+</div>
+</div>

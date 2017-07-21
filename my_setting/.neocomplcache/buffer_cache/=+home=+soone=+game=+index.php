@@ -1,0 +1,1 @@
+['index', 'require', 'dirname', '__FILE__', 'common', 'isset', '$_SESSION', 'auser', 'aprs', 'template', 'array', 'display', '$assign', 'exit', '$acs', 'empty', '$_GET', 'in_array', 'trim', 'switch', 'case', '$msg', 'admingm', 'login', 'break']

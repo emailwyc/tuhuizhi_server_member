@@ -1,0 +1,91 @@
+<div class="container-fluid">
+    {{>bannerManageSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <div id="container">
+      <div class="header">
+        <div class="title">
+          <h3>添加广告</h3>
+        </div>
+        <div class="wrapper">
+        </div>
+      </div>
+      <form>
+        <div class="form-group row">
+          <label class="col-sm-2 form-control-label">建筑物名称：</label>
+          <div class="form-inline col-sm-10">
+            <input type="checkbox" class="form-control build">
+            <label class="col-form-label">建筑物1</label>
+            <input type="checkbox" class="form-control build">
+            <label class="col-form-label">建筑物2</label>
+            <input type="checkbox" class="form-control build">
+            <label class="col-form-label">建筑物3</label>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputColumn" class="col-sm-2 form-control-label">功能栏目：</label>
+          <div class="col-sm-5">
+            <select class="form-control class-box column" id="inputColumn"></select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputName" class="col-sm-2 form-control-label">广告名称：</label>
+          <div class="col-sm-5">
+            <input type="text" class="form-control name" id="inputName" placeholder="请输入广告名称">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPlace" class="col-sm-2 form-control-label">广告位置：</label>
+          <div class="col-sm-5">
+            <select class="form-control class-box Place" id="inputPlace"></select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputSort" class="col-sm-2 form-control-label">广告排序：</label>
+          <div class="col-sm-5">
+            <input type="num" class="form-control sort" id="inputSort">
+          </div>
+        </div>
+      </form>
+      <div class="form-group row">
+        <div class="col-sm-2 banner-tit">广告图片：</div>
+        <div class="col-sm-10">
+          <img src="" id="image" border="0" class="picurl"/>
+          <a href="javascript:;" class="addBtn btn btn-secondary" role="button" id="pickfiles" >
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>点击浏览</span>
+          </a>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputTime" class="col-sm-2 form-control-label">广告日期：</label>
+        <div class="col-sm-5 form-inline">
+          <input type="date" class="form-control reg-time" style="line-height:1"/>
+          <span>~</span>
+          <input type="date" class="form-control end-time" style="line-height:1"/>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputUrl" class="col-sm-2 col-form-label">跳转地址：</label>
+        <div class="col-sm-5">
+          <input type="email" class="form-control url" id="inputUrl" placeholder="请输入点击后跳转页面链接">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">内容描述：</label>
+        <div class="col-sm-5">
+          <script type="text/plain" id="myEditor" style="width:800px;height:240px;"></script>
+        </div>
+      </div>
+      <div class="msg"></div>
+      <div class="form-group row">
+        <div class="col-sm-10 col-sm-offset-2">
+          <button type="button" class="subBtn btn btn-secondary">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'}</script>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

@@ -1,0 +1,28 @@
+@import "../user/public";
+$c9: #999;
+
+.tit {
+  height: 60px;
+}
+
+.attention-box {
+  color: $c9;
+}
+
+.subBtn {
+  button {
+    margin: 16px auto;
+    width: 120px;
+  }
+}
+
+#image {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+  border: 0;
+}
+
+.star-class {
+  display: none;
+}

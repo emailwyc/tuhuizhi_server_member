@@ -1,0 +1,1 @@
+['mgdbConfig', '$mongodb', 'game', 'array', 'name', 'mongo', 'host', 'user', 'pass', 'dbname', 'logdbname', 'glog', 'port', 'cache', 'status', '$dbmongo', 'login', 'manage', 'root', 'manage_stat', 'test', 'output', 'manage_cdk', 'data', 'stat_hash', 'stat_device', 'stat_acc', 'operate_log', 'user_log', 'account_device']

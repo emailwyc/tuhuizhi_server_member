@@ -1,0 +1,19 @@
+{
+  "name": "activityapp",
+  "version": "0.0.0",
+  "resource": {
+    "static": "62226beddc545fe14027",
+    "api": "",
+    "mode": "dist"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "json2csv": "^3.7.0",
+    "koa-feather": "^0.0.22",
+    "koa-static": "^2.0.0",
+    "mongoose": "^4.6.5"
+  }
+}

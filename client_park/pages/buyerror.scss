@@ -1,0 +1,96 @@
+@import '../pages/reset';
+@import url('//at.alicdn.com/t/font_kf06oim657gy14i.css');
+
+$orange: #ff8a00;
+$white: #fff;
+$bg: #f1f0f0;
+$gray9: #999;
+$grayc: #cacaca;
+$green: #08bb1f;
+$red: #ff4d4b;
+
+body {
+  background: $bg;
+}
+
+.wrap {
+  background: $bg;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.wrapbg {
+  background: $bg;
+  height: 100%;
+}
+
+.terms-tit {
+  background: $red;
+  color: $white;
+  font-size: rem(40px);
+  height: rem(280px);
+  line-height: rem(280px);
+  text-align: center;
+  vertical-align: sub;
+
+  span {
+    display: inline-block;
+    line-height: rem(250px);
+    padding-left: rem(20px);
+  }
+}
+
+.iconlist {
+  float: left;
+  height: rem(110px);
+  text-align: center;
+  width: rem(110px);
+}
+
+.iconfont {
+  font-size: rem(100px);
+  vertical-align: middle;
+}
+
+.attention {
+  background: $white;
+  color: $gray9;
+  padding: rem(50px) rem(30px);
+
+  h3 {
+    font-size: rem(32px);
+    line-height: rem(60px);
+  }
+}
+
+.look-box {
+  p {
+    font-size: rem(28px);
+    line-height: rem(60px);
+  }
+}
+
+.buybtn {
+  bottom: 0;
+  height: rem(120px);
+  position: fixed;
+  width: 100%;
+
+  button {
+    border: 0;
+    outline: none;
+  }
+
+  .btn {
+    background: $grayc;
+    color: $white;
+    font-size: rem(28px);
+    height: rem(120px);
+    line-height: rem(120px);
+    width: 100%;
+  }
+}

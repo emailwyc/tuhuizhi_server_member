@@ -1,0 +1,37 @@
+@import "../user/public";
+
+$grayc: #ccc;
+
+.search {
+  margin-bottom: 10px;
+
+  .state,
+  .starttime,
+  .endtime,
+  .donation,
+  .receive,
+  .score,
+  .searchBtn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  input {
+    border: 1px solid $grayc;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
+
+.pager {
+  position: relative;
+
+  .exportBtn {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

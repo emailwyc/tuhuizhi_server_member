@@ -1,0 +1,38 @@
+@import '../pages/reset';
+
+$bgcolor1: #fff;
+$bgcolor3: #09bb08;
+$colorc7c7c7: #c7c7c7;
+
+.footer {
+  bottom: 0;
+  display: -webkit-box;
+  display: box;
+  font-size: rem(32px);
+  font-weight: bold;
+  height: rem(120px);
+  left: 0;
+  line-height: rem(120px);
+  // padding: rem(50px) rem(15px);
+  position: fixed;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  width: 100%;
+
+  .butn {
+    background-color: $bgcolor3;
+    // border-radius: rem(10px);
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    color: $bgcolor1;
+    font-weight: bold;
+    // height: rem(80px);
+    // line-height: rem(80px);
+    // margin: 0 rem(15px);
+    text-align: center;
+
+    &.butn2 {
+      background-color: $colorc7c7c7;
+    }
+  }
+}

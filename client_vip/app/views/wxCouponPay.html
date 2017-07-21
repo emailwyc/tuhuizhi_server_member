@@ -1,0 +1,87 @@
+<!-- 支付明细 -->
+<div class="container-fluid">
+  {{>wxCouponSideb}}
+  <div class="main">
+    <div class="header">
+      <h3>支付明细</h3>
+    </div>
+    <div class="searchWarp">
+      <label for=""><span>订单号：</span><input type="text" name="" value="" class="searchinput" placeholder="请输入订单编号"></label>
+      <label for=""><span>商户名称：</span><input type="text" name="" value="" class="shopname" placeholder="请输入商户名称"></label>
+      <label for=""><span>日期：</span><input type="date" name="" value="" class="startime"></label>
+      <label for=""><input type="date" name="" value="" class="endtime"></label>
+      <label for=""><button type="button" name="button" class="checkbtn">查询</button></label>
+    </div>
+    <div class="list">
+      <table border="1px solid #ccc">
+        <thead>
+          <tr>
+            <td>序号</td>
+            <td class="marketname">商场名称</td>
+            <td class="shopname">商户名称</td>
+            <td class="ordernum">订单号</td>
+            <td class="couponnum">优惠券号</td>
+            <td class="couponprice">券面额</td>
+            <td class="shouldpay">应付金额</td>
+            <td class="sureprice">实付金额</td>
+            <td class="payStatus">状态</td>
+            <td class="paytime">支付时间</td>
+          </tr>
+        </thead>
+      <tbody>
+        <!-- <tr>
+          <td>1</td>
+          <td>皇庭广场</td>
+          <td>智慧图科技</td>
+          <td></td>
+          <td>2017051613526598651</td>
+          <td>￥1000</td>
+          <td>￥500</td>
+          <td>2017-05-16 12:12:00</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>皇庭广场</td>
+          <td>智慧图科技</td>
+          <td>20170516123456789</td>
+          <td>2017051613526598651</td>
+          <td>￥1000</td>
+          <td>￥500</td>
+          <td>2017-05-16 12:12:00</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>皇庭广场</td>
+          <td>智慧图科技</td>
+          <td>20170516123456789</td>
+          <td>2017051613526598651</td>
+          <td>￥1000</td>
+          <td>￥500</td>
+          <td>2017-05-16 12:12:00</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>皇庭广场</td>
+          <td>智慧图科技</td>
+          <td>20170516123456789</td>
+          <td>2017051613526598651</td>
+          <td>￥1000</td>
+          <td>￥500</td>
+          <td>2017-05-16 12:12:00</td> -->
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    <p class="exportdataBtn"><a href="javascript:;">导出数据</a></p>
+    <div class="pages">
+          <ul>
+            <li class="totalli">总共<span class="totalpage">888</span>页</li>
+            <li class="prev">上一页</li>
+            <li>当前第<span class="currentpage">1</span>页</li>
+            <li class="next">下一页</li>
+            <li class="skippage">跳转到第<input type="number" name="" value="1" min="1" class="gopage">页</li>
+            <li class="sure">确定</li>
+          </ul>
+    </div>
+  </div>
+</div>

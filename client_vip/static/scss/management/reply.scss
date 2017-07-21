@@ -1,0 +1,14 @@
+@import "../user/public";
+
+.content {
+  width: 618px;
+  height: 150px;
+  border: 1px solid #ccc;
+}
+
+.textcontent {
+  display: inline-block;
+  // width: 300px;
+  max-height: 150px;
+  overflow-y:auto;
+}

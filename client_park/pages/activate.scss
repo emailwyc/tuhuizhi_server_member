@@ -1,0 +1,44 @@
+@import './reset';
+
+$green0bb721: #0bb721;
+$white: #fff;
+$graye0e0e0: #e0e0e0;
+$gray666: #666;
+$bgcolor1: #fff;
+$bgcolor2: #279df2;
+$bgcolor3: #09bb08;
+
+.activate-box {
+  font-size: rem(32px);
+
+  .activate-input {
+    padding: rem(40px) rem(40px) 0;
+
+    input {
+      border: 1px solid $graye0e0e0;
+      border-radius: rem(10px);
+      color: $gray666;
+      height: rem(80px);
+      padding: rem(24px) rem(38px);
+      vertical-align: top;
+      width: rem(410px);
+    }
+
+    .activate-btn {
+      background-color: $green0bb721;
+      border-radius: rem(8px);
+      color: $white;
+      display: inline-block;
+      height: rem(80px);
+      line-height: rem(80px);
+      margin-left: rem(70px);
+      text-align: center;
+      vertical-align: top;
+      width: rem(190px);
+    }
+  }
+
+  .footer {
+    position: absolute;
+  }
+}

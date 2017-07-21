@@ -1,0 +1,26 @@
+<!-- 会员卡样 -->
+<div class="container-fluid">
+  {{>surveySide}}
+  <div class="main">
+    <div class="tit">
+      <span>请输入标题：</span>
+      <input type="text" class="form-control title" id="recipient-name" style="width: 80%;display:inline-block;">
+    </div>
+    <div class="tit">
+      <span>请输入链接：</span>
+      <input type="text" class="form-control link" style="width: 80%;display:inline-block;">
+    </div>
+    <div class="imgbox">
+      <img src="" id="image" />
+      <div id="container">
+        <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+          <i class="glyphicon glyphicon-plus"></i>
+          <span>选择上传文件</span>
+        </a>
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary saveBtn"  data-toggle="modal" data-target="#gridSystemModal">提交</button>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

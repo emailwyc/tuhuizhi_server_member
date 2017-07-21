@@ -1,0 +1,55 @@
+<div class="container-fluid" id="container_fluid">
+  {{>evaluateSideb}}
+  <div class="main">
+    <h2 class="clearfix"><span>评价标签</span><a type="button" class="btn btn-primary fr" href="/evaluate/editlabel">添加标签</a></h2>
+    <div class="search-box">
+      <div class="search">
+        <span>类别查看：</span>
+        <select class="form-control class-box">
+        </select>
+      </div>
+      <div class="search">
+        <span>展示条件：</span>
+        <select class="form-control star-box">
+          <option value="0" class="star1">全部</option>
+          <option value="1" class="star2">3星及以下</option>
+          <option value="5" class="star3">4星及以上</option>
+        </select>
+      </div>
+    </div>
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>顺序</th>
+          <th>快捷评价词条</th>
+          <th>展示分类</th>
+          <th>展示条件</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+
+    </table>
+  </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">删除</h4>
+      </div>
+      <div class="modal-body">
+        <div style=""></div>
+        确定要删除吗？
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary delOk">确定</button>
+      </div>
+    </div>
+  </div>
+</div>

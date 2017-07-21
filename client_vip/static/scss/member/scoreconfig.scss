@@ -1,0 +1,62 @@
+@import "../user/public";
+
+.signstyle{
+  border-bottom: 1px solid #f5f5f5;
+
+  h3{
+    border-bottom: none;
+  }
+  label{
+    margin-right: 20px;
+  }
+}
+.tit{
+
+  h3{
+    border-bottom: none;
+  }
+}
+.isopen{
+
+  p{
+    margin-bottom: 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    label{
+      margin: 0 10px;
+
+      span{
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.signbefore, .signafter{
+  border: 1px solid #ccc;
+  width: 100px;
+  height: 100px;
+}
+.addbefore, .addafter{
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: 3px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.uploadbox{
+  .image{
+    display: inline-block;
+    min-width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+  }
+  a{
+    display: inline-block;
+    background: none;
+    padding: 2px 10px;
+    border-color: red;
+  }
+}

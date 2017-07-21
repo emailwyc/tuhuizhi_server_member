@@ -1,0 +1,121 @@
+<!-- 礼品管理 -->
+<div class="container-fluid">
+  {{>mallSideb}}
+  <!-- sidebar -->
+  <div class="main">
+    <div class="header">
+      <div class="title">
+        <h3>礼品管理</h3>
+      </div>
+      <div class="wrapper">
+        <label for="inputBuild">选择建筑物：</label>
+        <div class="col-sm-3">
+          <select class="form-control build" id="inputBuild"></select>
+        </div>
+
+        <label for="inputStatus">状态查看：</label>
+        <div class="col-sm-2">
+          <select class="form-control status" id="inputStatus"></select>
+        </div>
+
+        <label for="inputType">活动查看：</label>
+        <div class="col-sm-2">
+          <select class="form-control type" id="inputType"></select>
+        </div>
+      </div>
+    </div>
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>排序</th>
+          <th>分类</th>
+          <th>礼品图片</th>
+          <th>礼品标题</th>
+          <th>开始时间</th>
+          <th>结束时间</th>
+          <th>状态</th>
+          <th>总数</th>
+          <th>领取数</th>
+          <th>核销数</th>
+          <th>兑换值</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+         -->
+      </tbody>
+
+    </table>
+  </div>
+</div>
+<!-- 编辑 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">编辑</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <fieldset class="form-group">
+            <label for="formGroupExampleInput">卡卷</label>
+            <input type="text" class="form-control" placeholder="请输入内容" id="pid">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="formGroupExampleInput2">排序</label>
+            <input type="text" class="form-control" placeholder="请输入内容" id="des">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="formGroupExampleInput">主标题</label>
+            <input type="text" class="form-control prize_name" placeholder="请输入标题" id="prize_name">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="formGroupExampleInput2">分类</label>
+            <select class="form-control" id="exampleSelect1">
+              <!-- <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option> -->
+            </select>
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="formGroupExampleInput2">积分</label>
+            <input type="text" class="form-control" placeholder="请输入内容" id="integral">
+          </fieldset>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary save">保存</button>
+      </div>
+    </div>
+  </div>
+</div>

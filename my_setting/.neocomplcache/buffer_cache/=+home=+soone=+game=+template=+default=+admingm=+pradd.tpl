@@ -1,0 +1,1 @@
+['include', 'file', 'header', '权限资源添加', 'form', 'name', 'pradd', 'method', 'post', 'action', 'admingm', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', '资源名称', 'input', 'prname', 'type', 'text', '英文标识', 'prflag', 'button', 'value', '返回', 'onClick', 'history', '提交', 'submit', 'footer']

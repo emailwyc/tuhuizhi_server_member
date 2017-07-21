@@ -1,0 +1,139 @@
+@import "../user/public";
+.optionwarp{
+  width: 100%;
+  height: auto;
+  label{
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+.listwarp{
+  width: 100%;
+  height: auto;
+  table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+    thead{
+      background-color: #ccc;
+      tr{
+        height: 45px;
+      }
+      .title{
+        width: 30%;
+      }
+      .status{
+        width: 30%;
+      }
+      .options{
+        width: 30%;
+      }
+    }
+    tbody{
+      tr{
+        height: 35px;
+        border-bottom: 1px solid #ccc;
+      }
+    }
+  }
+}
+.setwarp{
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0,0,0, 0.01);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100000;
+}
+.setcont{
+  width: 500px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.cancelp{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 0;
+  cursor: pointer;
+  position: absolute;;
+  right: 0;
+  top: 0;
+  background: #999;
+  border-bottom-left-radius: 100%;
+  b {
+    display:inline-block;
+    width:19px;
+    height:2px;
+    background:white;
+    font-size:0;
+    line-height:0;
+    vertical-align:middle;
+    // float: right;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    // margin-right: -2px;
+    -webkit-transform: rotate(-45deg);
+  }
+  b:after {
+    content:'.';
+    display:block;
+    width:19px;
+    height:2px;
+    float: right;
+    background:white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: rotate(-90deg);
+  }
+}
+.conts{
+  width: 100%;
+  margin-top: 25px;
+  height: 375px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 5px 0 5px 10px;
+  span{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+  label{
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  input{
+    margin-left: 20px;
+    padding-left: 5px;
+  }
+  p{
+    text-align: center;
+    margin:20px 0;
+  }
+  .isswitch{
+    margin: 0;
+    text-align: left;
+  }
+  button{
+    margin: 0 10px;
+    outline: none;
+  }
+}
+.selections{
+  li{
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,30 @@
+{{>evaluateSideb}}
+<div class="container-fluid" id="container_fluid">
+  <div class="tit attention-box">
+    <span>注：“1-3星”最多展示6条；“4-5星"最多展示6条</span>
+  </div>
+  <div class="tit">
+    <span>编辑词条：</span>
+    <input type="text" class="form-control title" id="class-name" style="width: 80%;display:inline-block;">
+  </div>
+  <div class="tit">
+    <span>展示条件：</span>
+    <select class="form-control select-box">
+      <option value="5" class="star5">4星及以上</option>
+      <option value="1" class="star1">3星及以下</option>
+    </select>
+  </div>
+  <div class="tit">
+    <span>输入顺序：</span>
+    <input type="text" class="form-control title" id="order" style="width: 80%;display:inline-block;">
+  </div>
+  <div class="tit">
+    <span>展示分类：</span>
+    <span class="checkbox-select"></span>
+  </div>
+  <!-- sidebar -->
+  <div class="subBtn">
+    <button type="button" id="dw_submit" class="btn btn-primary">提交</button>
+  </div>
+</div>
+<script>var conf={id:'{{id}}'};</script>

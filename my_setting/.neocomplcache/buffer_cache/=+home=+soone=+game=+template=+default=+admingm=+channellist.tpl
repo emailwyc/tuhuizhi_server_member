@@ -1,0 +1,1 @@
+['include', 'file', 'header', '游戏渠道列表', 'nbsp', 'href', 'admingm', 'chnadd', '添加', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', 'colspan', '总数', 'font', 'style', 'color', 'total', '渠道ID', '渠道名称', '渠道标识', '状态', '添加时间', '操作', 'list', 'foreach', 'from', 'item', 'name', 'flag', 'status', '可用', 'elseif', '不可用', 'createdate', 'chnedit', '编辑', 'pageHtml', 'footer']

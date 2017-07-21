@@ -1,0 +1,43 @@
+<div class="container-fluid" id="container_fluid">
+  {{>parkingSideb}}
+  <div class="main">
+    <h2 class="clearfix"><span>功能列表数据</span><a type="button" class="btn btn-primary fr" href="/parking/configure">功能添加</a></h2>
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>顺序</th>
+          <th>名称</th>
+          <th>ICON</th>
+          <th>地址</th>
+          <th>简介</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+
+    </table>
+  </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">删除</h4>
+      </div>
+      <div class="modal-body">
+        <div style=""></div>
+        确定要删除吗？
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary delOk">确定</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

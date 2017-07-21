@@ -1,0 +1,34 @@
+@import "../user/public";
+
+.grade {
+  padding: 10px 0;
+}
+
+#image {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    border: 0;
+}
+
+.textarea {
+  width: 500px;
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.formleft {
+  float: left;
+  width: 500px;
+}
+
+.formright {
+  float: left;
+  padding-left: 80px;
+
+  select {
+    display: block;
+  }
+}

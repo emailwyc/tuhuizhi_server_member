@@ -1,0 +1,91 @@
+@import './reset';
+@import url('//at.alicdn.com/t/font_1eoobi6jtkpgb9.css');
+
+$bordercolor :#e0e0e0;
+$bgcolor: #f9f9f9;
+$gray: #272536;
+$bgcolor1: #fff;
+$color: #999;
+$color3: #ff8a00;
+$color4: #279df2;
+$bgcolor2: #279df2;
+$bgcolor3: #09bb08;
+
+body {background-color: $bgcolor;}
+
+.iconfont {
+  color: $gray;
+  font-size: rem(40px);
+  vertical-align: middle;
+}
+
+.pay-box {
+  font-size: rem(28px);
+  padding-bottom: rem(120px);
+
+  .car-need-box {
+    padding-bottom: rem(120px);
+    position: relative;
+  }
+
+  .fee-btn-box {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+
+    .standard-btn {
+      background-color: $bgcolor;
+      bottom: rem(120px);
+      line-height: rem(80px);
+      position: absolute;
+    }
+
+    .footer {
+      position: absolute;
+      div {
+        width: 50%;
+      }
+    }
+  }
+
+  .car-no {
+    border-bottom: 1px solid $bordercolor;
+    font-size: rem(32px);
+    font-weight: bold;
+    height: rem(130px);
+    line-height: rem(130px);
+    text-align: center;
+  }
+
+  .tap-box {
+    .item-tap {
+      border-bottom: 1px solid $bordercolor;
+      display: -webkit-box;
+      display: box;
+      height: rem(160px);
+      line-height: rem(160px);
+      padding: 0 rem(42px);
+
+      .item-con {
+        -webkit-box-flex: 1;
+        box-flex: 1;
+
+        span {
+          font-size: rem(28px);
+          font-weight: bold;
+          vertical-align: middle;
+        }
+      }
+
+      .item-right {
+        span {
+          color: $color;
+          vertical-align: middle;
+          strong { color: $color3;font-weight: normal;margin-right: rem(24px);}
+        }
+        i {vertical-align: middle;}
+      }
+    }
+  }
+}

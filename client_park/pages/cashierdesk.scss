@@ -1,0 +1,60 @@
+@import "./reset.scss";
+@import url('//at.alicdn.com/t/font_dxjz9sfpnznf80k9.css');
+
+$f5f5f5: #f5f5f5;
+$color333: #333;
+$color999: #999;
+$ff4800: #ff4800; //购买颜色
+$white: #fff;
+$dedede: #dedede;
+$green: #0aba07;
+
+body {background-color: $f5f5f5;}
+
+.iconfont {
+  color: $green;
+  font-size: rem(44px);
+  vertical-align: middle;
+}
+
+.icon-weixin {
+  color: $green;
+  font-size: rem(54px);
+  margin-right: rem(14px);
+}
+
+.buy {
+  section {
+    background-color: $white;
+    border-bottom: 1px solid $dedede;
+    color: $color333;
+    font-size: rem(28px);
+    padding: 0 rem(30px);
+    margin-bottom: rem(18px);
+
+    .type-item {
+      border-bottom: 1px solid $dedede;
+      display: -webkit-box;
+      display: box;
+      height: rem(90px);
+      line-height: rem(90px);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      > div {
+        color: $ff4800;
+      }
+
+      .type-item-con {
+
+      }
+
+      h4 {
+        -webkit-box-flex: 1;
+        box-flex: 1;
+      }
+    }
+  }
+}

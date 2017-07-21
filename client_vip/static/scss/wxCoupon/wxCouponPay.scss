@@ -1,0 +1,145 @@
+@import "../user/public";
+.header{
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+  h3{
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom-color: #c9c9c9;
+  }
+}
+.searchWarp{
+  width: 100%;
+  height: 35px;
+  margin: 15px 0;
+
+  input{
+    width: 240px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .shopname{
+    width: 100px;
+  }
+  .startime{
+    width: 140px;
+  }
+  .endtime{
+    width: 140px;
+  }
+  button{
+    padding: 3px 20px;
+  }
+}
+.list{
+  width: 100%;
+  margin: 20px 0;
+
+  table{
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    margin-bottom: 20px;
+
+    thead{
+      tr{
+        height: 40px;
+        font-weight: 600;
+      }
+      .marketname{
+        min-width: 140px;
+      }
+      .shopname{
+        min-width: 100px;
+      }
+      .ordernum{
+        min-width: 240px;
+      }
+      .couponnum{
+        min-width: 170px;
+      }
+      .couponprice{
+        min-width: 60px;
+      }
+      .shouldpay{
+        min-width: 70px;
+      }
+      .sureprice{
+        min-width: 70px;
+      }
+      .payStatus{
+        min-width: 77px;
+      }
+      .paytime{
+        max-width: 150px;
+      }
+    }
+    tbody{
+      tr{
+        height: 60px;
+        // font-weight: 600;
+      }
+      td{
+        padding: 5px;
+      }
+    }
+  }
+}
+.exportdataBtn{
+  cursor: pointer;
+  width: 104px;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 5px;
+  background: blue;
+
+  a{
+    color: white;
+  }
+}
+.pages{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+
+  ul{
+    width: 620px;
+    overflow: hidden;
+    margin: 0 auto;
+    li{
+      float: left;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin:0 5px;
+
+      input{
+        height: 100%;
+        outline: none;
+        width: 60px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+    }
+    .totalli,.skippage{
+      border: none;
+    }
+    .prev,.next,.sure{
+      cursor: pointer;
+    }
+    .sure{
+      background-color: #5a65f5;
+    }
+  }
+}
+.keyactive{
+  color: #ccc;
+}

@@ -1,0 +1,115 @@
+@import "../user/public";
+
+// .subBtn {
+//   width: 1000px;
+//   margin-top: 10px;
+//   text-align: right;
+// }
+
+.addBtn {
+  min-width: 1000px;
+  height: 60px;
+  // padding-bottom: 15px;
+
+  a.whole {
+    color: #666;
+    text-decoration: underline;
+    float: left;
+  }
+
+  a.btnright {
+    float: right;
+  }
+}
+
+.search {
+  height: 100px;
+
+  .regtime,
+  .logintime,
+  .grade,
+  .state {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+.birthday{
+  margin-top: 10px;
+}
+.stime{
+  margin-left: 2em;
+}
+
+.birthbox {
+  // width: 400px;
+  // float: right;
+  float: left;
+}
+.search_input {
+  float: left;
+  width: 400px;
+  // float: right;
+  // display:inline-block;
+  margin-left: 40px;
+}
+
+.search_btn {
+
+}
+
+.pagination {
+  float: right;
+}
+
+.exportBtn {
+  float: left;
+  margin-top: 15px;
+}
+
+.user {
+  // width: 200px;
+  // height: 40px;
+  // float: left;
+  overflow: hidden;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  img.face {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+  }
+
+  p.username,
+  p.remarks {
+    // float: left;
+    // position: absolute;
+    margin-left: 10px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  p.remarks {
+    font-size: 14px;
+    color: #666;
+  }
+}
+
+.pagination {
+  a.currentpage{
+
+  }
+}
+
+.gopage{
+  width: 5%;
+}
+input{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 4px;
+}

@@ -1,0 +1,1 @@
+['include', 'file', 'header', '管理员密码重置', 'form', 'method', 'post', 'action', 'admingm', 'psret', 'name', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', 'input', 'userid', 'type', 'hidden', 'value', 'list', '用户名', '新密码', 'pass', 'password', '重复密码', 'dupass', 'button', '返回', 'onClick', 'history', 'submit', '提交', 'footer']

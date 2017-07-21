@@ -1,0 +1,49 @@
+@import './reset';
+
+$bordercolor2 :#d4d4d4;
+$bordercolor :#e0e0e0;
+$bgcolor: #f9f9f9;
+$gray: #272536;
+$bgcolor1: #fff;
+$color: #999;
+$color2: #333;
+
+body {background-color: $bgcolor;position: relative;}
+
+.search-box {
+  font-size: rem(28px);
+
+
+
+  .search-con {
+    padding: rem(18px) rem(42px) rem(38px);
+
+    h4 {
+      line-height: rem(76px);
+    }
+
+    .input-box {
+      input {
+        border: 1px solid $bordercolor;
+        height: rem(64px);
+        margin-right: rem(30px);
+        padding: rem(18px) rem(20px);
+        vertical-align: middle;
+        width: rem(502px);
+        -webkit-appearance: none;
+      }
+
+      button {
+        background-color: $bgcolor1;
+        border: 1px solid $bordercolor;
+        display: inline-block;
+        font-size: rem(28px);
+        height: rem(64px);
+        line-height: rem(64px);
+        text-align: center;
+        vertical-align: middle;
+        width: rem(134px);
+      }
+    }
+  }
+}

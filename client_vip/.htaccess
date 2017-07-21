@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^static/(dist|daily)/(.*)/lib.js static/dist/js/lib.js
+RewriteRule ^static/(dist|daily)/(.*)/lib.css static/dist/css/lib.css
+RewriteRule ^static/umeditor/(.*) static/js/umeditor/$1
+RewriteRule ^static/(dist|daily)/(.*)/js/(.*)/(.*)\.(.*) static/dist/js/$3/$4.$5
+RewriteRule ^static/(dist|daily)/(.*)/css/(.*)/(.*)\.(.*) static/dist/css/$3/$4.$5

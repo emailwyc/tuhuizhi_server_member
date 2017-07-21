@@ -1,0 +1,1 @@
+['echo', 'this', 'done', 'SHELL', 'bash', 'then', 'your', 'login', 'shell', 'bourne', 'again', 'else', 'faile', 'shadow', 'exist', 'mailfolder', 'soone', 'package.sql', 'read', 'exit', 'mail', 'from', 'grep', 'dirs', 'home', 'shelldo', 'sourceFold', 'case', 'haha', 'other', 'esac']

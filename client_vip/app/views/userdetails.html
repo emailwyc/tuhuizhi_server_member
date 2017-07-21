@@ -1,0 +1,201 @@
+<!-- 会员详情 -->
+<div class="container-fluid">
+  {{>userSideb}}
+  <div class="main">
+    <h3>会员详情</h3>
+    <div class="member">
+      <form id="form" method="post" action="">
+        <div class="details">
+          <!-- <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">姓名＊</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control name" placeholder="请输入会员名">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">身份证＊</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control idcard" placeholder="请输入有效身份证号">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">手机＊</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control mobile" placeholder="请输入11位手机号">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">等级</label>
+            <div class="col-sm-10">
+              <select class="c-select level">
+                <option value="1">普卡会员</option>
+                <option value="2">银卡会员</option>
+                <option value="3">金卡会员</option>
+                <option value="4">黑卡会员</option>
+                <option value="5">黑砖卡会员</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">性别</label>
+            <div class="col-sm-10">
+              <select class="c-select sex">
+                <option selected value="0">女</option>
+                <option value="1">男</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">职业</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control career" placeholder="请输入职业">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">星座</label>
+            <div class="col-sm-10">
+              <select class="c-select star">
+                <option value="0">白羊座</option>
+                <option value="1">金牛座</option>
+                <option value="2">双子座</option>
+                <option value="3">巨蟹座</option>
+                <option value="4">狮子座</option>
+                <option value="5">处女座</option>
+                <option value="6">天秤座</option>
+                <option value="7">天蝎座</option>
+                <option value="8">射手座</option>
+                <option value="9">魔蝎座</option>
+                <option value="10">水瓶座</option>
+                <option value="11">双鱼座</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">住址</label>
+            <div class="col-sm-10">
+              <select class="c-select province">
+                <option selected value="">--请选择省--</option>
+              </select>
+              <span style="margin-right:20px">省</span>
+              <select class="c-select city">
+                <option selected value="">--请选择省--</option>
+              </select>
+              <span style="margin-right:20px">市</span>
+              <select class="c-select district">
+                <option selected value="">--请选择省--</option>
+              </select>
+              <span style="margin-right:20px">区</span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label"></label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control address" placeholder="收件地址">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">状态</label>
+            <div class="col-sm-10">
+              <select class="c-select is_del">
+                <option selected="selected" value="0">冻结</option>
+                <option selected="selected" value="1">有效</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 form-control-label">备注</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control remark" placeholder="请输入备注">
+            </div>
+          </div> -->
+        </div>
+        <div class="msg"></div>
+          <div class="subBtn">
+            <button type="submit" class="btn btn-primary">提交修改</button>
+            <a href="#" style="float:right" class="delUser">删除用户</a>
+          </div>
+      </form>
+      <div class="integdetails">
+        <h4>账户详情</h4>
+        <div class="score_box">
+          <span class="score_name">积分：</span>
+          <span class="score">5000</span>
+        </div>
+        <div class="score_box" style="border-bottom: 1px solid #ccc;">
+          <span class="score_name">使用次数：</span>
+          <span class="count">3</span>
+        </div>
+        <h4 style="margin-top:10px">修改积分</h4>
+        <div class="modifyscore">
+
+            添加积分：<input type="number" class="addscore" name="addscore" value="" placeholder="请输入增加的积分数">
+        </div>
+        <div class="modifyscore">
+            扣除积分：<input type="number" class="reducescore" name="reducescore" value="" placeholder="请输入扣除的积分数">
+        </div>
+        <div class="scoreselecte">积分修改原因：
+          <select class="getselecte"></select>
+        </div>
+        <div class="oksubBtn">
+          <button type="button" class="btn btn-primary">确定</button>
+        </div>
+        <h4 style="margin-top:10px">使用情况</h4>
+        <div class="screen_box">
+          <label class="screen_day">积分日志筛选
+            <input type="radio" value="0" class="radioday" name="radio1" checked="checked"/>
+            <select class="day" value="360">
+              <option selected="selected" value="360">不限</option>
+              <option value="1">1天</option>
+              <option value="5">5天</option>
+              <option value="15">15天</option>
+              <option value="30">30天</option>
+              <option value="60">60天</option>
+              <option value="90">90天</option>
+              <option value="180">180天</option>
+              <option value="360">360天</option>
+            </select>
+          </label>
+          <label>积分日志筛选
+            <input type="radio" value="1" class="radioday" name="radio1"/>
+            <input type="date" value="2016-10-05" name="start" class="start" disabled="disabled"/> --
+            <input type="date" value="" name="end" class="end"  disabled="disabled"/>
+          </label>
+        </div>
+        <div class="integbox">
+          <table class="table table-striped table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>积分行为</th>
+                <th>门店</th>
+                <th>积分变动</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr></tr>
+            </tbody>
+          </table>
+        </div>
+        <nav aria-label="Page navigation">
+          <ul class="pager">
+            <li>共<em class="total">1</em>条记录</li>
+            <li><a href="javascript:;" class="prev">上一页</a></li>
+            <li><a href="javascript:;" class="currentpage"></a></li>
+            <li><a href="javascript:;" class="next">下一页</a></li>
+          </ul>
+        </nav>
+        <div class="export">下载搜索数据</div>
+        <div class="moda_2">
+        <p><span class="warning">!</span> <span class="remind">确定要删除吗？</span></p>
+        <button class="btn btn-default btn-sm cancel">取消</button>
+        <button class="btn btn-primary btn-sm deleall">确定</button>
+        </div>
+        <div class="moda_4">
+        <p><span class="tu">v</span><span class="remindSuccess">删除成功</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>var conf={cardno:'{{cardno}}', id:'{{id}}'};</script>

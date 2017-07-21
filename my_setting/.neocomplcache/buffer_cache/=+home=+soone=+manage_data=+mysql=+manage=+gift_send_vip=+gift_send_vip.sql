@@ -1,0 +1,1 @@
+['INSERT', 'INTO', 'gift_send_vip', 'chnid', 'serid', 'ser_name', 'role_id', 'role_name', 'gtype', 'role_vip_after', 'gold_vip', 'gold_vip_exp', 'gold', 'desc', 'status', 'VALUES', 'WebSystem', 'java', 'test', '鸡毛扫把', '赠送', '测试', '觅儿绚羽', '乐儿互昼', '3000', '任蒲江', '6000']

@@ -1,0 +1,1 @@
+['include', 'file', 'header', '权限资源列表', 'nbsp', 'href', 'admingm', 'pradd', '添加', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', '资源名称', '资源标识', '添加时间', '状态', '操作', 'prinfo', 'foreach', 'from', 'item', 'name', 'flag', 'createtime', 'font', 'style', 'color', '不可用', 'elseif', '可用', 'predit', 'prid', '编辑', 'prdel', '删除', '搜索', '日期选择', 'footer']

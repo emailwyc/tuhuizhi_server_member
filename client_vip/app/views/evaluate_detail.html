@@ -1,0 +1,61 @@
+<div class="container-fluid" id="container_fluid">
+  {{>evaluateSideb}}
+  <div class="main">
+    <div class="search-box">
+      <div class="search">
+        <span>开始日期：</span>
+        <input class="start-time" type="date"  >
+      </div>
+      <div class="search">
+        <span>结束日期：</span>
+        <input class="end-time" type="date"  >
+      </div>
+      <a type="button" class="btn btn-secondary" id="searchBtn" href="javascript:;">搜索</a>
+    </div>
+    <div class="staff-box">
+      <div class="staff-info">
+        <span>头像：</span>
+        <img src="" class="person-pic" alt="">
+      </div>
+      <div class="staff-info">
+        <span>姓名：</span>
+        <strong class="person-name"></strong>
+      </div>
+      <div class="staff-info">
+        <span>工号：</span>
+        <strong class="person-id"></strong>
+      </div>
+      <div class="staff-info">
+        <span>联系电话：</span>
+        <strong class="person-tel"></strong>
+      </div>
+    </div>
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>时间</th>
+          <th>星级</th>
+          <th>标签</th>
+          <th>评分人</th>
+          <th>评价服务</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+
+    </table>
+    <nav class="page_box" aria-label="Page navigation">
+      <ul class="pager">
+        <input type="hidden" class="pagenum" value="1">
+        <li class="total"></li>
+        <li><a href="javascript:;" class="prev">上一页</a></li>
+        <li><a href="javascript:;" class="currentpage no-click"></a></li>
+        <li><a href="javascript:;" class="next">下一页</a></li>
+        <li><a href="javascript:;" class="no-click">10条/页</a></li>
+        <li>跳至第<input type="number" class="gopage" step="1" min="1">页</li>
+        <li><a href="javascript:;" class="gopage_btn">GO</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<script>var conf={id:'{{id}}',number:'{{number}}'};</script>

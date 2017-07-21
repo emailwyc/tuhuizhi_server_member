@@ -1,0 +1,34 @@
+<!-- 身份证修改 -->
+<div class="container-fluid">
+  {{>memberSideb}}
+  <div class="main">
+    <div id="container">
+      <h3>会员---会员属性配置</h3>
+      <form role="form">
+        <div class="form-group">
+          <p for="exampleInputEmail1">是否只允许修改一次身份证</p>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 是
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="0"> 否
+          </label>
+        </div>
+        <div class="form-group">
+          <p for="exampleInputEmail2">是否只允修改一次生日</p>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="1"> 是
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="inlineRadioOptions2" id="inlineRadio4" value="0"> 否
+          </label>
+        </div>
+        <div class="form-group">
+          <p>请输入链接：</p>
+          <input type="url" class="form-control url" placeholder="注册结束后跳转地址">
+        </div>
+        <button type="submit" class="btn btn-primary updata">提交</button>
+      </form>
+    </div>
+  </div>
+</div>

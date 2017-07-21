@@ -1,0 +1,1 @@
+['include', 'file', 'header', '服务器组添加', 'form', 'method', 'post', 'action', 'admingm', 'chnadd', 'name', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', '组名称', 'input', 'type', 'text', '组标识', 'flag', '组状态', 'select', 'status', 'option', 'value', 'selected', '可用', '不可用', 'button', '返回', 'onClick', 'history', 'submit', '提交', 'footer']

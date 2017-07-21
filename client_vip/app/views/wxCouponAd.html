@@ -1,0 +1,46 @@
+<!-- 添加广告 -->
+<div class="container-fluid">
+  {{>wxCouponSideb}}
+  <div class="main">
+    <div class="header">
+      <h3>添加广告</h3>
+      <button type="button" name="button" class="cofigAdd">添加</button>
+    </div>
+    <div class="list">
+      <table border="1px solid #ccc">
+        <thead>
+          <tr>
+            <!-- <td>序号</td> -->
+            <td>排序</td>
+            <td>建筑物ID</td>
+            <td>广告图</td>
+            <td>跳转路径(id为空则跳转无效)</td>
+            <td>操作</td>
+          </tr>
+        </thead>
+      <tbody>
+
+      </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- 添加窗口 -->
+<div class="addWarp">
+   <div class="addcontainer">
+     <a href="javascript:;" class="cancel">X</a>
+     <label for=""><span>排序：</span><input type="number" name="" value="" placeholder="不填写则默认为自动排序" class="order"></label>
+     <label for=""><span>商铺ID：</span><input type="text" name="" value="" placeholder="请输入跳转商铺的ID(为空则无效)" class="jumlurl"></label>
+     <label for=""><span>建筑物：</span>
+       <select class="buildSelect" name="" value="">
+         <option value="0">请选择</option>
+       </select>
+     </label>
+     <label for=""><img src="" alt="" id="image"></label>
+     <label for=""><button type="button" name="button" id="pickfiles">上传图片</button></label>
+     <label for="" class="sureLabel"><button type="button" name="button" class="addSure">确定</button></label>
+   </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

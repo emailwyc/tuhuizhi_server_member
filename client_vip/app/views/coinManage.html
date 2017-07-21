@@ -1,0 +1,42 @@
+<!-- Y币管理 -->
+<div class="container-fluid">
+  {{>coinManageSide}}
+  <div class="main">
+    <div class="headbox">
+      <h3>Y币配置</h3>
+      <hr>
+      <label for="" class="searchlabel"><input type="text" name="" value="" placeholder="请输入openid/昵称" class="searchinput"><a href="javascript:;" class="searchbtn">搜索</a></label>
+      <label for="" class="checklabel">关注时间：开始<input type="date" name="stime" value="" class="starTime"></label>
+      <label for="" class="checklabel">结束<input type="date" name="etime"  min="2013/09/23" value="" class="endTime"></label>
+      <label for="" class="checklabel"><button value="查询" class="checkbtn">查询</button></label>
+    </div>
+    <div class="configList">
+      <table style="border-collapse:collapse;"  border="1">
+        <thead>
+          <tr>
+            <td class="headOrder">序号</td>
+            <td class="headimg">微信头像</td>
+            <td class="headname">昵称</td>
+            <td class="headopenid">OPEN ID</td>
+            <td class="headcoin">Y币</td>
+            <td class="headtime">注册时间</td>
+            <td class="headoptions">操作</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="pages">
+          <ul>
+            <li class="totalli">总共<span class="totalpage"></span>页</li>
+            <li class="prev">上一页</li>
+            <li>当前第<span class="currentpage">1</span>页</li>
+            <li class="next">下一页</li>
+            <li class="skippage">跳转到第<input type="number" name="" value="1" min="1" class="gopage">页</li>
+            <li class="sure">确定</li>
+          </ul>
+    </div>
+  </div>
+</div>

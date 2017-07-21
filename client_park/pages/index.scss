@@ -1,0 +1,96 @@
+@import './reset';
+@import url('//at.alicdn.com/t/font_ul78qovsjt0rudi.css');
+
+$searchcolor: #696969;
+$blue: #96b1df;
+$black: #000;
+$gray: #272536;
+$gray2: #b1b1b1;
+$gree: #09bb08;
+$borde: #e0e0e0;
+$white: #fff;
+
+.iconfont {
+  color: $gray;
+  font-size: rem(52px);
+  vertical-align: middle;
+}
+
+.iconfont-parking2 {
+  font-size: rem(138px);
+}
+
+.icon-jinru {
+  font-size: rem(40px);
+}
+
+.index {
+  .index-hea {
+    margin: 0 auto;
+    padding: rem(116px) 0 rem(104px);
+    width: rem(506px);
+
+    .iconfont-p {
+      line-height: rem(138px);
+    }
+
+    dd {
+      font-size: rem(28px);
+      line-height: rem(50px);
+      padding-left: rem(62px);
+
+      h3 {
+        font-size: rem(32px);
+        font-weight: bold;
+        line-height: rem(54px);
+      }
+
+      p {
+        color: $gray2;
+        strong {
+          color: $gree;
+          font-weight: normal;
+        }
+      }
+    }
+
+  }
+
+  .tap-box {
+    border-top: 1px solid $borde;
+    max-height: rem(640px);
+    overflow: auto;
+
+    li {
+      border-bottom: 1px solid $borde;
+      height: rem(130px);
+      line-height: rem(130px);
+      padding: 0 rem(43px);
+
+      .item-con {
+        span {
+          font-size: rem(28px);
+          font-weight: bold;
+          padding-left: rem(36px);
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .index-hea,
+  .item-tap {
+    display: -webkit-box;
+    display: box;
+  }
+
+  .index-hea dd,
+  .item-tap .item-con {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+  }
+
+  .standard-btn {
+    background-color: $white;
+  }
+}

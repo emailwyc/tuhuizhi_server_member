@@ -1,0 +1,68 @@
+<!-- 建筑物管理管理 -->
+<div class="container-fluid">
+  {{>buildManageSideb}}
+  <div class="main">
+    <div class="header">
+      <h3>建筑物管理</h3>
+    </div>
+    <div class="list" style="display:bolck">
+      <table style="border-collapse:collapse;"  border="1">
+        <thead>
+          <tr>
+            <td>建筑物ID</td>
+            <td>建筑物名称</td>
+            <td>建筑物简称</td>
+            <td>商场建筑物ID</td>
+            <td>经纬度</td>
+            <td>商场图片</td>
+            <td>商场简介</td>
+            <td>商场简介URL</td>
+            <td>开启推荐</td>
+            <td class="options">操作</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td class="buildId">860100010020300001</td>
+            <td class="buildName">欧亚商都欧亚商都</td>
+            <td class="marketBuildId">860100010020300001</td>
+            <td>sss,sss</td>
+            <td class="img_td"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAoCAYAAABXadAKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNTExNEU3MzQ4MDQxMUU2Qjg1MkVCQjI4QzYxNzcxMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNTExNEU3NDQ4MDQxMUU2Qjg1MkVCQjI4QzYxNzcxMiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY1MTE0RTcxNDgwNDExRTZCODUyRUJCMjhDNjE3NzEyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY1MTE0RTcyNDgwNDExRTZCODUyRUJCMjhDNjE3NzEyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0r4dkwAADN5JREFUeNrsXQuU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" alt="" title="商场图片" class="buildImg"></td>
+            <td title="http://www.w3school.com.cn/" class="buildUrl">http://www.w3school.com.cn/</td>
+            <td><a href="javascript:;" class="editBtn">编辑</a><a href="javascript:;" class="delBtn">删除</a></td>
+          </tr> -->
+        </tbody>
+      </table>
+      <div class="pages" style="display:none">
+            <ul>
+              <li class="totalli">总共<span class="totalpage"></span>页</li>
+              <li class="prev">上一页</li>
+              <li>当前第<span class="currentpage">1</span>页</li>
+              <li class="next">下一页</li>
+              <li class="skippage">跳转到第<input type="number" name="" value="1" min="1" class="gopage">页</li>
+              <li class="sure">确定</li>
+            </ul>
+      </div>
+    </div>
+    <div class="editWrap" style="display:none">
+      <ul>
+        <li><label for="" class="theme">建筑物ID：</label><label for="" class="editContent editBuildId"></label></li>
+        <li><label for="" class="theme">建筑物名称：</label><label for="" class="editContent editBuildName"></label></li>
+        <li><label for="" class="theme">建筑物简称：</label><label for="" class="editContent"><input type="text" name="" value="" placeholder="请输入简称" class="shortname"></label></li>
+        <li><label for="" class="theme">商场建筑物ID：</label><label for=""><input type="text" name="" value="" placeholder="请输入名称" class="editMBuildId"></label></li>
+        <li><label for="" class="theme">商场简介URL：</label><label for=""><input type="text" name="" value="" placeholder="请输入点击后的URL" class="editBuildUrl"></label></li>
+        <li><label for="" class="theme">商场简介：</label><label for=""><input type="text" name="" value="" placeholder="" class="editIntroduction"></label></li>
+        <li>
+          <label for="" class="theme">是否开启推荐：</label>
+          <label for="" class="recommend"><span>关闭：</span><input type="radio" name="isopen" value="2" class="isopen" checked></label>
+          <label for="" class="recommend"><span>开启：</span><input type="radio" name="isopen" value="1" class="isclose"></label>
+        </li>
+        <li><label for="" class="theme"></label><label for=""><a href="javascript:;" class="upload" id="pickfiles">上传图片</a>（建议上传jpg 2:1的图片）</label></li>
+        <li><label for="" class="theme"></label><img src="" alt="" class="editBuildImg" id="image"></li>
+        <li><label for="" class="theme"></label><label for=""><a href="javascript:;" class="editSave" id="">保存</a></label></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>

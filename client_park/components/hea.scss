@@ -1,0 +1,79 @@
+@import '../pages/reset';
+
+$grayededed: #ededed;
+$white: #fff;
+$graybcbcbc: #bcbcbc;
+$color333: #333;
+$color666: #666;
+$green32b200: #32b200;
+$colorff8a00: #ff8a00;
+
+.hea {
+  background-color: $white;
+  border-bottom: 1px solid $graybcbcbc;
+  padding: rem(52px) rem(58px) rem(50px);
+
+  dt {
+    border: 1px solid $grayededed;
+    border-radius: rem(6px);
+    display: inline-block;
+    height: rem(128px);
+    margin-right: rem(60px);
+    overflow: hidden;
+    vertical-align: middle;
+    width: rem(128px);
+
+    em {
+      background: url('../images/pic.jpg')  center no-repeat;
+      background-size: cover;
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  dd {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    width: rem(446px);
+
+    h2 {
+      color: $color333;
+      font-size: rem(32px);
+      line-height: rem(48px);
+    }
+
+    h3 {
+      color: $color666;
+      font-size: rem(26px);
+      line-height: rem(44px);
+    }
+
+    .invoice-box {
+      font-size: rem(28px);
+      line-height: rem(54px);
+      overflow: hidden;
+      span {
+        color: $colorff8a00;
+        float: right;
+      }
+      .opening {
+        color: $graybcbcbc;
+      }
+      .active {
+        color: $green32b200;
+      }
+    }
+    p {
+      color: $green32b200;
+      display: none;
+      font-size: rem(28px);
+      line-height: rem(54px);
+
+      &.active {
+        display: inline-block;
+      }
+    }
+  }
+}

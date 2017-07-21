@@ -1,0 +1,40 @@
+<!-- 建筑物管理管理 -->
+<div class="container-fluid">
+  {{>wxCouponSideb}}
+  <div class="main">
+    <div class="header">
+      <h3>活动配置</h3>
+      <button type="button" name="button" class="cofigAdd">添加</button>
+    </div>
+    <div class="list" style="display:bolck">
+      <table style="border-collapse:collapse;"  border="1">
+        <thead>
+          <tr>
+            <td>建筑物ID</td>
+            <td>建筑物名称</td>
+            <td>活动ID</td>
+            <td class="options">操作</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td class="buildId">860100010020300001</td>
+            <td class="buildName">欧亚商都欧亚商都</td>
+            <td class="activityId">860100010020300001</td>
+            <td><a href="javascript:;" class="editBtn">编辑</a><a href="javascript:;" class="delBtn">删除</a></td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+    <div class="pages" style="display:none">
+          <ul>
+            <li class="totalli">总共<span class="totalpage"></span>页</li>
+            <li class="prev">上一页</li>
+            <li>当前第<span class="currentpage">1</span>页</li>
+            <li class="next">下一页</li>
+            <li class="skippage">跳转到第<input type="number" name="" value="1" min="1" class="gopage">页</li>
+            <li class="sure">确定</li>
+          </ul>
+    </div>
+  </div>
+</div>

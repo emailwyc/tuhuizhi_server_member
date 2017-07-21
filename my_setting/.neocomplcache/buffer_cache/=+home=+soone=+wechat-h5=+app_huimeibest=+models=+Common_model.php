@@ -1,0 +1,1 @@
+['defined', 'BASEPATH', 'exit', 'direct', 'script', 'access', 'allowed', 'class', 'Common_Model', 'extends', 'CI_Model', 'function', '__construct', 'parent::__construct', 'param', 'array', '$where', '$field', 'return', 'boolean', 'update', 'is_array', 'foreach', '$key', '$value', '$this', 'where', 'else', 'where_in', 'array_merge', 'data', '$result', 'table']

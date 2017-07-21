@@ -1,0 +1,37 @@
+<!-- 积分转赠－－设置 -->
+<div class="container-fluid">
+  {{>pointDonationSideb}}
+  <div class="main">
+    <h3>积分转赠－－设置</h3>
+    <div class="setBox">
+      <div class="linkbox">
+        <div class="boxtit">链接有效期</div>
+        <div class="boxber">
+          <div class="settime">
+            <span class="red">*</span>链接有效期：<input type="text" value="" class="inp validhour"/>小时<span class="red"> (从1到24，整数)</span>
+          </div>
+        </div>
+      </div>
+      <div class="linkbox">
+        <div class="boxtit">转赠数量、间隔</div>
+        <div class="boxber">
+          <div class="settime">
+            <span class="red">*</span>最少>=<input type="text" value="" class="inp least"/><span class="red">（从1到100000积分，整数）</span>
+          </div>
+          <div class="settime">
+            <span class="red">*</span>最多<=<input type="text" value="" class="inp most"/><span class="red">（从1到100000积分，整数）</span>
+          </div>
+          <div class="settime">
+            <span class="red">*</span>领取转赠间隔>=<input type="text" value="" class="inp lapse"/><span class="red">（从1到31天，整数）</span>
+          </div>
+        </div>
+      </div>
+      <div class="msg"></div>
+      <div class="btnbox">
+        <a href="#" class="btn btn-primary setBtn" role="button">设置</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>var conf={key:'{{key}}'};</script>

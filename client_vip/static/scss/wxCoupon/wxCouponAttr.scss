@@ -1,0 +1,21 @@
+@import "../user/public";
+
+.main{
+  .header{
+    margin-bottom: 1.5rem;
+    border: 1px solid #eceeef;
+    .title{
+      position: relative;
+      margin: 0.75rem;
+      line-height: 1.5;
+      border-bottom: 1px solid #eceeef;
+      h3{
+        margin-bottom: 0.375rem;
+        border: 0;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  {{>memberSideb}}
+  <div class="main">
+    <div class="optionwarp">
+      <label for=""><input type="radio" name="select" value="" checked class="register">注册列表</label>
+      <label for=""><input type="radio" name="select" value="" class="modificat">修改列表</label>
+    </div>
+    <div class="listwarp">
+      <table>
+        <thead>
+          <tr>
+            <td class="title">主题</td>
+            <td class="status">状态</td>
+            <td class="sorttext">排序</td>
+            <td class="options">操作</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!--setwarp-->
+<div class="setwarp">
+  <div class="setcont">
+    <p class="cancelp"><b></b></p>
+    <div class="conts">
+      <p class="isswitch"><span>开启</span><label for=""><input type="radio" name="switch" value="1" class="switchyes">是</label><label for=""><input type="radio" name="switch" value="0" class="switchno">否</label></p>
+      <ul class="selections">
+        <li><span>是否为必填项</span><label for=""><input type="radio" name="must" value="1" class="ismust">是</label><label for=""><input type="radio" name="must" value="0" class="nomust">否</label></li>
+        <li><span>是否可修改</span><label><input type="radio" name="updatej" value="0" class="updatey">是</label><label><input type="radio" name="updatej" value="1" class="updaten">否</label></li>
+        <li><span>排序</span><input type="number" name="" value="" class="sort"></li>
+        <li><span>提示信息</span><input type="text" name="" value="" class="hintmsg"></li>
+        <li><span>标识信息</span><input type="text" name="" value="" class="markingmsg"></li>
+        <li><span>默认值</span><input type="text" name="" value="" class="defaultmsg"></li>
+        <li><span>最小字符个数</span><input type="number" name="" value="" class="minlen"></li>
+        <li><span>最大字符个数</span><input type="number" name="" value="" class="maxlen"></li>
+      </ul>
+      <p><button type="button" name="button" class="cancelbtn">取消</button><button type="button" name="button" class="submitbtn" id="">确定</button></p>
+    </div>
+  </div>
+</div>

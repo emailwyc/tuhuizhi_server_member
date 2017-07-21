@@ -1,0 +1,57 @@
+@import './reset';
+@import '../components/ticketitem';
+@import url('//at.alicdn.com/t/font_1eoobi6jtkpgb9.css');
+
+$gray: #272536;
+$graybcbcbc: #bcbcbc;
+$green32b200: #32b200;
+$colorff8a00: #ff8a00;
+
+body {background-color: $grayf9f9f9;}
+
+.iconfont-in {
+  color: $gray;
+  font-size: rem(40px);
+  line-height: rem(128px);
+}
+
+.myticket-box {
+  font-size: rem(28px);
+
+  .ticket-list {
+    padding: rem(40px) rem(28px) 0;
+  }
+
+  .item {
+    .item-info {
+      .item-left {
+        dd {
+          overflow: hidden;
+          width: rem(448px);
+
+          .invoice-box {
+            font-size: rem(28px);
+            line-height: rem(54px);
+            overflow: hidden;
+            span {
+              color: $colorff8a00;
+              float: right;
+            }
+            .opening {
+              color: $graybcbcbc;
+            }
+            .active {
+              color: $green32b200;
+            }
+          }
+        }
+
+        p {
+          display: inline-block;
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,14 @@
+@import '../pages/reset';
+
+$color4d4d4d: #4d4d4d;
+$white: #fff;
+$graybcbcbc: #bcbcbc;
+
+.tip {
+  background-color: $white;
+  border-bottom: 1px solid $graybcbcbc;
+  color: $color4d4d4d;
+  font-size: rem(26px);
+  line-height: rem(48px);
+  padding: rem(28px) rem(66px);
+}

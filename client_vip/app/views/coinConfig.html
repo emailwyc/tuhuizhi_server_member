@@ -1,0 +1,43 @@
+<!-- Y币管理 -->
+<div class="container-fluid">
+  {{>coinConfigSide}}
+  <div class="main">
+    <div class="headbox">
+      <h3>Y币配置</h3>
+      <hr>
+      <label for="">每日Y币累计上限：<input type="text" name="" value="" placeholder="请输入数值" class="limitinput"><a href="javascript:;" class="headsubmit">提交</a></label>
+      <p class="headList" style="color:red"></p>
+    </div>
+    <div class="configList">
+      <table style="border-collapse:collapse;"  border="1">
+        <thead>
+          <tr>
+            <td class="headOrder">排序</td>
+            <td class="headConfig">配置项</td>
+            <td class="headNum">数值</td>
+            <td class="headStatus">状态</td>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="options">
+      <a href="javascript:;" class="cancel">取消</a>
+      <a href="javascript:;" class="sure">确定</a>
+      <p class="tbodyList"></p>
+    </div>
+  </div>
+</div>
+<!-- 弹窗样式 -->
+<div class="styles">
+  <div class="content">
+    <p class="title">更改状态<span class="markCancel">X</span></p>
+    <p class="alertContent"></p>
+    <p class="alertoptions">
+      <button type="button" name="" class="alertSure alertActive" data-mark="" data-status="">确定</button>
+      <button type="button" name="" class="alertCancel">取消</button>
+    </p>
+  </div>
+</div>

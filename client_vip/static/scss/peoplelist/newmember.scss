@@ -1,0 +1,29 @@
+@import "../user/public";
+
+.member {
+  width: 800px;
+
+  input {
+    width: 300px;
+  }
+
+  select {
+    margin-right: 0;
+  }
+}
+
+.row {
+  margin-left: 0;
+}
+
+.c-select {
+  border-radius: 4px;
+}
+
+.add {
+  margin-top: 10px;
+}
+
+.subBtn {
+  margin-left: 150px;
+}

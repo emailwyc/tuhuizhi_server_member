@@ -1,0 +1,1 @@
+['include', 'file', 'header', '权限组列表', 'nbsp', 'href', 'admingm', 'gpadd', '添加', 'table', 'cellpadding', 'cellspacing', 'class', 'tbody', '权限组名称', '状态', '添加时间', '操作', 'gpinfo', 'foreach', 'from', 'item', 'gname', 'status', 'font', 'style', 'color', '不可用', 'elseif', '可用', 'createdate', 'gpedit', 'gpid', '权限编辑', 'gpdel', '删除', '搜索', '日期选择', 'footer']

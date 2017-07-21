@@ -1,0 +1,11 @@
+@import './reset';
+
+$grayf9f9f9: #f9f9f9;
+
+body {background-color: $grayf9f9f9;}
+
+.ticket-list {
+  font-size: rem(28px);
+  // padding: rem(40px) rem(28px) 0;
+  padding: 0 rem(28px);
+}

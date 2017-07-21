@@ -1,0 +1,43 @@
+@import '../pages/reset';
+
+$grayf1f1f1: #f1f1f1;
+$color333: #333;
+$color4d4d4d: #4d4d4d;
+
+.explain {
+  background-color: $grayf1f1f1;
+  color: $color4d4d4d;
+  font-size: rem(26px);
+  line-height: rem(42px);
+  padding: rem(22px) rem(64px) rem(40px);
+
+  h3 {
+    color: $color333;
+    font-size: rem(26px);
+    font-weight: bold;
+    line-height: rem(76px);
+  }
+
+  pre {
+    font-family: Microsoft Yahei,sans-serif;
+    line-height: rem(42px);
+  }
+
+  ul {
+    line-height: rem(42px);
+
+    li {
+      i {
+        background-color: $color4d4d4d;
+        border-radius: 100%;
+        display: inline-block;
+        height: rem(8px);
+        margin-right: rem(16px);
+        vertical-align: middle;
+        width: rem(8px);
+      }
+
+      span {vertical-align: middle;}
+    }
+  }
+}

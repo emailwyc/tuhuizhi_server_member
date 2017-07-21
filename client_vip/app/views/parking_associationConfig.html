@@ -1,0 +1,40 @@
+<!-- 车辆关联配置 -->
+<div class="container-fluid">
+  {{>parkingSideb}}
+
+  <div class="main">
+    <div class="header">
+      <div class="title">
+        <h3>车辆关联配置</h3>
+      </div>
+    </div>
+
+    <div classs="content">
+      <div class="form-inline form-group">
+        <div class="form-group">
+            <label class="form-check-label" for="exchangeRadios1">
+              <input class="form-check-input" type="radio" name="exchangeRadios" id="exchangeRadios1" value="1">
+              限制关联车辆数
+            </label>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="number" value="" id="example-number-input">
+          <label for="example-number-input" class="col-form-label text">（请填写最大可关联的车辆数）</label>
+        </div>
+      </div>
+      <div class="form-inline form-group">
+        <div class="form-check check-box">
+          <label class="form-check-label" for="exchangeRadios2">
+            <input class="form-check-input" type="radio" name="exchangeRadios" id="exchangeRadios2" value="0">
+            不限制关联车辆
+          </label>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="button" class="subBtn btn btn-secondary">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

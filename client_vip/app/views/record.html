@@ -1,0 +1,77 @@
+<!-- 积分转赠－－记录查询 -->
+<div class="container-fluid">
+  {{>pointDonationSideb}}
+  <div class="main">
+    <h3>积分转赠－－记录查询</h3>
+    <div class="search">
+      <div class="state">
+        状态：<select class="status">
+          <option selected="selected" value="3">全部</option>
+          <option value="1">已领取</option>
+          <option value="0">未领取</option>
+          <option value="2">已过期</option>
+        </select>
+      </div>
+      <div class="starttime">
+        从：<input type="date" class="startdate" />
+      </div>
+      <div class="endtime">
+        到：<input type="date" class="enddate" />
+      </div>
+      <div class="donation">
+        转赠用户：<input type="text" value="" class="sharermobile"/>
+      </div>
+      <div class="receive">
+        领取用户：<input type="text" value="" class="receivermobile" />
+      </div>
+      <div class="score">
+        积分><input type="text" value="" class="scorenum" />
+      </div>
+      <div class="searchBtn">
+        <a href="javascript:;" class="btn btn-primary btnright" role="button">查询</a>
+      </div>
+    </div>
+    <!-- <div class="searchBtn">
+      <a href="/peoplelist/newmember" class="btn btn-primary btnright" role="button">查询</a>
+    </div> -->
+    <div class="list">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>序号</th>
+            <th>转赠时间</th>
+            <th>转赠用户</th>
+            <th>状态</th>
+            <th>积分</th>
+            <th>领取人</th>
+            <th>领取时间</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>1</td>
+            <td>2016-11-09</td>
+            <td>name</td>
+            <td>已领取</td>
+            <td>22</td>
+            <td>name2</td>
+            <td>2016-11-10</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+    <div class="msg"></div>
+    <nav aria-label="Page navigation">
+
+      <ul class="pager">
+        <div class="exportBtn"><button type="button" class="btn btn-outline-secondary exportbtn">下载会员数据</button></div>
+        <input type="hidden" class="pagenum" value="1">
+        <span class="total">总共<span class="totalnum"></span>条</span>
+        <li><a href="#" class="prev">上一页</a></li>
+        <li><a href="#">当前第<span class="currentpage">1</span>页</a></li>
+        <li><a href="#" class="next">下一页</a></li>
+        <li><a href="javascript:;" class="single">20条/页</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

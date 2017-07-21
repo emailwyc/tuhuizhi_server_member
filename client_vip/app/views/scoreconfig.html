@@ -1,0 +1,39 @@
+<!-- 积分配置 -->
+{{>memberSideb}}
+<div class="container-fluid" id="container_fluid">
+  <div class="signstyle">
+    <h3>签到样式设置(若不提供，则移动端默认无图片！)</h3>
+    <div class="uploadbox">
+      <img src="" id="image" class="image" alt="签到图片" />
+      <div id="container">
+        <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+          <i class="glyphicon glyphicon-plus"></i>
+          <span>上传图片</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="tit">
+    <h3>积分配置:</h3>
+    <label for=""><input type="radio" name="type" value="score">积分</label>
+    <label for=""><input type="radio" name="type" value="coin">Y币</label>
+    <p>注：不填默认1～10积分(提示：以下数值仅对积分有效)</p>
+    <p>
+      <input type="number" class="form-control mixscore" style="width:200px;display: inline-block;" placeholder="请输入最小积分数："/> -
+      <input type="number" class="form-control maxscore" style="width:200px;display: inline-block;" placeholder="请输入最大积分数："/>
+    </p>
+  </div>
+  <div class="isopen">
+    <p>
+      <span>开启签到:</span>
+      <label for=""><span>是</span><input type="radio" name="isopen" value="1" checked></label>
+      <label for=""><span>否</span><input type="radio" name="isopen" value="0"></label>
+    </p>
+  </div>
+  <div class="msg" style="margin-left:0px;"></div>
+    <div class="subBtn">
+      <button type="button" id="dw_submit" class="btn btn-primary submitBtn">提交</button>
+    </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js?vip"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js?vip"></script>

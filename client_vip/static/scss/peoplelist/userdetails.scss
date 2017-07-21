@@ -1,0 +1,115 @@
+@import "../user/public";
+
+$gray: #ccc;
+
+.member {
+  width: 800px;
+}
+
+.c-select {
+  border-radius: 4px;
+}
+
+.subBtn {
+  margin-left: 150px;
+  padding-bottom: 100px;
+}
+
+.integdetails {
+  border-top: 1px solid $gray;
+  margin-top: 20px;
+  padding-top: 20px;
+
+  .score_box {
+    line-height: 40px;
+  }
+
+  .score_name {
+    display: inline-block;
+    width: 80px;
+  }
+}
+
+.total {
+  font-style: normal;
+}
+.moda_2{
+  width: 30%;
+  height: 30%;
+  position: fixed;
+  top: 35%;
+  left:45%;
+  background: #fff;
+  border-radius: 0.5em;
+  border: 1px solid #000;
+  display: none;
+  padding: 2em 0em 1em 1em;
+  box-shadow: 10px 10px 8px #888888;
+  text-align: center;
+  p{
+    margin-bottom: 4rem;
+  }
+}
+.warning{
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  border-radius: 1em;
+  background: #ff6600;
+  text-align: center;
+  line-height: 1.5em;
+  color: #fff;
+  margin-right: 0.5em;
+}
+.moda_4{
+  width: 25%;
+  // height: 30%;
+  position: fixed;
+  top: 35%;
+  left:45%;
+  background: #fff;
+  border-radius: 0.5em;
+  border: 1px solid #000;
+  display: none;
+  padding: 1em 0em 0em 1em;
+  box-shadow: 10px 10px 8px #888888;
+  .tu{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    border-radius: 1em;
+    background: green;
+    text-align: center;
+    line-height: 1em;
+    color: #fff;
+    margin-right: 0.5em;
+  }
+}
+
+.modifyscore {
+  width: 500px;
+
+  input {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+}
+
+.scoreselecte, .modifyscore {
+  margin-bottom: 10px;
+}
+
+.oksubBtn {
+  width: 200px;
+}
+.export{
+  width: 120px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  background-color: #99bcf0;
+}

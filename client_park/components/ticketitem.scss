@@ -1,0 +1,141 @@
+@import '../pages/reset';
+@import url('//at.alicdn.com/t/font_1eoobi6jtkpgb9.css');
+
+$white: #fff;
+$grayf9f9f9: #f9f9f9;
+$grayededed: #ededed;
+$grayc7c7c7: #c7c7c7;
+$green: #26c325;
+$gray333: #333;
+$coloreee: #eee;
+$gray999: #999;
+$gray: #272536;
+
+.iconfont {
+  color: $gray;
+  font-size: rem(40px);
+  line-height: rem(128px);
+}
+
+.item {
+  background-color: $white;
+  box-shadow: 0 0 16px $coloreee;
+  margin-bottom: rem(20px);
+  position: relative;
+  width: 100%;
+
+  .item-inner {
+    padding: rem(26px);
+    position: relative;
+  }
+
+  &::before {
+    background: radial-gradient(transparent 0, transparent rem(6px), $white rem(6px));
+    background-position: rem(8px) 1px;
+    background-size: rem(18px) rem(20px);
+    content: '';
+    height: 100%;
+    left: rem(-5px);
+    position: absolute;
+    top: 0;
+    width: rem(7px);
+    z-index: 1;
+  }
+
+  &::after {
+    background: radial-gradient(transparent 0, transparent rem(6px), $white rem(6px));
+    background-position: 0 1px;
+    background-size: rem(18px) rem(20px);
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: rem(-6px);
+    top: 0;
+    width: rem(7px);
+    z-index: 1;
+  }
+
+  .radius-top {
+    background-color: $grayf9f9f9;
+    border: 1px solid $coloreee;
+    border-radius: 100%;
+    height: rem(12px);
+    position: absolute;
+    right: rem(204px);
+    top: rem(-6px);
+    width: rem(12px);
+  }
+
+  .radius-bottom {
+    background-color: $grayf9f9f9;
+    border: 1px solid $coloreee;
+    border-radius: 100%;
+    bottom: rem(-6px);
+    height: rem(12px);
+    position: absolute;
+    right: rem(204px);
+    width: rem(12px);
+  }
+
+  .item-info {
+    color: $gray333;
+    display: -webkit-box;
+    display: box;
+    font-size: rem(24px);
+    line-height: rem(40px);
+
+    .item-left {
+      -webkit-box-flex: 1;
+      box-flex: 1;
+
+      dt {
+        border: 1px solid $grayededed;
+        border-radius: rem(6px);
+        display: inline-block;
+        height: rem(126px);
+        overflow: hidden;
+        vertical-align: middle;
+        width: rem(126px);
+        margin-right: rem(24px);
+
+        em {
+          background: url('../images/pic.jpg')  center no-repeat;
+          background-size: cover;
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      dd {
+        display: inline-block;
+        font-size: rem(28px);
+        vertical-align: middle;
+      }
+      h2{font-size: rem(32px);}
+      h3 {
+        font-size: rem(28px);
+        line-height: rem(66px);
+      }
+
+      p {
+        &.active {
+          color: $grayc7c7c7;
+          text-decoration: line-through;
+        }
+        color: $green;
+      }
+    }
+  }
+
+}
+
+.no-discount {
+  color: $gray999;
+  font-size: rem(36px);
+  left: 50%;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

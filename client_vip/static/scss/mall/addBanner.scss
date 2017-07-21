@@ -1,0 +1,57 @@
+@import "../user/public";
+
+.main{
+  .header{
+    margin-bottom: 1.5rem;
+    border: 1px solid #eceeef;
+    .title{
+      position: relative;
+      margin: 0.75rem;
+      line-height: 1.5;
+      border-bottom: 1px solid #eceeef;
+      h3{ border: 0;
+        margin-bottom: 0.375rem;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .add-btn{
+        position: absolute;
+        top: -0.375rem;
+        right: 0;
+      }
+    }
+    .wrapper{
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 1rem;
+      label{
+        padding: 0.375rem 0.75rem;
+        line-height: 1.5;
+        color: #55595c;
+      }
+      span{
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.75rem;
+      }
+    }
+  }
+
+  .banner-tit{
+    margin-top: 2.5rem;
+  }
+
+  label{
+    padding-top: 0.375rem;
+  }
+}
+
+#image {
+  width: 38%;
+  height: 118px;
+  margin-bottom: 1rem;
+  border: 0;
+}

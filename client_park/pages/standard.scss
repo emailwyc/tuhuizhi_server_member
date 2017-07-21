@@ -1,0 +1,47 @@
+@import './reset';
+
+$bordercolor: #e0e0e0;
+$actcolor: #1f1f1f;
+$bgcolor: #f9f9f9;
+$color: #808080;
+
+.standard-box {
+  font-size: rem(28px);
+
+  .tap-hea {
+    border-bottom: 1px solid $bordercolor;
+    color: $actcolor;
+    display: -webkit-box;
+    display: box;
+    font-size: rem(32px);
+    height: rem(128px);
+    line-height: rem(128px);
+    text-align: center;
+
+    .tap {
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      height: 100%;
+
+      &.active {
+        border-bottom: rem(4px) solid $actcolor;
+      }
+    }
+  }
+
+  .tap-con {
+    border-top: rem(20px) solid $bgcolor;
+
+    .con-word {
+      border-top: 1px solid $bordercolor;
+      color: $color;
+      line-height: rem(60px);
+      padding: rem(24px) rem(42px);
+      word-break: break-all;
+
+      img {
+        max-width: 100% !important;
+      }
+    }
+  }
+}

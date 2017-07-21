@@ -1,0 +1,97 @@
+<div class="container-fluid">
+{{>surveySide}}
+  <div class="main">
+    <div class="set">
+      <div class="inputbox">
+        <div class="setTitle">
+          <lable>标题</leble>
+          <input type="text" name="" value="" id="paperTitle">
+        </div>
+        <div class="setStarTime">
+          <lable>开始时间</leble>
+          <input type="Date" name="" value="" id="startTime">
+        </div>
+        <div class="setEndTime">
+          <lable>结束时间</leble>
+          <input type="Date" name="" value="" id="endTime">
+        </div>
+      </div>
+      <div class="group-select">
+        <span>选择分组：</span>
+        <select class="form-control group-box">
+        </select>
+      </div>
+      <div class="awardbox">
+        <p class="awardtitle">问卷有礼<span>(从以下选项中选择问卷调查奖励方式)</span></p>
+        <p class="typeNone">
+          <label><input type="radio" name="awardType" value="4"><span>我不参与问卷有礼</span></label>
+        </p>
+        <p class="typeOne">
+          <label><input type="radio" name="awardType" value="1"><span>抽奖</span></label>
+          <input type="text" class="link" style="width: 80%;" name="inputValue" value="" placeholder="问卷结束后跳转地址">
+        </p>
+        <p class="typeTwo">
+          <label><input type="radio" name="awardType" value="3"><span>赠送积分</span></label>
+          <input type="number" class="integralNum" style="width: 20%;margin-right:10px;" name="inputValue" value="" placeholder="输入赠送积分数量">积分
+        </p>
+        <p class="typeThree">
+          <label><input type="radio" name="awardType" value="2"><span>活动ID</span></label>
+          <input type="text" class="activityID" style="width: 80%;" name="inputValue" value="" placeholder="输入营销平台活动ID">
+        </p>
+      </div>
+      <div class="uploadbox">
+        <div id="container">
+          <a href="#" class="btn btn-secondary active" role="button" id="pickfiles" >
+            <i class="glyphicon glyphicon-plus"></i>
+            <span>选择图片</span>
+          </a>
+        </div>
+        <img src="" id="image" />
+      </div>
+
+    </div>
+    <div class="contentbox" id="contentbox">
+      <!-- <div class="setContent" id="setbox1">
+        <div class="titleName">
+          <label for="">题目</label>
+          <input type="text" name="" value="" class="subject">
+          <img src="../../static/img/survey/https://img.rtmap.com/addtimu.png" alt="添加题目" title="添加题目" id="addtitle">
+        </div>
+        <div class="type">
+          <label for="">类型</label>
+            <select class="select" name="" id="select1">
+              <option value="0"><a href="#">单选</a></option>
+              <option value="1"><a href="#">多选</a></option>
+              <option value="2"><a href="#">问答</a></option>
+            </select>
+        </div>
+        <ul class="selection" id="selectbox1">
+          <li>
+            <input type="text" name="" value="" placeholder="选项">
+            <span class="delselection"><img src="../../static/img/survey/https://img.rtmap.com/webwxgetmsgimg.png" title="删除选项" alt="删除"></span>
+          </li>
+          <li>
+            <input type="text" name="" value="" placeholder="选项">
+            <span class="delselection"><img src="../../static/img/survey/https://img.rtmap.com/webwxgetmsgimg.png" title="删除选项" alt="删除"></span>
+          </li>
+          <li>
+            <input type="text" name="" value="" placeholder="选项">
+            <span class="delselection"><img src="../../static/img/survey/https://img.rtmap.com/webwxgetmsgimg.png" title="删除选项" alt="删除"></span>
+          </li>
+        </ul>
+        <div class="text" >
+          <textarea name="name" rows="8" cols="80" disabled="disabled" placeholder="问答" id="text1"></textarea>
+        </div>
+        <div class="addselection" id="1">新建选项</div>
+      </div> -->
+    </div>
+    <div class="issure">
+      <a href="javascript:;" class="submit butstyle" id="submit">提交</a>
+      <a href="/survey/survey" class="cancel butstyle" id="cancel">取消</a>
+    </div>
+  </div>
+</div>
+<script src="{{page.staticBase}}/static/umeditor/qiniu.js"></script>
+<script src="{{page.staticBase}}/static/umeditor/plupload/plupload.full.min.js"></script>
+
+<script>var conf={paperId:'{{id}}', ticket:'{{ticket}}'};</script>

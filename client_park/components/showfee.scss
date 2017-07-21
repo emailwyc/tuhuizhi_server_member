@@ -1,0 +1,14 @@
+@import '../pages/reset';
+
+$color4: #279df2;
+
+.standard-btn {
+  bottom: rem(24px);
+  color: $color4;
+  font-size: rem(28px);
+  left: 0;
+  line-height: rem(58px);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

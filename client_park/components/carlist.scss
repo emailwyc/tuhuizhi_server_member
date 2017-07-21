@@ -1,0 +1,58 @@
+@import '../pages/reset';
+@import url('//at.alicdn.com/t/font_1eoobi6jtkpgb9.css');
+
+$black: #000;
+$bordercolor: #e0e0e0;
+$bgcolor1: #fff;
+
+.iconfont {
+  color: $gray;
+  font-size: rem(40px);
+}
+
+.tap-box {
+  border-top: 1px solid $bordercolor;
+
+  li {
+    background-color: $bgcolor1;
+    border-bottom: 1px solid $bordercolor;
+    display: -webkit-box;
+    display: box;
+    height: rem(160px);
+    line-height: rem(160px);
+    padding: 0 rem(42px);
+
+    .item-con {
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      figure{
+        border: 1px solid;
+        border-radius: rem(10px);
+        display: inline-block;
+        height: rem(84px);
+        overflow: hidden;
+        vertical-align: middle;
+        width: rem(84px);
+
+        em {
+          background: url('../images/pic.jpg')  center no-repeat;
+          background-size: cover;
+          display: block;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      span {
+        font-size: rem(28px);
+        font-weight: bold;
+        padding-left: rem(38px);
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.cars {
+  color: $black;
+}

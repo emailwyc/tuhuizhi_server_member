@@ -1,0 +1,17 @@
+@import '../pages/reset';
+@import url('//at.alicdn.com/t/font_cn4o3wjpqq90y66r.css');
+
+$grayf9f9f9: #f9f9f9;
+$graybcbcbc: #bcbcbc;
+
+.iconfont.icon-xiaoyuhao {
+  color: $graybcbcbc;
+  font-size: rem(40px);
+  line-height: rem(76px);
+  vertical-align: middle;
+}
+
+.back-box {
+  background-color: $grayf9f9f9;
+  padding: 0 rem(24px);
+}
