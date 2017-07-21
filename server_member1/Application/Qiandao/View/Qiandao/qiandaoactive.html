@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="__PUBLIC__/js/jquery-1.11.1.js"></script>
+
+</head>
+<body>
+
+<form>
+
+<input type="text" name="supermarket">
+
+<input type="button" id="button" value="tijiao">
+</form>
+<div id="content"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#button').click(function(){
+		$.ajax({
+		    url:"{:U("Qiandao/Qiandao/qiandaoactive",'','')}",
+		    type:"post",
+		    data:{'supermarket':1,'uid':1},
+		    beforeSend:function(){
+		    },
+		    success:function(data){
+		        //数据加载成功
+		        $('#content').html(data);
+		    },
+		    error:function(){
+		   }
+		});
+
+	})
+	
+})
+
+
+
+
+
+
+</script>
+</body>
+</html>

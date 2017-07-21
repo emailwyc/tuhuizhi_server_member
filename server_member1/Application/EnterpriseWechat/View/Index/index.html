@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="__PUBLIC__/js/jquery-2.1.1.js"></script>
+    <title>ajaxtest</title>
+</head>
+<body>
+<input type="button" value="登录" id="login" style="width: 100px; height: 100px;">
+
+<input type="button" value="列表" id="list">
+
+<input type="button" value="获取注册结果" id="getdomn">
+
+<table border="2" id="tab">
+    <tr><td>序号</td></td><td width="100px">域名</td><td width="100px">是否被注册</td></tr>
+
+
+
+</table>
+<script>
+    $(document).ready(function(){
+        $("#login").click(function () {
+            $.ajax({
+                url:'http://member.rtmap.com/MerAdmin/Index/login?name=zhihuitu&pwd=rtmap911',
+                //data:{rediskey:$("#key").val(), redisvalue:$("#value").val(), ttl:$("#ttl").val(), isforever:$("#isforever").is(':checked')},
+                type: 'get',
+                datetype: 'json',
+//                //配置跨域，
+                xhrFields: {
+                    withCredentials: true,
+                },
+                crossDomain: true,
+                success: function(data) {
+                    alert(data)
+                }
+            });
+        })
+
+        $("#list").click(function () {
+            $.ajax({
+                url:'http://member.rtmap.com/MerAdmin/WechatMessage/MessageList',
+                data:{key_admin:'202cb962ac59075b964b07152d234b70',lines:100,page:1},
+                type: 'post',
+                datetype: 'json',
+                xhrFields: {
+                    withCredentials: true,
+                },
+                crossDomain: true,
+                success: function(data) {
+
+                }
+            });
+        });
+        function s32(){
+            var data=["0","1","2","3","4","5","6","7","8","9"
+                ,"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+            var result=[];
+            var length = data.length;
+            for(var i=0;i<32;i++){
+                var r=Math.floor(Math.random()*length);
+                result.push(data[r]);
+            }
+            return result.join('');
+        }
+    $("#getdomn").click(function () {
+        window.umToken='check-web-hichina-com:'+ s32();
+        window.umToken="check-web-hichina-com:mjaybajo8s29sd762gk3553nx5nkx5vc";
+
+
+        var type = "ali";//ali or xinnet
+        var obj;
+        setTimeout(
+            $.ajax({
+                type: "get",
+                async: false,
+                url: "http://member.rtmap.com/Localtest/Index/zidian",
+//                data: {searchRandom:1},
+                dataType: "json",
+//                jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
+//                jsonpCallback:"?",//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名，也可以写"?"，jQuery会自动为你处理数据
+                success: function(json){
+                    obj=json;
+                },
+                error: function(){
+                    alert('失败');
+                }
+            })
+        ,200);
+
+        var lengtharr=obj.length;
+//        alert(lengtharr);
+        var num=0;
+        var interval=setInterval(function(){
+            var prefix='node'+obj[num];
+            if (type == "xinnet"){
+                $.ajax({
+                    type: "get",
+                    async: false,
+                    url: "http://checkdomain.xinnet.com/domainCheck",
+                    data: {searchRandom:1,prefix:prefix+'',suffix:'.com'},
+                    dataType: "jsonp",
+                    jsonp: "callbackparam",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
+                    success: function(json){
+                        ++num;
+                        //json[0]['result'][0][]
+                        if (json[0]['result'][0]['no'] != false){
+                            console.log(json[0]['result'][0]['no'][0]['domainName']);
+                            var tr = "<tr><td>"+num+"</td><td>"+json[0]['result'][0]['no'][0]['domainName']+"</td><td>已被注册</td></tr>";
+                        }else{
+                            var tr = "<tr bgcolor='#ff4500'><td>"+num+"</td><td>"+json[0]['result'][0]['yes'][0]['domainName']+"</td><td>未</td></tr>";
+                        }
+                        $("#tab").append(tr);
+                    },
+                    error: function(){
+                        console.log('fail');
+                    }
+                });
+            }else if (type == "ali"){
+                console.log(window.umToken);
+                $.ajax({
+                    type: "get",
+                    async: false,
+                    url: "https://checkapi.aliyun.com/check/checkdomain",
+                    data: {domain:prefix+'.com',token:window.umToken},
+                    dataType: "jsonp",
+                    jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
+                    success: function(json){
+                        ++num;
+                        //json[0]['result'][0][]
+                        if (json.errorCode == 0){
+                            var arr= eval(json);
+                            console.log(arr);
+//                            alert(arr['module'][0]['name']);
+                            if (arr['module'][0]['avail'] == 0){
+                                var tr = "<tr><td>"+num+"</td><td>"+arr['module'][0]['name']+"</td><td>已被注册</td></tr>";
+                            }else{
+                                var tr = "<tr bgcolor='#ff4500'><td>"+num+"</td><td>"+prefix+".com"+"</td><td>未注册</td></tr>";
+                            }
+
+                        }else{
+                            var tr = "<tr><td>接口</td><td>请求</td><td>错误</td></tr>";
+                        }
+                        $("#tab").append(tr);
+                    },
+                    error: function(){
+                        console.log('fail');
+                    }
+                });
+            }else{
+                alert('error');
+                clearInterval(interval);
+            }
+
+            if (num >=lengtharr-1){
+                clearInterval(interval);
+            }
+//            clearInterval(interval);
+        }, 500);
+    })
+
+    });
+
+
+    /////////////////////////////////////////
+</script>
+</body>
+</html>

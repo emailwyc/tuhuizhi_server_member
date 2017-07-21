@@ -1,0 +1,71 @@
+<!-- Ladda style -->
+    <link href="__PUBLIC__/css/plugins/ladda/ladda-themeless.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/plugins/iCheck/custom.css" rel="stylesheet">
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Redis</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">
+                <a>添加一个redis key</a>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeIn">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>填写redis的key和值，暂时只支持string类型</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input id="clicks" type="button" value="aaaa">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Ladda -->
+	    <script src="__PUBLIC__/js/plugins/ladda/spin.min.js"></script>
+	    <script src="__PUBLIC__/js/plugins/ladda/ladda.min.js"></script>
+	    <script src="__PUBLIC__/js/plugins/ladda/ladda.jquery.min.js"></script>
+        <script src="__PUBLIC__/js/plugins/validate/jquery.validate.min.js"></script>
+        <!-- iCheck -->
+    <script src="__PUBLIC__/js/plugins/iCheck/icheck.min.js"></script>
+            <script>
+         $(document).ready(function(){
+        	 $("#clicks").click(function () {
+                 $.ajax({
+                     url:'https://mem.rtmap.com/wenjuan/public/?key_admin=202cb962ac59075b964b07152d234b70&openid=oikd5jihpe4zjtoXyBIBM7K8iPaf',
+                     //data:{rediskey:$("#key").val(), redisvalue:$("#value").val(), ttl:$("#ttl").val(), isforever:$("#isforever").is(':checked')},
+                     type: 'get',
+                     datetype: 'json',
+                     xhrFields: {
+                         withCredentials: true,
+                     },
+                     crossDomain: true,
+                     success: function(data) {
+
+
+                     }
+                 });
+             })
+        });
+    </script>

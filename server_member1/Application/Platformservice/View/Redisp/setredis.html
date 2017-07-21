@@ -1,0 +1,118 @@
+<!-- Ladda style -->
+    <link href="__PUBLIC__/css/plugins/ladda/ladda-themeless.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/plugins/iCheck/custom.css" rel="stylesheet">
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Redis</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">
+                <a>添加一个redis key</a>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeIn">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>填写redis的key和值，暂时只支持string类型</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                            <form id="form"  role="form" autocomplete="off">
+                                <div class="form-group">
+                                        <label for="key">KEY</label>
+                                        <input id="key" name="key"  type="text" class="form-control" placeholder="请输入一个key名"  />
+                                    </div>
+                                <div class="form-group">
+                                        <label for="value">VALUE</label>
+                                        <textarea class="form-control" name="value" id="value" rows="3" placeholder="请输入一个值" ></textarea>
+                                </div>
+                                <div class="form-group">
+                                        <label for="ttl">Time(分钟)</label>
+                                        <input id="ttl" name="ttl"  type="text" class="form-control" placeholder="为避免影响业务，默认存储时间为30分钟。"  />
+                                        <label style="margin-top:8px;">设为永久:<input type="checkbox" class="i-checks" id="isforever" name="isforever" value="ofcourse"></label>
+                                </div>
+                                
+                                
+                                <div class="form-group">
+                                	<div id="success"></div>
+                                </div>
+                                <div class="form-group">
+                                	<button class="ladda-button ladda-button-demo btn btn-primary" data-style="zoom-in">确认添加</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Ladda -->
+	    <script src="__PUBLIC__/js/plugins/ladda/spin.min.js"></script>
+	    <script src="__PUBLIC__/js/plugins/ladda/ladda.min.js"></script>
+	    <script src="__PUBLIC__/js/plugins/ladda/ladda.jquery.min.js"></script>
+        <script src="__PUBLIC__/js/plugins/validate/jquery.validate.min.js"></script>
+        <!-- iCheck -->
+    <script src="__PUBLIC__/js/plugins/iCheck/icheck.min.js"></script>
+            <script>
+         $(document).ready(function(){
+        	 $('.i-checks').iCheck({
+                 checkboxClass: 'icheckbox_square-green',
+                 radioClass: 'iradio_square-green',
+             });
+        	 var host='{$host}';
+        	 var l = $( '.ladda-button-demo' ).ladda();
+             $("#form").validate({
+                 rules: {
+                	 key: {
+                         required: true,
+                         minlength: 1
+                     },
+                     value: {
+                         required: true,
+                         minlength: 1
+                     },
+                     ttl: {
+                         required: false,
+                         number: true
+                     },
+                 },
+                 submitHandler: function(form){
+                	 $("#success").text('');
+                	 l.ladda( 'start' );
+                	 $.ajax({
+           		      url:host+'/Platformservice/Redisp/setredis',
+           		      data:{rediskey:$("#key").val(), redisvalue:$("#value").val(), ttl:$("#ttl").val(), isforever:$("#isforever").is(':checked')},
+           		      type: 'post',
+           		      success: function(data) {
+						 var data2 = $.parseJSON(data);
+						 if (data2.code == 200) {
+						 	$("#success").text("添加成功");
+						 	l.ladda( 'stop' );
+						 } else {
+						 	$("#success").text("添加失败");
+						 	l.ladda( 'stop' );
+						 }
+           		      }
+           		    });
+                 }
+             });
+        });
+    </script>

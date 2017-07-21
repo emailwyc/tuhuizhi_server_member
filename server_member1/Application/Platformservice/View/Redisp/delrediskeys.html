@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>删除redis  keys</title>
+</head>
+<body>
+	<p style="margin:0 auto;text-align:center;font-size:50px;">这是一项很危险的操作！</p>
+	<form action="{:U('Platformservice/Redisp/delrediskeys')}" method="post" autocomplete="off">
+		<p><input type="password" name="pppddd" /></p>
+		<p><input type="text" name="dbname" /></p>
+		<p>多个key中间用英文的逗号隔开，最后一个key后面不要加逗号</p>
+		<p><textarea rows=40 cols=30 style="width:50%; margin:0 auto;" name="keys"></textarea></p>
+		<p><input type="submit" value="确认删除"/></p>
+	</form>
+</body>
+</html>

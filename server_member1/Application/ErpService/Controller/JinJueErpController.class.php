@@ -1,0 +1,216 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: arthur
+ * Date: 12/07/16
+ * Time: 18:09 PM
+ */
+
+namespace ErpService\Controller;
+
+use Think\Controller;
+
+use PublicApi\Controller\QiniuController;
+
+class JinJueErpController extends Controller implements ErpinterfaceController
+{
+    public  $params=array(
+        'strCallUserCode'=>'FZ',
+        'strCallPassword'=>123456
+    );
+    public  $url='http://222.171.50.49:9000/ws_member.asmx/';
+    
+    //获取ftp 图片方法
+    public function qi_fetch($imgname){
+      $ftp_server="http://www.hrbjjwx.com.cn";          //定义ftp服务器
+//       $ftp_user="admin";            //定义用户名
+//       $ftp_pass="A1abcdWEB";            //定义用户对应的密码
+//       $conn_id=ftp_connect($ftp_server)or die("couldn't connect to $ftp_server"); //连接到指定ftp服务器
+//       if(@ftp_login($conn_id,$ftp_user,$ftp_pass))       //如果成功登录
+//       { 
+//           $here = ftp_pwd($conn_id);
+//           $path=RUNTIME_PATH.'wechat/fans/'.$imgname;
+//           if(ftp_get($conn_id,$path,$imgname,FTP_BINARY)){
+//               $qiniu=new QiniuController;
+//               list($ret, $err)=$qiniu->uploadfile($path,$imgname);
+//               unlink($path);
+//               return 'https://img.rtmap.com/'.$imgname;
+//           }else{
+//               return false;
+//           }
+//       }
+//       else
+//      {
+//           return false;        //输出不能登录的信息
+//       }
+         return $ftp_server.'/tp/'.$imgname;
+  }
+    
+    /**
+     *  获取兑换记录列表
+     */
+    public function get_exchange_list(){
+        $params['strMemberCode']=I('cardno');
+        if(in_array('', $params)){
+            $msg['code']=1030;
+        }else{
+            $params['strStartRow']=I('startlines')?I('startlines'):1;
+            $params['strEndRow']=I('endlines')?I('endlines'):99999;
+            $return_arr=$this->prize_action($params,'GetMemberRedeem');
+            $par['jinjue_prize_change']=$return_arr;
+            writeOperationLog($par,'zhanghang');
+            if(!empty($return_arr)){
+                $msg['code']=200;
+                $data=array();
+                
+                if(count($return_arr['SalesRecord']) != count($return_arr['SalesRecord'],1)){
+                    foreach($return_arr['SalesRecord'] as $k=>$v){
+                        $res['lines']=$v['ROWNUM'];
+                        $res['cardno']=$v['VIPCODE'];
+                        $res['username']=$v['SURNAME'];
+                        $res['change_num']=$v['CHANGEQTY'];
+                        $res['prize_id']=$v['GIFTCODE'];
+                        $res['get_time']=$v['TXDATE'];
+                        $res['prize_name']=$v['GIFTNAME'];
+                        if($v['ISRECEIVE'] == '未领取'){
+                            $res['status']=2;
+                        }else if($v['ISRECEIVE'] == '已领取'){
+                            $res['status']=3;
+                        }else{
+                            $res['status']=5;
+                        }
+                        $data['data'][]=$res;
+                    }
+                }else{
+                    $res['lines']=$return_arr['SalesRecord']['ROWNUM'];
+                    $res['cardno']=$return_arr['SalesRecord']['VIPCODE'];
+                    $res['username']=$return_arr['SalesRecord']['SURNAME'];
+                    $res['change_num']=$return_arr['SalesRecord']['CHANGEQTY'];
+                    $res['prize_id']=$return_arr['SalesRecord']['GIFTCODE'];
+                    $res['get_time']=$return_arr['SalesRecord']['TXDATE'];
+                    $res['prize_name']=$return_arr['SalesRecord']['GIFTNAME'];
+                    if($return_arr['SalesRecord']['ISRECEIVE'] == '未领取'){
+                        $res['status']=2;
+                    }else if($return_arr['SalesRecord']['ISRECEIVE'] == '已领取'){
+                        $res['status']=3;
+                    }else{
+                        $res['status']=5;
+                    }
+                    $data['data'][]=$res;
+                }
+                $data['startlines']=$params['strStartRow'];
+                $data['endlines']=$params['strEndRow'];
+                $msg['data']=$data;
+            }else{
+                $msg['code']=102;
+            }
+        }
+        return returnjson($msg);
+    }
+    
+    
+    /**
+     *  兑换礼品接口
+     */
+    public function prize_exchange(){
+        $params['strMemberCode']=I('cardno');
+        $params['strGiftCode']=I('pid');
+        $params['strMallId']=I('activity')?I('activity'):'JJWX';
+        $params['strRedeemQty']=1;
+        if(in_array('', $params)){
+            $msg['code']=1030;
+        }else{
+            $return_arr=$this->prize_action($params,'GetMemberGiftRedeem');
+            $par['jinjue_prize_exchange']=$return_arr;
+            writeOperationLog($par,'zhanghang');
+            if($return_arr['Error']){
+                $msg['code']=104;
+                $msg['msg']=$return_arr['Error']['Description'];
+            }else{
+                $msg['code']=200;
+            }
+        }
+        return returnjson($msg);
+    }
+    
+    
+    /**
+     *  礼品退还接口
+     */
+    public function prize_return(){
+        $params['strMemberCode']=I('cardno');
+        $params['strGiftCode']=I('pid');
+        $params['strMallId']=I('activity')?I('activity'):'JJWX';
+        $params['strRedeemQty']=-1;
+        if(!in_array('', $params)){
+            $msg['code']=1030;
+        }else{
+            $return_arr=$this->prize_action($params,'GetMemberGiftRedeem');
+            if($return_arr['Success']['ReturnCode']==0){
+                $msg['code']=200;
+            }else{
+                $msg['code']=1018;
+                $msg['msg']=$return_arr['Success']['Description'];
+            }
+        }
+        return returnjson($msg);
+    }
+    
+    protected function prize_action($params,$action){
+        $url=$this->url.$action;
+        $params['strCallUserCode']=$this->params['strCallUserCode'];
+        $params['strCallPassword']=$this->params['strCallPassword'];
+        $return_xml=http($url,$params);
+        $return_arr=xmltoarray($return_xml);
+        return $return_arr;
+    }
+    
+    
+    /**
+     *  获取会员礼品列表
+     */
+    public function prize_list(){
+        $params['strMallId']=I('activity')?I('activity'):'JJWX';
+        $url=$this->url.'GetMemberGiftList';
+        $this->params['strMallId']=$params['strMallId'];
+        $this->params['strIsHaveQoh']=I('status')?I('status'):'Y';
+        $return_xml=http($url,$this->params);
+        $return_arr=xmltoarray($return_xml);
+        if(!empty($return_arr)){
+            $msg['code']=200;
+            $data=array();
+            if(count($return_arr['GiftRecord']) != count($return_arr['GiftRecord'],1)){
+                foreach($return_arr['GiftRecord'] as $k=>$v){
+                    $res_arr['id']=$v['ITEMNO'];
+                    $res_arr['integral']=$v['BONUS'];
+                    $res_arr['main_info']=$v['ITEMDESCI'];
+                    $res_arr['num']=$v['QOH'];
+                    $res_arr['issue']=0;
+                    $res_arr['start_time']=$v['EFFECTDATE'];
+                    $res_arr['end_time']=$v['CUTOFFDATE'];
+                    $res_arr['status']=0;
+                    $res_arr['writeoff_count']=0;
+                    $res_arr['image_url']=$this->qi_fetch($v['ITEMNO'].'.jpg')?$this->qi_fetch($v['ITEMNO'].'.JPG'):'';
+                    $data[]=$res_arr; 
+                }
+            }else{
+                $res_arr['id']=$return_arr['GiftRecord']['ITEMNO'];
+                $res_arr['integral']=$return_arr['GiftRecord']['BONUS'];
+                $res_arr['main_info']=$return_arr['GiftRecord']['ITEMDESCI'];
+                $res_arr['num']=$return_arr['GiftRecord']['QOH'];
+                $res_arr['issue']=0;
+                $res_arr['start_time']=$return_arr['GiftRecord']['EFFECTDATE'];
+                $res_arr['end_time']=$return_arr['GiftRecord']['CUTOFFDATE'];
+                $res_arr['status']=0;
+                $res_arr['writeoff_count']=0;
+                $res_arr['image_url']=$this->qi_fetch($return_arr['GiftRecord']['ITEMNO'].'.jpg')?$this->qi_fetch($return_arr['GiftRecord']['ITEMNO'].'.JPG'):'';
+                $data[]=$res_arr;
+            }
+            $msg['data']=$data;       
+        }else{
+            $msg['code']=1018;
+            $msg['msg']='错误';
+        }
+        return returnjson($msg);
+    }
+}
