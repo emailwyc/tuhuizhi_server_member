@@ -1,0 +1,62 @@
+<!-- 资源绑定 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_sideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">资源绑定－－>西单大悦城</h2>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Api类名</th>
+                <th align="center">H5栏目名</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" name="column" value="积分商城"> 积分商城
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" name="column" value="api类名"> api类名
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" name="column" value="H5目录名"> H5目录名
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" name="column" value="会员系统"> 会员系统
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" name="column" id="inlineCheckbox5" value="api类名"> api类名
+                  </label>
+                </td>
+                <td>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" name="column" id="inlineCheckbox6" value="H5目录名"> H5目录名
+                  </label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="form-group row">
+          <button type="submit" class="btn btn-primary subbtn">提交</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input type="hidden" name="id" value="{{id}}" />
+  <script>var conf={id:'{{id}}',name:'{{name}}'};</script>

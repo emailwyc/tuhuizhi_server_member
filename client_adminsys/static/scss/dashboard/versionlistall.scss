@@ -1,0 +1,52 @@
+@import "./modules/sideb";
+
+.table{
+  width: 100%;
+
+  thead{
+    width: 100%;
+    th{
+      padding: 10px 0;
+    }
+    .headid{
+      width: 4%;
+      min-width: 46px;
+    }
+    .headname{
+      width: 12%;
+      min-width: 60px;
+    }
+    .headdescribe{
+      width: 15%;
+      min-width: 150px;
+    }
+    .headurl{
+      width: 35%;
+    }
+    .updatatime{
+      width: 10%;
+      min-width: 90px;
+    }
+    .headstatus{
+      width: 4%;
+      min-width: 46px;
+    }
+    .headoptions{
+      width: 20%;
+      min-width: 160px;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        padding: 10px 0;
+      }
+      .url{
+        max-width:160px;
+        white-space:nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+}

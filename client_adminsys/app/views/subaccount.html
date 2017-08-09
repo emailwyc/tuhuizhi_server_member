@@ -1,0 +1,62 @@
+<div class="container-fluid">
+    <div class="row">
+      {{>_sideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+        <h2 class="sub-header">子账号列表</h2>
+        <div class="row mag">
+          <div class="form-group row">
+            <div class="col-sm-offset-2 col-sm-10" style="margin: 0 ;">
+              <a href="/dashboard/establishaccount?name={{name}}&id={{id}}" class="btn btn-primary subbtn">添加子账号</a>
+            </div>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>商户</th>
+                <th>建筑物ID</th>
+                <th>楼层</th>
+                <th>门牌号</th>
+                <th>商户子账户名称</th>
+                <th>商户子支付账户</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>1,001</td>
+                <td>西单大悦城</td>
+                <td>
+                  <a href="/dashboard/modifyaccount">修改</a>
+                  <a href="#">已启用</a>
+                  <a href="/dashboard/accountdetails">详情</a>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  </div>
+  <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridModalLabel">删除</h4>
+        </div>
+        <div class="modal-body">
+          确定要删除吗？
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary Okdel">确定删除</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <input type="hidden" name="describe" value="{{describe}}" />
+  <script>var conf={id:'{{id}}', name:'{{name}}'};</script>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,
+    minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>联系我们</title>
+    <script src="./js/mui.min.js"></script>
+    <script src="./js/zepto.js" charset="utf-8"></script>
+    <link href="./css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/service.css">
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+  <div class="mui-content">
+    <div class="txtWrap">
+
+    </div>
+    <div class="btnWrap">
+      <!-- <button type="button" name="button" class="btn btnone">提交</button> -->
+    </div>
+    <div class="times">
+      <!-- <h4>客服营业时间</h4>
+      <time>周一至周五：10：00-22：00</time>
+      <time>周一至周五：10：00-22：30</time> -->
+    </div>
+	</div>
+</body>
+<script type="text/javascript">
+$(function(){
+   function　GetQueryString(name) {
+       var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+       var r = window.location.search.substr(1).match(reg);
+       if (r != null) {
+           return unescape(r[2]);
+       }
+       return null;
+   };
+  var key = GetQueryString('key_admin');
+
+  var id =GetQueryString('openid');
+
+  $.ajax({
+    type: 'post',
+    dataType:'jsonp',
+    data:{
+      key_admin:key,
+    },
+    url:'https://backend.rtmap.com/Member/Member/contactus',
+    success:function(res){
+      console.log(res);
+      if(res.code === 200){
+        if(res.data.feedback.enable){
+          // const html = `<textarea name="name" rows="8" cols="80" class="txt">
+          // ${res.data.feedback.form}
+          // </textarea>`;
+          var html = '<form><textarea name="name" rows="8" cols="80" class="txt">'+ res.data.feedback.form +'</textarea></form>';
+            $('.txtWrap').html(html);
+          // const htmls = `<button type="button" name="button" class="btn btnone">
+          // 提交</button>`;
+          var htmls = '<button type="button" name="button" class="btn btnone">提交</button>';
+            $('.btnWrap').append(htmls);
+
+        }
+        if(res.data.phoneservice.enable){
+          for (var i in res.data.phoneservice.server){
+            // const htmlp = `<a href="tel:${res.data.phoneservice.server[i].phoneno}">
+            // <button type="button" name="button" class="btn btnTwo">
+            // ${res.data.phoneservice.server[i].name}&nbsp;&nbsp;&nbsp;&nbsp;
+            // ${res.data.phoneservice.server[i].phoneno}
+            // </button></a>`;
+            // var htmlp = '<a href="tel: '+ res.data.phoneservice.server[i].phoneno +'><button type="button" name="button" class="btn btnTwo">'+ res.data.phoneservice.server[i].name +' &nbsp;&nbsp;&nbsp;&nbsp;'+ res.data.phoneservice.server[i].phoneno +' </button></a>';
+
+
+var htmlp = "<a href=\"tel:" + res.data.phoneservice.server[i].phoneno + "\">\n            <button type=\"button\" name=\"button\" class=\"btn btnTwo\">\n            " + res.data.phoneservice.server[i].name + "&nbsp;&nbsp;&nbsp;&nbsp;\n            " + res.data.phoneservice.server[i].phoneno + "</button></a>";
+            console.log(htmlp);
+            $('.btnWrap').append(htmlp);
+          }
+        }
+        if(res.data.servicedescription.enable){
+          var html = res.data.servicedescription.description;
+          $('.times').append(html);
+        }
+      }
+    },
+    error: function(){
+      alert('数据库错误');
+    }
+  })
+  $('.btnWrap').on('click', '.btnone', function(){
+    // alert($('.txt').val());
+    $.ajax({
+      type:'post',
+      dataType:'jsonp',
+      data:{
+        key_admin:key,
+        openid:id,
+        content: $('.txt').val(),
+      },
+      url:'https://backend.rtmap.com/Member/Member/feedback',
+      success:function(res){
+        if (res.code==200) {
+          alert('操作成功');
+        };
+        console.log(res);
+        console.log($('.txt').val());
+      },
+      error:function(){
+        console.log('error');
+      }
+    })
+  });
+
+})
+
+</script>
+</html>

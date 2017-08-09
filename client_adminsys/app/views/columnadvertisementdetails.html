@@ -1,0 +1,114 @@
+<!-- 资源管理 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_columnadvertisementsideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">栏目列表</h2>
+        <div class="row mag" style="text-align: right">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-modal" id="newadd">+新增</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>广告位置</th>
+                <th>备注</th>
+                <th align="center">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>广告位</td>
+                <td>顶部轮播</td>
+                <td>
+                  <a href="#" data-id="1" data-status="e" data-toggle="modal" data-target="#edit-modal" class="edit-btn">编辑</a>
+                  <a href="#" data-id="1" data-status="d" data-toggle="modal" data-target="#gridSystemModal" class="del-btn">删除</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  </div>
+  <!-- 修改权限modal -->
+  <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form id="edit-form">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">编辑位置</h4>
+          </div>
+          <div class="modal-body">
+              <fieldset class="form-group">
+                <label for="edit-column-name">广告位置</label>
+                <input type="text" class="form-control" id="edit-column-name" placeholder="请输入广告位置" required data-required="请输入广告位置">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="edit-column-remarks">备注</label>
+                <input type="text" class="form-control" id="edit-column-remarks" placeholder="请输入备注" required data-required="请输入备注">
+              </fieldset>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="submit" class="btn btn-primary edit-save">保存</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    <!-- 添加权限modal -->
+    <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <form id="add-form">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                <span class="sr-only">Close</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel1">新增位置</h4>
+            </div>
+            <div class="modal-body">
+                <fieldset class="form-group">
+                  <label for="add-column-name">广告位置</label>
+                  <input type="text" class="form-control" id="add-column-name" placeholder="请输入广告位置" required data-required="请输入广告位置">
+                </fieldset>
+                <fieldset class="form-group">
+                  <label for="add-column-remarks">备注</label>
+                  <input type="text" class="form-control" id="add-column-remarks" placeholder="请输入备注" required data-required="请输入备注">
+                </fieldset>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+              <button type="submit" class="btn btn-primary add-save">保存</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridModalLabel">删除</h4>
+        </div>
+        <div class="modal-body">
+          确定要删除吗？
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary del" data-status="d">确定删除</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>var conf={id:'{{id}}', name:'{{name}}'};</script>

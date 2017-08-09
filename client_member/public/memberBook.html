@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,
+    maximum-scale=1,user-scalable=no" />
+    <title>会员手册</title>
+    <script src="./js/mui.min.js" charset="utf-8"></script>
+    <script src="./js/zepto.js" charset="utf-8"></script>
+    <link href="./css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/memberBook.css">
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+<div class="mui-content">
+  <ul class="mui-table-view"></ul>
+</div>
+<script type="text/javascript">
+$(function(){
+  // alert();//gg
+  // 获取地址栏参数
+  // alert(2);
+  function　GetQueryString(name) {
+      var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) {
+          return unescape(r[2]);
+      }
+      return null;
+  };
+  var key = GetQueryString('key_admin');
+  var id = GetQueryString('openid');
+  console.log(id);
+  console.log(key);
+  $.ajax({
+    type: 'post',
+    dataType:'jsonp',
+    data:{
+      key_admin:key,
+      openid:id,
+    },
+    url:'https://backend.rtmap.com/Member/Member/memberRight',
+    success:function(res){
+      // alert(3);
+      // alert(res.data);
+      var len = res.data.length;
+      console.log(len);
+      for(var i = 0;i< len;i++){
+        // alert(4);
+        // const html = `
+        //   <li class="mui-table-view-cell mui-collapse">
+        //       <a class="mui-navigate-right" href="#">${res.data[i].title}</a>
+        //       <div class="mui-collapse-content mcol">
+        //           <p>${res.data[i].content}</p>
+        //       </div>
+        //   </li>`;
+        var html = '<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">'+ res.data[i].title +'</a><div class="mui-collapse-content mcol"><p>'+ res.data[i].content +'</p></div></li>';
+          $('.mui-table-view').append(html);
+      }
+      // alert(5);
+    },
+    error: function(){
+      console.log('error');
+    }
+  })
+})
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import "./modules/sideb";
+.table{
+  width: 100%;
+  thead{
+    width: 100%;
+
+    .headid{
+      width: 5%;
+    }
+    .headpower{
+      width: 13%;
+      min-width: 130px;
+    }
+    .headurl{
+      width: 49%;
+    }
+    .headstatus{
+      width: 7%;
+    }
+    .headoptions{
+      width: 25%;
+      min-width: 220px;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        padding: 5px 0;
+      }
+    }
+  }
+}

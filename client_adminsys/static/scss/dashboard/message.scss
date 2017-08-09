@@ -1,0 +1,29 @@
+@import "./modules/sideb";
+
+$ddd: #ddd;
+$fff: #fff;
+$color: #0275d8;
+
+.page_box {
+  display: none;
+
+  .no-click {
+    cursor: default;
+
+    &:hover {
+      background-color: $fff;
+      color: $color;
+    }
+  }
+}
+
+.gopage {
+  width: 5%;
+  border: 1px solid $ddd;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.mag {
+  padding: 20px 0;
+}

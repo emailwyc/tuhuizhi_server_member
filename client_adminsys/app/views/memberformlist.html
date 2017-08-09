@@ -1,0 +1,75 @@
+<div class="container-fluid">
+    <div class="row">
+      {{>member_sideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <p><a href="javascript:;"class="newbtn">新建+</a></p>
+        <table>
+          <thead>
+              <tr>
+                <td class="names">名字</td>
+                <td class="key">key</td>
+                <td class="type">类型</td>
+                <td class="options">操作</td>
+              </tr>
+          </thead>
+          <tbody>
+              <!--内容-->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" />
+    <input type="hidden" name="id" value="{{id}}" /> -->
+  </div>
+  <!--新建-->
+  <div class="newform newbox" id="newwarp">
+    <div class="newcont" style="overflow:auto">
+      <label for=""><span>名字</span><input type="text" name="name" value="" placeholder="必填项"></label>
+      <label for="">
+      <span>类型</span>
+      <select class="" name="">
+          <option value="text">text(输入框)</option>
+          <option value="password">password(密码)</option>
+          <option value="number">number(数字)</option>
+          <option value="radio">radio(单选)</option>
+          <option value="checkbox">checkbox(多选)</option>
+          <option value="date">date(日期)</option>
+          <option value="time">time(时分秒)</option>
+          <option value="select">select(下拉)</option>
+          <option value="textarea">textarea(文本域)</option>
+      </select>
+      </label>
+      <label for=""><span>function</span><input type="text" name="functions" value=""></label>
+      <label for="" class="addlabel">
+        <span>key</span><input type="text" name="keys" value="" placeholder="必填项">
+      </label>
+      <a href="javascript:;" class="addkey">添加默认值</a>
+      <div class="option">
+        <a href="javascript:;" class="cancel">取消</a>
+        <a href="javascript:;" class="submitbtn">提交</a>
+      </div>
+    </div>
+  </div>
+  <!--查看-->
+  <div class="newform checkedbox" style="display:none;">
+    <div class="newcont" style="overflow-y:auto;">
+      <label for=""><span>名字</span><input type="text" name="name" value="" disabled = "disabled"></label>
+      <label for=""><span>类型</span><input type="text" name="types" value="" disabled = "disabled"></label>
+      <label for="" class="checklabel">
+        <span>key:</span><input type="text" name="key" value="" disabled = "disabled">
+        <div class="choices">
+          <!-- <p>这是选项一这是选项一这是选项一这是选项一这是选项一这是选项一</p>
+          <p>这是选项二</p>
+          <p>这是选项一这是选项一这是选项一这是选项一这是选项一这是选项一</p>
+          <p>这是选项二</p>
+          <p>这是选项一这是选项一这是选项一这是选项一这是选项一这是选项一</p>
+          <p>这是选项二</p> -->
+        </div>
+      </label>
+      <div class="option">
+        <!-- <a href="javascript:;" class="cancel">取消</a> -->
+        <a href="javascript:;" class="checksure">确定</a>
+      </div>
+    </div>
+  </div>
+  <script>var conf={id:'{{id}}'};</script>

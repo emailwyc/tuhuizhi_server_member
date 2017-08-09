@@ -1,0 +1,49 @@
+{{>member_sideb}}
+<!-- 接口列表 -->
+<!--request_keys (请求参数键值列表) -->
+<div class="create_content">
+  <h3>接口列表(request_keys)</h3>
+  <form id="form" action="" method="post">
+    <ul class="interlist">
+      <!-- <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">参数1</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control" data-id="{{id}}"  placeholder="请输入参数" required data-required="请输入内容">
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">参数2</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control" data-id="{{id}}" placeholder="请输入参数" required data-required="请输入内容">
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">参数3</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control" data-id="{{id}}" placeholder="请输入参数" required data-required="请输入内容">
+          </div>
+        </div>
+      </li> -->
+    </ul>
+
+    <div class="form-group row">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-secondary">+</button>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary subbtn">提交</button>
+      </div>
+    </div>
+  </form>
+</div>
+<input type="hidden" id="nums" name="keys" value="0">
+<input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" />
+<input type="hidden" name="id" value="{{id}}" />
+<script>var conf={id:'{{id}}'};</script>

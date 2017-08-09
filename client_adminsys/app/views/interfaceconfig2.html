@@ -1,0 +1,93 @@
+<!-- 接口配置2 -->
+{{>member_sideb}}
+<div class="create_content">
+  <div class="tab">
+    <nav>
+      <ul class="pager" style="display:inline-block;">
+        <!-- <li data-type="2"><a href="#">说明</a></li>
+        <li><a href="javscript:;">查询</a></li>
+        <li><a href="#">登录</a></li>
+        <li><a href="#">修改</a></li>
+        <li><a href="#">积分变更</a></li> -->
+      </ul>
+      <div id="dropdown" style="text-align:right">
+        <a href="#" style="border:1px solid #ddd;border-radius:0.25rem;padding:10px;">＋</a>
+      </div>
+    </nav>
+  </div>
+  <div class="data_box" style="display:none;">
+    <div class="con_box">
+      <span>接口类型</span>
+      <select class="c-select api_type">
+        <option selected value="登录">登录</option>
+      </select>
+    </div>
+    <div class="con_box">
+      <span>请求方式</span>
+      <select class="c-select request_param_type">
+        <option selected value="post">post</option>
+        <option value="get">get</option>
+      </select>
+    </div>
+    <div class="con_box">
+      <span>请求类型</span>
+      <select class="c-select request_type">
+        <option selected value="http">http</option>
+        <option selected value="webservice-http">webservice</option>
+        <option selected value="https">https</option>
+      </select>
+    </div>
+    <div class="con_box">
+      <span>返回格式</span>
+      <select class="c-select reponse_data_type">
+        <option selected value="json">json</option>
+        <option value="xml">xml</option>
+      </select>
+    </div>
+    <div class="con_box">
+      <span class="con_tpl">
+        url
+      </span>
+      <div class="con_url">
+        <input type="text" class="form-control apiurl" placeholder="接口地址" value="">
+      </div>
+    </div>
+    <div class="keys_box">
+      <p>request_keys：</p>
+      <div class="request">
+        <div class="con_box">
+          <span class="request_keys"></span>
+          <div class="con_url">
+          <input type="text" class="form-control name-val inputRequestkey" placeholder="接口参数">
+          </div>
+        </div>
+      </div>
+      <p>response_keys</p>
+      <div class="response">
+        <div class="con_box">
+          <span class="response_keys"></span>
+          <div class="con_url">
+          <input type="text" class="form-control name-val inputResponsekey" placeholder="接口参数">
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>是否签名验证</p>
+    <div class="radio is_sign">
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 是
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="0"> 否
+      </label>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-offset-2 col-sm-10" style="margin:0;">
+        <button type="submit" class="btn btn-primary">提交</button>
+      </div>
+    </div>
+  </div>
+  <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  <input type="hidden" name="id" value="{{id}}" />
+  <script>var conf={id:'{{id}}'};</script>
+</div>

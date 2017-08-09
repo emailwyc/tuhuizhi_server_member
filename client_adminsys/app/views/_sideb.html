@@ -1,0 +1,10 @@
+<div class="col-sm-3 col-md-2 sidebar">
+  <ul class="nav nav-sidebar">
+    <li {{#isIdList}}class="active"{{/isIdList}}><a href="/dashboard">账号列表</a></li>
+    <li {{#isActive}}class="active"{{/isActive}}><a href="/dashboard/createaccount">新建帐号</a></li>
+    <li {{#isResources}}class="active"{{/isResources}}><a href="/dashboard/resources">栏目管理</a></li>
+    <li {{#isFunctionentry}}class="active"{{/isFunctionentry}}><a href="/dashboard/functionentry">功能入口</a></li>
+    <!-- <li {{#isBuildingId}}class="active"{{/isBuildingId}}><a href="/dashboard/buildingid">绑定建筑物id</a></li> -->
+    <!-- <li><a href="/dashboard/interfacelist">接口列表</a></li> -->
+  </ul>
+</div>

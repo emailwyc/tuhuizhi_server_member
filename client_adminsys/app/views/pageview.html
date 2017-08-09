@@ -1,0 +1,107 @@
+<!-- 页面访问统计 -->
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">统计列表</h2>
+        <div class="row mag" style="text-align: right">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-modal" id="newadd">+新增</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>页面名称</th>
+                <th>页面唯一标识</th>
+                <th>创建时间</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 添加权限modal -->
+  <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form id="form">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="gridModalLabel">新增</h4>
+          </div>
+          <div class="modal-body">
+              <fieldset class="form-group">
+                <label for="add-name">页面名称</label>
+                <input type="text" class="form-control" id="add-name" />
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="add-rote">页面唯一标识</label>
+                <input class="form-control" type="text" id="add-rote" />
+              </fieldset>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary add-save">保存</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 编辑权限modal -->
+  <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form id="form-edit">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="edit-gridModalLabel">编辑</h4>
+          </div>
+          <div class="modal-body">
+              <fieldset class="form-group">
+                <label for="edit-name">页面名称</label>
+                <input type="text" class="form-control" id="edit-name" />
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="edit-rote">页面唯一标识</label>
+                <input class="form-control" type="text" id="edit-rote"/>
+              </fieldset>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary edit-save">保存</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridModalLabel1">删除</h4>
+        </div>
+        <div class="modal-body">
+          确定要删除吗？
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary del" data-status="d">确定删除</button>
+        </div>
+      </div>
+    </div>
+  </div>

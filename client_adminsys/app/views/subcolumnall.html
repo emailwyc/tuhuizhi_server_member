@@ -1,0 +1,142 @@
+<!-- 子栏目 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_sideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+        <h2 class="sub-header"></h2>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th class="headid">ID</th>
+                <th class="headname">名称</th>
+                <!-- <th align="center">版本号</th> -->
+                <!-- <th align="center">描述</th> -->
+                <th align="center" class="headurl">跳转地址</th>
+                <!-- <th align="center">类别</th> -->
+                <th align="center" class="updatatime">更新时间</th>
+                <th align="center" class="headstatus">状态</th>
+                <th align="center" class="headoptions">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>1,001</td>
+                <td>西单大悦城</td>
+                <td>
+                  <a href="/dashboard/modifyaccount">修改</a>
+                  <a href="#">已启用</a>
+                  <a href="/dashboard/accountdetails">详情</a>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" />
+    <input type="hidden" name="id" value="{{id}}" />
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
+  添加子栏目
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">添加版本</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label　">版本名称</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control vername" placeholder="">
+          </div>
+        </div>
+        <!-- <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label ">版本号</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control vernum" placeholder="">
+          </div>
+        </div> -->
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label ">跳转URL</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control gourl" placeholder="">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label ">版本描述</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control description" placeholder="">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary addversion">添加</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel1">添加版本</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label　">版本ID</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control verid" placeholder="" readonly>
+          </div>
+        </div>
+        <!-- <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label　">版本类别</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control category1" placeholder="">
+          </div>
+        </div> -->
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label　">版本名称</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control vername1" placeholder="" readonly>
+          </div>
+        </div>
+        <!-- <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label ">版本号</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control vernum1" placeholder="">
+          </div>
+        </div> -->
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label ">跳转URL</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control gourl1" placeholder="">
+          </div>
+        </div>
+
+        <!-- <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label ">版本描述</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control description1" placeholder="">
+          </div>
+        </div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary addversion1">更新</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <script>var conf={id:'{{doid}}',catalogid:'{{catalogid}}',name:'{{name}}'};</script>

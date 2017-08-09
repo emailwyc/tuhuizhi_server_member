@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>积分查看</title>
+    <link rel="stylesheet" href="./css/score.css">
+    <script src="./js/zepto.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="wrap">
+    </div>
+    <!-- <footer>
+      <button type="button" name="button">花积分</button>
+    </footer> -->
+  </body>
+  <script type="text/javascript">
+  $(function(){
+    // alert();//gg
+    // 获取地址栏参数
+    function　GetQueryString(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    };
+    const key = GetQueryString('key_admin');
+    const id = GetQueryString('openid');
+    $.ajax({
+      type: 'post',
+      dataType:'jsonp',
+      data:{
+        key_admin:key,
+        openid:id,
+      },
+      url:'https://backend.rtmap.com/Member/Member/getuserinfo',
+      success:function(res){
+        console.log(res);
+        if (res.code === 200){
+          // var htmls = `<section id="bezel">
+          //   <h3>
+          //     <span class="lt">${res.data.score}</span>
+          //     <span class="rt">E分</span>
+          //   </h3>
+          // <div class="center">
+          //   <img alt="有积分显示图片" src="img/积分_03.png"/>
+          // </div>
+          // </section>`;
+          var htmls = '<section id="bezel"><h3><span class="lt">'+ res.data.score +'</span><span class="rt">&ensp;E分</span></h3><div class="center"><img alt="有积分显示图片" src="img/积分_03.png"/></div></section>';
+          $('.wrap').html(htmls);
+        }
+        if(res.code === 2000){
+          // var htmls = `<section id="bezel">
+          //   <h3>
+          //     <span class="lt" style="font-size:0.3rem;">${res.msg}</span>
+          //   </h3>
+          // <div class="center">
+          //   <img alt="有积分显示图片" src="img/无积分_03.png"/>
+          // </div>
+          // </section>`;
+          var htmls = '<section id="bezel"><h3><span class="lt" style="font-size:0.3rem;">哎呀，无积分~~</span></h3><div class="center"><img alt="无积分显示图片" src="img/无积分_03.png"/></div></section>';
+          $('.wrap').html(htmls);
+        }
+      },
+      error: function(){
+        console.log('error');
+      }
+    })
+  })
+
+  </script>
+</html>

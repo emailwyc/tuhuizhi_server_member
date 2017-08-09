@@ -1,0 +1,99 @@
+<!-- 资源管理 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_sideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">功能入口</h2>
+        <div class="row mag" style="text-align: right">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="newadd">+新增</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th class="headid">ID</th>
+                <th class="headpower">功能</th>
+                <th class="headurl">URL地址</th>
+                <th align="center" class="headstatus">状态</th>
+                <th align="center" class="headoptions">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>积分商城</td>
+                <td>name</td>
+                <td>h5</td>
+                <td><a href="#">编辑</a></td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  </div>
+  <!-- 修改权限modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">新增栏目</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">名称</label>
+              <input type="text" class="form-control" id="column_name" placeholder="请输入功能名称">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">URL</label>
+              <input type="text" class="form-control" id="url" placeholder="请输入url地址">
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary save">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 更新 -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel1">修改栏目</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">ID</label>
+              <input type="text" class="form-control" id="verid" placeholder="" readonly>
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">名称</label>
+              <input type="text" class="form-control" id="column_name1" placeholder="请输入功能名称">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">URL</label>
+              <input type="text" class="form-control" id="url1" placeholder="url地址">
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary save1">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>

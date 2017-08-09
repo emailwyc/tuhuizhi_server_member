@@ -1,0 +1,19 @@
+{{#list}}
+<tr>
+  <td>{{column_name}}</td>
+  <td>{{column_api}}</td>
+  <td>{{column_html}}</td>
+  <td>
+    <a href="#" data-id="{{id}}" class="edit" data-status="s" data-toggle="modal" data-target="#myModal" class="getID">编辑</a>
+    <a href="#" data-id="{{id}}" data-status="d" data-toggle="modal" data-target="#gridSystemModal" class="getID">删除</a>
+  </td>
+</tr>
+{{/list}}
+{{^list}}
+<tr>
+  <td>没有数据</td>
+  <td>没有数据</td>
+  <td>没有数据</td>
+  <td>没有数据</td>
+</tr>
+{{/list}}

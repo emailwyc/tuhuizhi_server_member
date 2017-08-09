@@ -1,0 +1,50 @@
+  <div class="container-fluid">
+      <div class="row">
+        {{>_sideb}}
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <h2 class="sub-header">帐号列表</h2>
+          <div class="row mag">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">搜索</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>商场名称</th>
+                  <th>子账户数/个</th>
+                  <th>CRM对接类</th>
+                  <th>停车对接类</th>
+                  <th align="center">操作</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+          <nav class="page_box" aria-label="Page navigation">
+            <ul class="pager">
+              <input type="hidden" class="pagenum" value="1">
+              <li class="total"></li>
+              <li><a href="javascript:;" class="prev">上一页</a></li>
+              <li><a href="javascript:;" class="currentpage no-click"></a></li>
+              <li><a href="javascript:;" class="next">下一页</a></li>
+              <li><a href="javascript:;" class="no-click">12条/页</a></li>
+              <li>跳至第<input type="number" class="gopage" step="1" min="1">页</li>
+              <li><a href="javascript:;" class="gopage_btn">GO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+    </div>
+    <input type="hidden" name="describe" value="{{describe}}" />
+    <script>var conf={describe:'{{describe}}', payAccNum:'{{payAccNum}}'};</script>

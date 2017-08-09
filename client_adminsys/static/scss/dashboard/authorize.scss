@@ -1,0 +1,69 @@
+@import "modules/sideb";
+.searchbox{
+  width: 100%;
+
+  label{
+    margin-right: 20px;
+  }
+  input{
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    outline: none;
+  }
+  button{
+    background-color:  #5a65f5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+}
+.table {
+  td {
+    vertical-align: middle;
+  }
+}
+
+.td_img {
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+}
+.pages{
+  width: 100%;
+  overflow: hidden;
+
+  ul{
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    li{
+      float: left;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin:0 5px;
+
+      input{
+        height: 100%;
+        outline: none;
+        width: 40px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+    }
+    .totalli,.skippage{
+      border: none;
+    }
+    .prev,.next,.sure{
+      cursor: pointer;
+    }
+    .sure{
+      background-color: #5a65f5;
+    }
+  }
+}

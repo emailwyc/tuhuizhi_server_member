@@ -1,0 +1,44 @@
+{{>_sideb}}
+<!-- 新建帐号 -->
+<div class="create_content">
+  <h3>新建商场帐号</h3>
+  <form id="form" action="http://www.baidu.com" method="get">
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 form-control-label">用户名：</label>
+      <div class="col-sm-10">
+        <input type="text" name="username" class="form-control" id="username" placeholder="仅支持英文、数字、标点符号" required data-required="请输入用户名" >
+        <!-- data-mismatch="请输入邮箱" pattern="^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$" -->
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 form-control-label">密码：</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password" required data-required="不能为空" data-err="密码错误">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 form-control-label">确认密码：</label>
+      <div class="col-sm-10">
+        <input type="password" name="re_pwd" class="form-control" id="okPassword" placeholder="Password" required data-required="不能为空" data-err="密码错误">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPrefix" class="col-sm-2 form-control-label">表前缀：</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" name="pre_table" id="prefix" placeholder="仅支持英文、数字、下划线，如：zhihuitu_" required data-required="请输入内容">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPrefix" class="col-sm-2 form-control-label">描述：</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" name="describe" id="describe" placeholder="描述" required data-required="请输入内容">
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-secondary">新建</button>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  </form>
+</div>

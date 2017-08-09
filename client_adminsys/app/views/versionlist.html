@@ -1,0 +1,160 @@
+{{>_sideb}}
+<!-- 接口列表 -->
+<!--request_keys (请求参数键值列表) -->
+<div class="create_content">
+  <h2 class="sub-header">建筑物绑定－－>西单大悦城</h2>
+  <form id="form" action="" method="post">
+    <ul class="interlist">
+      <!-- <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">会员版本</label>
+          <div class="col-sm-8">
+            <select name="keys" class="form-control buildid" data-id="{{id}}" >
+            </select>
+          </div>
+          <div class="col-sm-2">
+            <button type="button" class="btn btn-primary subbtn">提交</button>
+          </div>
+        </div>
+      </li> -->
+
+<!-- 后添加 -->
+      <li>
+        <div class="form-group row">
+          <div class="col-sm-2">
+            <!-- <input type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id"> -->
+           选择栏目:
+          </div>
+          <div class="col-sm-10">
+            <!-- <input type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id"> -->
+            <select name="keys" class="form-control version" data-id="{{id}}" >
+            </select>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <div class="col-sm-2">
+            <!-- <input type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id"> -->
+            URL:
+          </div>
+          <div class="col-sm-10">
+            <!-- <input type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id"> -->
+            <div class="gourl"></div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <div class="col-sm-2">
+            <!-- <input type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id"> -->
+            选择版本
+          </div>
+          <div class="col-sm-10">
+            <!-- <input type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id"> -->
+            <select name="keys" class="form-control list" data-id="{{id}}" >
+            </select>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <div class="col-sm-6">
+          </div>
+          <div class="col-sm-2">
+            <button type="button" class="btn btn-primary submbtn">提交</button>
+          </div>
+        </div>
+      </li>
+
+<!-- 后添加 -->
+
+
+      <!-- <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">会员跳转URL</label>
+          <div class="col-sm-10">
+            <div class="gourl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">停车寻车URL</label>
+          <div class="col-sm-10">
+            <div class="golookcarurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微商城C端URL</label>
+          <div class="col-sm-10">
+            <div class="gosmallstore_curl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微商城B端URL</label>
+          <div class="col-sm-10">
+            <div class="gosmallstore_burl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微活动URL</label>
+          <div class="col-sm-10">
+            <div class="goactivityurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微网站URL</label>
+          <div class="col-sm-10">
+            <div class="gowebsiteurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">积分商城URL</label>
+          <div class="col-sm-10">
+            <div class="goscorestoreurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">积分补录URL</label>
+          <div class="col-sm-10">
+            <div class="goscoreaddurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">积分转增URL</label>
+          <div class="col-sm-10">
+            <div class="goscoretransferurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">卡包1URL</label>
+          <div class="col-sm-10">
+            <div class="gocardbagurloneurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">卡包2URL</label>
+          <div class="col-sm-10">
+            <div class="gocardbagurltwourl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">停车URL</label>
+          <div class="col-sm-10">
+            <div class="gocarpayurl"></div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">问卷调查URL</label>
+          <div class="col-sm-10">
+            <div class="goquestionurl"></div>
+          </div>
+        </div>
+      </li> -->
+    </ul>
+    <div class="msg"></div>
+  </form>
+</div>
+<input type="hidden" id="nums" name="keys" value="0">
+<input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" />
+<input type="hidden" name="id" value="{{id}}" />
+<script>var conf={id:'{{id}}', name:'{{name}}'};</script>

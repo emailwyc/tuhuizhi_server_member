@@ -1,0 +1,16 @@
+{{#list}}
+<tr>
+  <td>{{name}}</td>
+  <td>{{sign}}</td>
+  <td>{{interName}}</td>
+  <td>
+    <a href="javascript:;" data-id="{{id}}" class="edit" data-status="s" data-toggle="modal" class="getID">编辑</a>
+    <a href="javascript:;" data-id="{{id}}" data-status="d" data-toggle="modal" class="delete_btn delete{{id}}">删除</a>
+  </td>
+</tr>
+{{/list}}
+{{^list}}
+<tr>
+  <td colspan="4">没有数据</td>
+</tr>
+{{/list}}

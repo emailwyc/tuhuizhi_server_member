@@ -1,0 +1,202 @@
+a{text-decoration: none;color:black}
+li{list-style: none;}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wap{
+  width: 100%;
+  height: 100%;
+}
+.wap .head{
+  height: 8.45%;
+  background: white;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 0;
+  position:relative;
+}
+.wap .head .back{
+  display: inline-block;
+  width: 0.14rem;
+  height: 0.34rem;
+  float: left;
+  position:absolute;
+  margin:auto;
+  left:0.3rem;
+  top:0px;
+  bottom:0px;
+  /*right:0px;*/
+}
+.wap .head .back img{
+  width: 100%;
+  height: 100%;
+}
+.wap .head .title{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  top: 0;
+  bottom:0;
+  font-size: 0.3rem;
+  color: #333;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+}
+.wap .main{
+  height: 91.55%;
+  background-color: #f0f0f0;
+}
+.wap .main .mainul{
+  width: 100%;
+  padding: 0;
+  padding-top: 0.8rem;
+  margin: 0 auto;
+  position: relative;
+}
+.wap .main .mainul .labels{
+  font-size: 0.25rem;
+  text-align: right;
+  width: 1.1rem;
+  display: inline-block;
+}
+.wap .main .mainul .inputs{
+  width: 3rem;
+  height: 80%;
+  border-radius: 10px;
+  padding-left: 20px;
+  line-height: 0.4rem;
+  outline: none;
+  border: 0.01rem solid #ccc;
+  margin-left: 0.4rem;
+}
+.wap .main .mainul .lis{
+  box-sizing: padding-box;
+  /*width: 100%;*/
+  height: 0.82rem;
+  font-size:0.2rem;
+  position: absolute;
+  left: 0.7rem;
+
+}
+.wap .main .mainul .twoli{
+  top: 2rem;
+  left: 0.7rem;
+}
+.wap .main .mainul .threeli{
+  top: 3rem;
+}
+.wap .main .mainul .fourli{
+  top: 4.25rem;
+}
+.wap .main .mainul .fiveli{
+  top: 5.77rem;
+}
+.wap .main .mainul .sixli{
+  bottom: -7rem;
+}
+.wap .main .mainul .hyname{
+  font-size: 0.25rem;
+  color: #a2a2a2;
+  margin-left: 0.4rem;
+}
+.wap .main .mainul .ID_card{
+  font-size: 0.25rem;
+  margin-left: 0.4rem;
+}
+.wap .main .mainul .verifyinput{
+  width: 1rem;
+  height: 80%;
+  outline: none;
+  border: none;
+  vertical-align:middle;
+}
+.labelother{
+  margin-top: 0.26rem;
+}
+.wap .main .mainul .verifybox{
+  width: 3rem;
+  height: 0.75rem;
+  float: right;
+  border: 0.01rem solid #ccc;
+  margin-left: 0.4rem;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.wap .main .mainul .verify{
+  display: inline-block;
+  width: 1.2rem;
+  height: 100%;
+  font-size: 0.25rem;
+  color: white;
+  background-color: #383838;
+  float: right;
+  text-align: center;
+  line-height: 0.75rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.wap .main .next{
+  /*position: absolute;*/
+  width: 80%;
+  background-color: #383838;
+  border-radius: 0.1rem;
+  /*margin: 0 auto;*/
+  font-size: 0.3rem;
+  color: white;
+  text-align: center;
+  padding: 0.25rem 1.2rem;
+  /*margin-bottom: 3.2rem;*/
+}
+.clausebox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(160, 151, 151, 0.5);
+  display: none;
+}
+.clausebox .contbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  width: 70%;
+  height: 60%;
+  border-radius: 0.2rem;
+  font-size: 0.2rem;
+  padding: 0.2rem 0.1rem;
+  text-indent:0.2rem;
+}
+.clausebox .contbox2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.2rem;
+  font-size: 0.3rem;
+  padding: 0.2rem 0.1rem;
+  text-align: center;
+}
+.clausebox .contbox2 img{
+  width: 0.5rem;
+  height: 0.5rem;
+  display: block;
+}

@@ -1,0 +1,30 @@
+<!-- <nav class="navbar navbar-dark bg-primary navbar-fixed-top ">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/dashboard">商场帐号管理</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/dashboard/memberconfig">会员配置</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">滴滴打车</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">签到</a>
+      </li>
+    </ul>
+  </nav> -->
+<div class="col-sm-3 col-md-2 sidebar">
+  <ul class="nav nav-sidebar">
+    <li {{#isApiList}}class="active"{{/isApiList}}><a href="/dashboard/memberconfig">接口列表<span class="sr-only">(current)</span></a></li>
+    <li {{#isApiConfig}}class="active"{{/isApiConfig}}><a href="/dashboard/interfaceconfig">接口配置</a></li>
+    <li {{#ismemberformlist}}class="active"{{/ismemberformlist}}><a href="/dashboard/memberformlist">表单列表</a></li>
+    <!-- <li {{#isVersion}}class="active"{{/isVersion}}><a href="/dashboard/version">版本管理</a></li> -->
+    <!-- <li><a href="/dashboard/interfaceconfig2">接口配置</a></li> -->
+    <!-- <li {{#isMemberConfig}}class="active"{{/isMemberConfig}}><a href="#">会员配置</a></li> -->
+    <!-- request_keys (请求参数键值列表) -->
+    <!-- <li><a href="/dashboard/interfacelist">接口列表(request_keys)</a></li>
+    <li><a href="/dashboard/interfacelist2">接口列表(resphone_keys)</a></li> -->
+  </ul>
+  <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" />
+</div>

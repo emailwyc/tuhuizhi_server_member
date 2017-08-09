@@ -1,0 +1,52 @@
+@import "./modules/sideb";
+
+.con_box {
+  margin: 10px 0;
+
+  span {
+    width: 260px;
+    // max-width: 260px;
+    // min-width: 100px;
+    display: inline-block;
+  }
+}
+
+.c-select {
+  border-radius: 5px;
+  width: 300px;
+}
+
+.con_tpl {
+  width: 63px;
+  display: inline-block;
+}
+
+.con_url {
+  width: 300px;
+  display: inline-block;
+}
+
+.request {
+  p {
+    margin: 10px 0;
+  }
+}
+
+.pager {
+  text-align: left;
+  position: relative;
+  font-size: 0;
+
+  a {
+    font-size: 1rem;
+    margin: 5px;
+  }
+}
+
+// nav div {
+//   margin-left: 15px;
+// }
+
+.data_box {
+  margin-left: 15px;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+      <title>注册</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+      <!-- <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+      <link href="./css/register.css" rel="stylesheet">
+   </head>
+   <body style="background-color:#f0f0f0">
+      <div class="wap">
+        <header class="head">
+          <a href="#" class="back"><img src="./img/registerback_03.png" alt="返回"></a>
+          <span class="title">免费开卡</span>
+        </header>
+        <main class="main">
+          <ul class="mainul">
+            <li class="lis">
+              <label for="" class="labels">姓名</label>
+              <input type="text" name="" value="" placeholder="填写与证件一致的姓名" class="inputs" id="username">
+            </li>
+            <li class="lis">
+              <label for="" class="labels">身份证号</label>
+              <input type="text" name="" value="" placeholder="少一位数请用X代替" class="inputs" id="userid">
+            </li>
+            <li class="lis">
+              <label for="" class="labels">手机号</label>
+              <span class="phonenum"></span>
+            </li>
+            <li class="lis sex">
+              <label for="" class="labels">性别</label>
+              <input type="radio" name="sex" value="1"><span class="man">男</span>
+              <input type="radio" name="sex" value="0"><span class="woman">女</span>
+            </li>
+            <li class="lis otherli">
+              <p class="acceptp"><input type="checkbox" name="" value="" class="accept" id="accept"><span class="acceptqian">接受服务条款《</span><a href="javascript:;" id="clause">服务条款</a><span>》</span></p>
+            </li>
+          </ul>
+          <div class="next" id="next">注册</div>
+        </main>
+        <div class="clausebox clausebox1">
+          <div class="contbox">
+            <h3 class="servicetitle"></h3>
+            <img src="./img/back.png" alt="" class="cancel">
+            <div class="cont"></div>
+          </div>
+        </div>
+        <div class="clausebox clausebox2">
+          <div class="contbox2">
+            <img src="./img/loadding.gif" alt="">
+          </div>
+        </div>
+      </div>
+      <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script type="text/javascript" src="./js/rem.js"></script>
+      <!-- <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+      <script type="text/javascript">
+
+      //初始化变量
+       var keyadmin = qs('key_admin');
+       var useriphone = qs('mobile') || '';
+       var opid = qs('openid');
+       $('.phonenum').html(useriphone.substring(0,5)+'***'+useriphone.substring(8,11));
+
+       //查看服务条款
+        $('#clause').on('click',function(){
+          $('.clausebox1').css({display:'block'});
+          $.ajax({
+            url:'https://backend.rtmap.com/Member/Member/termsofservice',
+            dataType:"jsonp",
+            type:'get',
+            data:{
+              key_admin: keyadmin,
+            },
+            success:function(json){
+              console.log(json);
+              var data = json.data;
+              $('.servicetitle').html(data.title);
+              $('.cont').html(data.content);
+            }
+          });
+        });
+
+        //身份证的验证
+        $('#userid').on('blur',function(){
+          $('.wap').css({height:'100%'});
+          $('.head').css({height:'8.45%'});
+          var useridnum = $('#userid').val()
+          var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+          if(useridnum === ''){
+            alert('请输入身份证号');
+          } else if (reg.test(useridnum) === false) {
+            alert('请输入身份证号有误');
+          }
+        });
+
+        //解决软键盘的问题
+        $('#username').on('focus',function(){
+          // console.log(1);
+          $('.wap').css({'height':'700px'});
+          $('.head').css({'height':'50px'});
+        })
+        $('#userid').on('focus',function(){
+          $('.wap').css({'height':'700px'});
+          $('.head').css({'height':'50px'});
+        });
+        $('#username').on('blur',function(){
+          $('.wap').css({'height':'100%'});
+          $('.head').css({'height':'8.45%'});
+          if ($('#username').val() === '') {
+            alert('请输入姓名');
+            console.log(1);
+          }else{
+            validate($('#username').val());
+          }
+
+        });
+
+        //注册
+        $('#next').on('click',function(){
+          var username = $('#username').val();
+          var userid = $('#userid').val();
+          var sex = $('.sex').find('input:checked').val();
+          if(username === ''){
+            alert('请输入用户名');
+          }else if(userid === ''){
+            alert('请输入身份证号');
+          }else if (sex === undefined) {
+            alert('请选择性别');
+          }else if($("input[type='checkbox']").is(':checked')){
+            console.log($("input[type='checkbox']").is(':checked'));
+            $('.clausebox2').css({display:'block'});
+            $.ajax({
+              url:'https://backend.rtmap.com/Member/Member/register',
+              type:'get',
+              dataType:'jsonp',
+              data:{
+                key_admin:keyadmin,
+                openid: opid,
+                mobile: useriphone,
+                idcard: userid,
+                name: username,
+              },
+              success:function(json){
+                console.log(json);
+                if(json.code == 200){
+                  $('.clausebox2').css({display:'none'});
+                  alert('注册成功');
+                  location.href = 'index.html?'+keyadmin;
+                }else{
+                  $('.clausebox2').css({display:'none'});
+                  alert('阿哦，系统君开小差了，再试一下');
+                };
+              }
+            });
+          }else{
+            alert('您未接受条款，不能注册');
+          }
+        });
+
+        //取消条款遮罩层
+        $('.cancel').on('click',function(){
+          $('.clausebox').css({display:'none'});
+        });
+
+        //获取key_admin和opendid
+        function qs(name) {
+          var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)','i');
+          var r = window.location.search.substr(1).match(reg);
+          if (r !== null) {
+            return unescape(r[2]);
+          }
+          return null;
+        // function qs(name) {
+        //   var reg = new RegExp(`(^|&)${name}=([^&]*)(&|$)`);
+        //   var r = window.location.search.substr(1).replace(/\?/g, '&').match(reg);
+        //   if (r !== null) {
+        //     return decodeURIComponent(r[2]);
+        //   }
+        //   return null;
+        // };
+
+        };
+        //验证用户名
+        function  validate(val){
+          reg = /^[\u4E00-\u9FA5]{2,4}$/;
+          if(!reg.test(val)){
+            alert('请输入有效姓名');
+          }
+        }
+      </script>
+   </body>
+</html>

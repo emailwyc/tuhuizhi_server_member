@@ -1,0 +1,5 @@
+cd /usr/www/daily/adminsys
+git reset --hard
+git pull
+node bin/parsehtmlimg.js
+pm2 restart dashboardtest

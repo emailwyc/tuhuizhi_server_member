@@ -1,0 +1,18 @@
+{{#list}}
+  <tr>
+    <td>{{id}}</td>
+    <td><a href="/dashboard/accountdetails/{{id}}" data-name="{{describe}}" class="describe">{{describe}}</a></td>
+    <td><a href="/dashboard/subaccount?id={{id}}&name={{describe}}" data-name="{{describe}}" class="describe">{{pay_acc_num}} <span style="font-size:12px">配置</span></a></td>
+    <!-- {{describe}} -->
+    <td><div class="constraint">{{crm}}</div></td>
+    <td><div class="constraint">{{car}}</div></td>
+    <td>
+      <a href="/dashboard/versionlist/{{id}}?name={{describe}}&id={{id}}">配置版本</a>
+      <a href="/dashboard/buildingid/{{id}}?name={{describe}}&id={{id}}">第三方资源绑定</a>
+      <a href="/dashboard/binding/{{id}}?name={{describe}}">栏目绑定</a>
+      <a href="/dashboard/modifiaccount/{{id}}">编辑</a>
+      <a href="" data-id="{{id}}" class="enable">{{enable}}</a>
+      <a href="" data-id="{{id}}" class="resetpwd">重置密码</a>
+    </td>
+  </tr>
+{{/list}}

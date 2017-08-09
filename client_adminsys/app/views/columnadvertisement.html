@@ -1,0 +1,80 @@
+<!-- 资源管理 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_columnadvertisementsideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">栏目列表</h2>
+        <div class="row mag" style="text-align: right">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-modal" id="newadd">+新增</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>栏目名称</th>
+                <th>广告位置</th>
+                <th align="center">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>积分商场</td>
+                <td>
+                  <a href="/dashboard/columnadvertisementdetails?id=1&name=积分商城" data-id="1" class="details-btn">详情</a>
+                </td>
+                <td>
+                  <a href="#" data-id="1" data-status="d" data-toggle="modal" data-target="#gridSystemModal" class="del-btn">移除</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  </div>
+
+  <!-- 添加权限modal -->
+  <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form id="form">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <h4 class="modal-title" id="gridModalLabel">新增栏目</h4>
+          </div>
+          <div class="modal-body">
+              <fieldset class="form-group">
+                <label for="formGroupExampleInput2">栏目名</label>
+                <select class="form-control" id="add-column-name"></select>
+              </fieldset>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+            <button type="submit" class="btn btn-primary add-save">保存</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridModalLabel1">移除</h4>
+        </div>
+        <div class="modal-body">
+          确定要移除吗？
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary del" data-status="d">确定移除</button>
+        </div>
+      </div>
+    </div>
+  </div>

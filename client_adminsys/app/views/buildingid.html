@@ -1,0 +1,79 @@
+{{>_sideb}}
+<!-- 接口列表 -->
+<!--request_keys (请求参数键值列表) -->
+<div class="create_content">
+  <h2 class="sub-header">建筑物绑定－－>西单大悦城</h2>
+  <form id="form" action="" method="post">
+    <ul class="interlist">
+      <!-- <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">商场id或账户id</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control nameid" data-id="{{id}}"  placeholder="请输入商场id或账户id" required data-required="请输入内容">
+          </div>
+        </div>
+      </li> -->
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微信服务号appid</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control appid" data-id="{{id}}" placeholder="请输入微信服务号appid" required data-required="商场appid">
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微信小程序appid</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control wxxappid" data-id="{{id}}" placeholder="请输入微信小程序appid" required data-required="商场appid">
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">支付宝appid</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control aliappid" data-id="{{id}}" placeholder="请输入支付宝appid" required data-required="商场appid">
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">商场建筑物id</label>
+          <div class="col-sm-10">
+            <textarea type="text" name="keys" class="form-control buildid" data-id="{{id}}" placeholder="请输入商场建筑物id" required data-required="请输入商场建筑物id" style="resize: none;height: 100px;"></textarea>
+            <span class="red">多个建筑物id请用（,）逗号隔开</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">op</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control op" data-id="{{id}}" placeholder="请输入营销平台OP" required data-required="请输入商场建筑物id">
+            <span class="red"></span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 form-control-label">微信支付商户账号</label>
+          <div class="col-sm-10">
+            <input type="text" name="keys" class="form-control subpayacc" data-id="{{id}}" placeholder="请输入支付账号" required data-required="请输入商场建筑物id">
+            <span class="red"></span>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="msg"></div>
+    <div class="form-group row">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-primary subbtn">提交</button>
+      </div>
+    </div>
+  </form>
+</div>
+<input type="hidden" id="nums" name="keys" value="0">
+<input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" />
+<input type="hidden" name="id" value="{{id}}" />
+<script>var conf={id:'{{id}}', name:'{{name}}'};</script>

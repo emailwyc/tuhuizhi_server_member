@@ -1,0 +1,18 @@
+{
+  "name": "activityapp",
+  "version": "0.0.0",
+  "resource": {
+    "static": "1e52753850610d3dd3c3",
+    "api": "",
+    "mode": "dist"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "koa-feather": "^0.0.22",
+    "koa-static": "^2.0.0"
+  }
+}

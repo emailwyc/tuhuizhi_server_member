@@ -1,0 +1,119 @@
+<!-- 资源管理 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_sideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">栏目列表</h2>
+        <div class="row mag" style="text-align: right">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1" id="newadd">+新增</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Api类名</th>
+                <th align="center">H5栏目名</th>
+                <th align="center">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td>积分商城</td>
+                <td>name</td>
+                <td>h5</td>
+                <td><a href="#">编辑</a></td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- <input type="hidden" value="202cb962ac59075b964b07152d234b70" name="ukey" /> -->
+  </div>
+  <!-- 修改权限modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">新增栏目</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">栏目名</label>
+              <input type="text" class="form-control" id="column_name" placeholder="请输入栏目名">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">API类名</label>
+              <input type="text" class="form-control" id="column_api" placeholder="请输入API类名">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">H5目录名</label>
+              <input type="text" class="form-control" id="column_html" placeholder="请输入H5目录名">
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary save">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 添加权限modal -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel1">新增栏目</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">栏目名</label>
+              <input type="text" class="form-control" id="column_name1" placeholder="请输入栏目名">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">API类名</label>
+              <input type="text" class="form-control" id="column_api1" placeholder="请输入API类名">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">H5目录名</label>
+              <input type="text" class="form-control" id="column_html1" placeholder="请输入H5目录名">
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary save1">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridModalLabel">删除</h4>
+        </div>
+        <div class="modal-body">
+          确定要删除吗？
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary del" data-status="d" data-id="{{id}}">确定删除</button>
+        </div>
+      </div>
+    </div>
+  </div>

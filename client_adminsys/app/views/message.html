@@ -1,0 +1,137 @@
+<!-- 资源管理 -->
+<div class="container-fluid">
+    <div class="row">
+      {{>_messagesideb}}
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="sub-header">签名列表</h2>
+        <div class="row mag">
+          <div class="col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="根据下方列表的sign搜索。。。">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+          <div class="row" style="text-align: right">
+            <button type="button" class="btn btn-primary" data-toggle="modal" id="newadd">+新增</button>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Sign</th>
+                <th>接口名称</th>
+                <th align="center">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+        <nav class="page_box" aria-label="Page navigation">
+          <ul class="pager">
+            <input type="hidden" class="pagenum" value="1">
+            <li class="total"></li>
+            <li><a href="javascript:;" class="prev">上一页</a></li>
+            <li><a href="javascript:;" class="currentpage no-click"></a></li>
+            <li><a href="javascript:;" class="next">下一页</a></li>
+            <li><a href="javascript:;" class="no-click">12条/页</a></li>
+            <li>跳至第<input type="number" class="gopage" step="1" min="1">页</li>
+            <li><a href="javascript:;" class="gopage_btn">GO</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- 修改权限modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">修改商户签名</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">选择商户</label>
+              <select class="form-control" name="" id="merchantName" style="font-size:1.2rem" readonly></select>
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">签名</label>
+              <input type="text" class="form-control" id="column_api" placeholder="请输入签名">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">发送短信接口名称</label>
+              <input type="text" class="form-control" id="column_api_name" placeholder="请输入短信接口名称" value="zhihuitumsg">
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary save">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 添加权限modal -->
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel1">新增商户签名</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput">选择商户</label>
+              <select name="" class="form-control" style="font-size:1.2rem" id="merchantName1"></select>
+              <!-- <input type="text" class="form-control" id="column_name1" placeholder="请输入栏目名"> -->
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">签名</label>
+              <input type="text" class="form-control" id="column_api1" placeholder="请输入签名">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="formGroupExampleInput2">发送短信接口名称</label>
+              <input type="text" class="form-control" id="column_api_name1" placeholder="请输入短信接口名称" value="zhihuitumsg">
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary save1">保存</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 删除权限modal -->
+  <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridModalLabel">删除</h4>
+        </div>
+        <div class="modal-body">
+          确定要删除吗？
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary del" data-status="d" data-id="{{id}}">确定删除</button>
+        </div>
+      </div>
+    </div>
+  </div>

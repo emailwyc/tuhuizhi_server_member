@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <!-- <meta charset="utf-8"> -->
+      <title>会员</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta http-equiv="Refresh"  contect="1;url=http://www.baidu.com" />
+  </head>
+  <body>
+    <script type="text/javascript">
+    function　qs(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    };
+      var key = qs(key_admin);
+      window.location.href = 'http://res.rtmap.com/member/v1/public/?key_admin='+key;
+    </script>
+  </body>
+  </html>

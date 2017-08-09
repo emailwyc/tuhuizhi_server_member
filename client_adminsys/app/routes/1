@@ -1,0 +1,48 @@
+var conf = require('../package');
+var resource = conf.resource;
+var elasticsearch = require('elasticsearch');
+var client = new elasticsearch.Client({
+  host: 'localhost:9200',
+  log: 'trace'
+});
+
+module.exports = function() {
+  router.get('/dt/api', function* (next) {
+    var data = yield client.search({
+      q: 'dt_t:api',
+      sort: '@timestamp:desc',
+      // body: {
+      //   query: {
+      //     match: {
+      //       dt_t: 'api',
+      //     },
+      //     sort: [{
+      //       timestamp: { order: 'desc' },
+      //     }],
+      //   },
+      // },
+    });
+    console.log(data.hits.hits);
+var test = yield client.search({
+      q: '',
+      body: {
+        aggs: {
+          testcount: {
+            terms: { field: 'dt_id' },
+          },
+        },
+      },
+    });
+    console.log(test);
+    yield this.render('dt_api', {
+      page: {
+        staticBase: this.protocol + '://res.rtmap.com',
+        version: resource.static,
+        mode: resource.mode,
+        id: 'dt/api',
+        title: 'api状态',
+      },
+      list: data.hits.hits,
+    });
+  });
+};

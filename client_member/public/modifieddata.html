@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+      <title>修改资料</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+      <!-- <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+      <link href="./css/modified.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="wap">
+        <header class="head">
+          <a href="#" class="back"><img src="./img/registerback_03.png" alt="返回"></a>
+          <span class="title">修改资料</span>
+        </header>
+        <main class="main">
+          <ul class="mainul">
+            <li class="lis oneli">
+              <label for="" class="labels">姓名</label><span class="hyname"></span>
+            </li>
+            <li class="lis twoli">
+              <label for="" class="labels">身份证号</label><span class="ID_card"></span>
+            </li>
+            <li class="lis threeli">
+              <label for="" class="labels">手机号</label><input type="text" name="" value="" class="inputs" id="mobilenum">
+            </li>
+            <li class="lis fourli">
+              <label for="" class="labels labelother">验证码</label><div class="verifybox"><input type="text" name="" value="" class="verifyinput" id="verifyinput"><span class="verify">验证</span></div>
+            </li>
+            <li class="lis fiveli">
+              <label for="" class="labels">性别</label><span class="hyname sex"></span>
+            </li>
+            <li class="lis sixli">
+              <div class="next">确认修改</div>
+            </li>
+          </ul>
+          <div class="clausebox clausebox2">
+            <div class="contbox2">
+              <img src="./img/loadding.gif" alt="">
+            </div>
+          </div>
+        </main>
+      </div>
+      <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script type="text/javascript" src="./js/rem.js"></script>
+      <!-- <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+      <script type="text/javascript">
+        //初始化变量
+        var idnum = '';                           //身份证号
+        var mobile = '';                          //电话号码
+        var keyadmin = qs('key_admin');           //获取keyadmin
+        var openid = qs('openid');                //获取openid  'oJjX6vj361xYWGN3TdvphtFVoFSM'
+
+        // 初始化获取用户信息
+        $.ajax({
+          url:'http://backend.rtmap.com/Member/Member/getuserinfo',
+          data:{
+            key_admin: keyadmin,
+            openid: openid,
+          },
+          dataType:'jsonp',
+          type:'get',
+          success:function(json){
+            console.log(json);
+            if (json.code === 200) {
+              $('.hyname').html(json.data.user);
+              idnum = json.data.idcard;
+              mobile = json.data.mobile;
+              var len = idnum.lenght;
+              var idcard = idnum.substring(0,5)+'*********'+idnum.substring(10,len);
+              // mobile = mobile.substring(0,5)+'*****'+mobile.substring(7,11)
+              $(".ID_card").html(idcard);
+              $('.inputs').val(mobile);
+              if (json.data.sex === 0) {
+                $('.sex').html('女');
+              }else if(json.data.sex === 1){
+                $('.sex').html('男');
+              }
+            }else if (json.code == 2000) {
+              alert('用户不存在或者已删除,请求的code为'+json.code);
+            }else{
+              alert('提交失败,返回状态非2000、200，请检查网络或者其他原因');
+            };
+          }
+        });
+
+        // 获取验证码
+        var time = '';
+        var timenum = 60;
+        var timeswitch = true;                            //获取验证码开关
+        $('.verify').on('click',function(){               //添加倒计时
+          if (timeswitch && $('.inputs').val() !== '') {
+            timeswitch = false;
+            time = setInterval(function(){
+              timenum--;
+              $('.verify').html(timenum+'秒');
+              if (timenum <= 0) {
+                clearInterval(time);
+                timenum = 60;
+                $('.verify').html('重新获取');
+                timeswitch = true;
+              }
+            },1000);
+            var usermobile = $('.inputs').val();
+            $.ajax({
+              url:'https://backend.rtmap.com/Member/Member/sendMsg',
+              type:'get',
+              dataType:'jsonp',
+              data:{
+                key_admin:keyadmin,
+                mobile: usermobile,
+              },
+              success:function(json){
+                console.log(json);
+                if (json.code === 200) {
+                  alert('短信已发送至你的手机');
+                }
+              }
+            })
+          }else if($('.inputs').val() == '') {
+            alert('请输入手机号');
+          }else{
+            return false;
+          }
+        });
+
+        //解决软键盘打乱布局问题
+        $('.verifyinput').on('focus',function(){  //输入验证码时
+          $('.wap').css({height:'700px'});
+          $('.head').css({height:'50px'});
+        });
+        $('.verifyinput').on('blur',function(){
+          $('.wap').css({height:'100%'});
+          $('.head').css({height:'8.45%'});
+        });
+        $('#mobilenum').on('focus',function(){   //输入手机号码时
+          $('.wap').css({height:'700px'});
+          $('.head').css({height:'50px'});
+        });
+        $('#mobilenum').on('blur',function(){
+          $('.wap').css({height:'100%'});
+          $('.head').css({height:'8.45%'});
+        });
+
+        //提交修改
+        $('.sixli').on('click',function(){
+          console.log('确认');
+          if ($('#mobilenum').val() === '' || $('#verifyinput').val() === '') {
+            alert('输入不能为空');
+          }else{
+            $('.clausebox2').css({display:'block'});
+            $.ajax({
+              url:'https://backend.rtmap.com/Member/Member/updater',
+              type:'get',
+              dataType:'jsonp',
+              data:{
+                key_admin: keyadmin,
+                openid: openid,
+                mobile: $('#mobilenum').val(),
+                idcard: idnum,
+                name: $('.hyname').val(),
+                code: $('#verifyinput').val(),
+              },
+              success:function(json){
+                console.log(json);
+                if (json.code === 200) {
+                  $('.clausebox2').css({display:'none'});
+                  alert('修改成功');
+                }else{
+                  $('.clausebox2').css({display:'none'});
+                  alert('修改未成功');
+                  clearInterval(time);
+                  $('.verify').html('验证');
+                }
+              }
+            })
+          }
+        });
+
+        // 获取key_admin
+        function qs(name) {
+          var reg = new RegExp(`(^|&)${name}=([^&]*)(&|$)`);
+          var r = window.location.search.substr(1).replace(/\?/g, '&').match(reg);
+          if (r !== null) {
+            return decodeURIComponent(r[2]);
+          }
+          return null;
+        };
+
+      </script>
+   </body>
+</html>

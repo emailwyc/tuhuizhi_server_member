@@ -1,0 +1,2176 @@
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
+Error: Cannot find module './conf.json'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/web/services/adminsys/app/app.js:2:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function._load (/usr/local/lib/node_modules/pm2/node_modules/pmx/lib/transaction.js:62:21)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:260:23
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/pm2/node_modules/async/lib/async.js:1209:30
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:146:13)
