@@ -1,0 +1,20 @@
+[user]
+	name = soone
+	email = emailwyc@163.com
+[merge]
+	tool = vimdiff
+[core]
+	filemode = false
+[alias]
+	st = status -s
+	ci = commit
+	l = log --oneline --decorate -13
+	ll = log --oneline --decorate
+	co = checkout
+	br = branch
+	rb = rebase
+	dci = dcommit
+[color]
+	diff = auto
+	status = auto
+	branch = auto

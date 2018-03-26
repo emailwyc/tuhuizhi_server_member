@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/soone/program/CodeIgniter-3.0.0'
+let g:netrw_dirhist_2='/home/soone/soone'
+let g:netrw_dirhist_3='/home/soone/www/member/Application/DevAdmin'
+let g:netrw_dirhist_4='/home/soone/www/member/Application/DevAdmin/Controller'

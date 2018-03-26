@@ -1,0 +1,46 @@
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# ubuntu swp swo Files
+*.swp
+*.swo
+tags
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+#about this project 
+Application/Runtime/*
+Application/Wechat/Conf/db.php
+Application/Qiandao/Conf/db.php
+db.php
+city.php
+Application/Localtest/*
+index.php
+cliservice.php
+.htaccess
+
+#keys
+rsa_key/*

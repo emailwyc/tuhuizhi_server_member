@@ -1,0 +1,99 @@
+<!-- Ladda style -->
+    <link href="__PUBLIC__/css/plugins/ladda/ladda-themeless.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/plugins/iCheck/custom.css" rel="stylesheet">
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>创建商户mysql</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">
+                <a>创建mysql表</a>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeIn">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>填写key_admin</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                            <form id="form"  role="form" autocomplete="off">
+                                <div class="form-group">
+                                        <label for="key">KEY</label>
+                                        <input id="key" name="key"  type="text" class="form-control" placeholder="请输入key_admin"  />
+                                </div>
+                                <div class="form-group">
+                                    <div id="success"></div>
+                                </div>
+                                <div class="form-group">
+                                	<button class="ladda-button ladda-button-demo btn btn-primary" data-style="zoom-in">确认添加</button>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Ladda -->
+	    <script src="__PUBLIC__/js/plugins/ladda/spin.min.js"></script>
+	    <script src="__PUBLIC__/js/plugins/ladda/ladda.min.js"></script>
+	    <script src="__PUBLIC__/js/plugins/ladda/ladda.jquery.min.js"></script>
+        <script src="__PUBLIC__/js/plugins/validate/jquery.validate.min.js"></script>
+        <!-- iCheck -->
+    <script src="__PUBLIC__/js/plugins/iCheck/icheck.min.js"></script>
+            <script>
+         $(document).ready(function(){
+        	 $('.i-checks').iCheck({
+                 checkboxClass: 'icheckbox_square-green',
+                 radioClass: 'iradio_square-green',
+             });
+        	 var host='{$host}';
+        	 var l = $( '.ladda-button-demo' ).ladda();
+             $("#form").validate({
+                 rules: {
+                	 key: {
+                         required: true,
+                         minlength: 1
+                     }
+                 },
+                 submitHandler: function(form){
+                	 $("#success").text('');
+                	 l.ladda( 'start' );
+                	 $.ajax({
+           		      url:host+'/Platformservice/Memsql/CreateTable',
+           		      data:{key:$("#key").val()},
+           		      type: 'post',
+           		      success: function(data) {
+//						 var data2 = $.parseJSON(data);
+						 if (data.code == 200) {
+						 	$("#success").text("添加成功");
+						 	l.ladda( 'stop' );
+						 } else {
+						 	$("#success").text(data.msg);
+						 	l.ladda( 'stop' );
+						 }
+           		      }
+           		    });
+                 }
+             });
+        });
+    </script>
