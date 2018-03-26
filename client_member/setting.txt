@@ -1,0 +1,13 @@
+cd /mnt/xvdc/node_www/
+cd actcustom/
+sh ./bin/online.sh
+cd ../microbrand/
+sh ./bin/online.sh
+pm2 start /mnt/xvdc/node_www/activity/app/app.js -i 0 --name "user" && pm2 start /mnt/xvdc/node_www/alipaypark/app.js -i 0 --name "alipaypark" && pm2 start /mnt/xvdc/node_www/alipayuser/app.js -i 0 --name "alipayuser" && pm2 start /mnt/xvdc/node_www/associator/app.js -i 0 --name "associator" && pm2 start /mnt/xvdc/node_www/cardbag/app.js -i 0 --name "cardbag" && pm2 start /mnt/xvdc/node_www/checkin/app.js -i 0 --name "checkin" && pm2 start /mnt/xvdc/node_www/evaluation/app.js -i 0 --name "evaluation" && pm2 start /mnt/xvdc/node_www/findcar/app.js -i 0 --name "findcar" && pm2 start /mnt/xvdc/node_www/guomaoParking/app.js -i 0 --name "guomaoParking" && pm2 start /mnt/xvdc/node_www/hotel/app.js -i 0 --name "hotel" && pm2 start /mnt/xvdc/node_www/intergal/app.js -i 0 --name "intergal" && pm2 start /mnt/xvdc/node_www/lookcars/app.js -i 0 --name "lookcars" && pm2 start /mnt/xvdc/node_www/mall/app.js -i 0 --name "mall" && pm2 start /mnt/xvdc/node_www/micromall/app.js -i 0 --name "micromall" && pm2 start /mnt/xvdc/node_www/park/app.js -i 0 --name "park" && pm2 start /mnt/xvdc/node_www/parking/app.js -i 0 --name "parking" && pm2 start /mnt/xvdc/node_www/purchase/app.js -i 0 --name "purchase" && pm2 start /mnt/xvdc/node_www/resource/app.js -i 0 --name "resconf" && pm2 start /mnt/xvdc/node_www/scoremall/app.js -i 0 --name "scoremall" && pm2 start /mnt/xvdc/node_www/survey/app.js -i 0 --name "survey" && pm2 start /mnt/xvdc/node_www/taxiwsservice/app.js -i 0 --name "taxiwsservice" && pm2 start /mnt/xvdc/node_www/carsfee/app.js -i 0 --name "carsfee" && pm2 start /mnt/xvdc/node_www/actcustom/app.js -i 0 --name "actcustom" && pm2 start /mnt/xvdc/node_www/groupb/app.js -i 0 --name "groupb" && pm2 start /mnt/xvdc/node_www/microbrand/app.js -i 0 --name "microbrand" && pm2 start /mnt/xvdc/node_www/luckdraw/app.js -i 0 --name "luckdraw" && pm2 start /mnt/xvdc/node_www/mcollect/app.js -i 0 --name "mcollect" && pm2 start /mnt/xvdc/node_www/carmember/app.js -i 0 --name "carmember"
+pm2 save
+pm2 startup
+chmod +x /etc/init.d/pm2-init.sh
+vim /etc/init.d/pm2-init.sh
+chkconfig --add pm2-init.sh
+chkconfig pm2-init.sh on
+cd /mnt/xvdc/node_www/resource/
